@@ -1,0 +1,252 @@
+#!/bin/csh
+echo STARTED >>complex_run1_it0_refine_1.out
+echo STARTED >>complex_run1_it0_refine_10.out
+echo STARTED >>complex_run1_it0_refine_2.out
+echo STARTED >>complex_run1_it0_refine_3.out
+echo STARTED >>complex_run1_it0_refine_4.out
+echo STARTED >>complex_run1_it0_refine_5.out
+echo STARTED >>complex_run1_it0_refine_6.out
+echo STARTED >>complex_run1_it0_refine_7.out
+echo STARTED >>complex_run1_it0_refine_8.out
+echo STARTED >>complex_run1_it0_refine_9.out
+python protocols/KeepAlive.py complex_run1_it0_refine_1.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_10.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_2.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_3.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_4.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_5.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_6.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_7.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_8.out &
+python protocols/KeepAlive.py complex_run1_it0_refine_9.out &
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_1.inp >! $TMPDIR/complex_run1_it0_refine_1.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_1.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_1.out
+gzip -f $TMPDIR/complex_run1_it0_refine_1.out
+python protocols/RemoveBadPDB.py structures/it0/complex_1.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_1.out
+mv -f $TMPDIR/complex_run1_it0_refine_1.out.gz complex_run1_it0_refine_1.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_2.inp >! $TMPDIR/complex_run1_it0_refine_2.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_2.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_2.out
+gzip -f $TMPDIR/complex_run1_it0_refine_2.out
+python protocols/RemoveBadPDB.py structures/it0/complex_2.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_2.out
+mv -f $TMPDIR/complex_run1_it0_refine_2.out.gz complex_run1_it0_refine_2.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_3.inp >! $TMPDIR/complex_run1_it0_refine_3.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_3.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_3.out
+gzip -f $TMPDIR/complex_run1_it0_refine_3.out
+python protocols/RemoveBadPDB.py structures/it0/complex_3.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_3.out
+mv -f $TMPDIR/complex_run1_it0_refine_3.out.gz complex_run1_it0_refine_3.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_4.inp >! $TMPDIR/complex_run1_it0_refine_4.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_4.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_4.out
+gzip -f $TMPDIR/complex_run1_it0_refine_4.out
+python protocols/RemoveBadPDB.py structures/it0/complex_4.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_4.out
+mv -f $TMPDIR/complex_run1_it0_refine_4.out.gz complex_run1_it0_refine_4.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_5.inp >! $TMPDIR/complex_run1_it0_refine_5.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_5.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_5.out
+gzip -f $TMPDIR/complex_run1_it0_refine_5.out
+python protocols/RemoveBadPDB.py structures/it0/complex_5.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_5.out
+mv -f $TMPDIR/complex_run1_it0_refine_5.out.gz complex_run1_it0_refine_5.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_6.inp >! $TMPDIR/complex_run1_it0_refine_6.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_6.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_6.out
+gzip -f $TMPDIR/complex_run1_it0_refine_6.out
+python protocols/RemoveBadPDB.py structures/it0/complex_6.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_6.out
+mv -f $TMPDIR/complex_run1_it0_refine_6.out.gz complex_run1_it0_refine_6.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_7.inp >! $TMPDIR/complex_run1_it0_refine_7.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_7.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_7.out
+gzip -f $TMPDIR/complex_run1_it0_refine_7.out
+python protocols/RemoveBadPDB.py structures/it0/complex_7.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_7.out
+mv -f $TMPDIR/complex_run1_it0_refine_7.out.gz complex_run1_it0_refine_7.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_8.inp >! $TMPDIR/complex_run1_it0_refine_8.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_8.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_8.out
+gzip -f $TMPDIR/complex_run1_it0_refine_8.out
+python protocols/RemoveBadPDB.py structures/it0/complex_8.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_8.out
+mv -f $TMPDIR/complex_run1_it0_refine_8.out.gz complex_run1_it0_refine_8.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_9.inp >! $TMPDIR/complex_run1_it0_refine_9.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_9.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_9.out
+gzip -f $TMPDIR/complex_run1_it0_refine_9.out
+python protocols/RemoveBadPDB.py structures/it0/complex_9.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_9.out
+mv -f $TMPDIR/complex_run1_it0_refine_9.out.gz complex_run1_it0_refine_9.out.gz
+rm -rf $TMPDIR
+
+setenv CURRIT 0
+setenv RUN ./
+setenv NEWIT $RUN/structures/it0
+setenv PREVIT $RUN/begin
+setenv TEMPTRASH $RUN
+if (-e /tmp) then
+  setenv TMPDIR /tmp/`uuidgen`
+else if (-e /local) then
+  setenv TMPDIR /local/`uuidgen`
+else
+  setenv TMPDIR ./`uuidgen`
+endif
+mkdir $TMPDIR
+protocols/cns1 < complex_run1_it0_refine_10.inp >! $TMPDIR/complex_run1_it0_refine_10.out
+set jobid=`ps -afU $USER | grep complex_run1_it0_refine_10.out |grep -v grep | awk '{print $2}'` >&/dev/null
+./tools/check-error-messages.csh $TMPDIR/complex_run1_it0_refine_10.out
+gzip -f $TMPDIR/complex_run1_it0_refine_10.out
+python protocols/RemoveBadPDB.py structures/it0/complex_10.pdb
+kill -9 $jobid >&/dev/null
+rm -f complex_run1_it0_refine_10.out
+mv -f $TMPDIR/complex_run1_it0_refine_10.out.gz complex_run1_it0_refine_10.out.gz
+rm -rf $TMPDIR
+

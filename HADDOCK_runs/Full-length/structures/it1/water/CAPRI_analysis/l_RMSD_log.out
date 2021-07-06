@@ -1,0 +1,53 @@
+Ligand Mode ON
+Loaded 20 structures
+Using complex_8w.pdb as reference
+Read 2 chains from reference file: AB
+^.{21}A
+0 0
+Checking chain lengths: WARNING!! Chains have different lengths! (B:339 != A:422)
+You main run into problems later on...
+OK!
+Generating ZONE definitions..
+Defined 1 zone(s)
+ZONE CLEAR \n ZONE A* \n FIT \nRZONE B*\n
+RMS: 0.000
+1
+RMS: 0.523
+1
+RMS: 0.535
+1
+RMS: 0.543
+1
+RMS: 0.523
+1
+RMS: 0.530
+1
+RMS: 0.567
+1
+RMS: 0.531
+1
+RMS: 0.547
+1
+RMS: 0.509
+1
+RMS: 0.562
+1
+RMS: 0.540
+1
+RMS: 0.572
+1
+RMS: 0.553
+1
+RMS: 0.555
+1
+RMS: 0.526
+1
+RMS: 0.532
+1
+RMS: 0.554
+1
+RMS: 0.569
+1
+RMS: 0.527
+1
+

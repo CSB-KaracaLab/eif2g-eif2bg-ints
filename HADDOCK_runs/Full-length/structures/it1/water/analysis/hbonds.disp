@@ -1,0 +1,78 @@
+PREVIT:complex_8w.pdb
+ atoms "A   -318 -SER -O   " and "B   -61  -LYS -HZ2 "            2.1308 A apart
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            2.2391 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.6819 A apart
+PREVIT:complex_6w.pdb
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            2.3871 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ2 "            1.6808 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.2852 A apart
+PREVIT:complex_4w.pdb
+ atoms "A   -318 -SER -O   " and "B   -61  -LYS -HZ2 "            2.4307 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.7496 A apart
+ atoms "A   -413 -LYS -HZ3 " and "B   -446 -ASN -OD1 "            2.4120 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.9012 A apart
+PREVIT:complex_18w.pdb
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ2 "            1.8431 A apart
+ atoms "A   -413 -LYS -HZ2 " and "B   -446 -ASN -OD1 "            2.4742 A apart
+ atoms "A   -413 -LYS -HZ3 " and "B   -446 -ASN -OD1 "            2.3326 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.6834 A apart
+PREVIT:complex_16w.pdb
+ atoms "A   -318 -SER -O   " and "B   -61  -LYS -HZ2 "            2.0289 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.7013 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.1439 A apart
+PREVIT:complex_14w.pdb
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.1283 A apart
+PREVIT:complex_10w.pdb
+ atoms "A   -413 -LYS -HZ2 " and "B   -446 -ASN -OD1 "            2.0342 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.7186 A apart
+PREVIT:complex_9w.pdb
+ atoms "A   -316 -LYS -HZ1 " and "B   -81  -ASP -OD2 "            1.6400 A apart
+ atoms "A   -413 -LYS -HZ2 " and "B   -446 -ASN -OD1 "            2.2740 A apart
+PREVIT:complex_12w.pdb
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            1.9736 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.7352 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            1.7677 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.7663 A apart
+PREVIT:complex_11w.pdb
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.6995 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.3913 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD1 "            1.9163 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            2.3063 A apart
+PREVIT:complex_5w.pdb
+ atoms "A   -318 -SER -O   " and "B   -61  -LYS -HZ3 "            2.2926 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ1 "            1.7245 A apart
+ atoms "A   -413 -LYS -HZ3 " and "B   -446 -ASN -OD1 "            2.4311 A apart
+PREVIT:complex_3w.pdb
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            2.4045 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.7632 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.2228 A apart
+PREVIT:complex_7w.pdb
+ atoms "A   -318 -SER -O   " and "B   -61  -LYS -HZ3 "            1.7048 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.2126 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD1 "            1.7666 A apart
+PREVIT:complex_20w.pdb
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ2 "            1.8663 A apart
+ atoms "A   -413 -LYS -HZ2 " and "B   -446 -ASN -OD1 "            2.2680 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.7463 A apart
+PREVIT:complex_13w.pdb
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            2.0895 A apart
+ atoms "A   -320 -GLY -O   " and "B   -61  -LYS -HZ3 "            1.7973 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.1936 A apart
+PREVIT:complex_17w.pdb
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.7951 A apart
+PREVIT:complex_15w.pdb
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            2.2537 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.1707 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.7799 A apart
+PREVIT:complex_19w.pdb
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            1.7738 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.8594 A apart
+PREVIT:complex_1w.pdb
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            2.4699 A apart
+ atoms "A   -413 -LYS -HZ3 " and "B   -446 -ASN -OD1 "            2.2532 A apart
+ atoms "A   -434 -LYS -HZ2 " and "B   -448 -GLN -OE1 "            1.7386 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD1 "            1.9189 A apart
+PREVIT:complex_2w.pdb
+ atoms "A   -319 -GLU -O   " and "B   -62  -ALA -HN  "            2.4010 A apart
+ atoms "A   -413 -LYS -HZ1 " and "B   -446 -ASN -OD1 "            1.7872 A apart
+ atoms "A   -443 -THR -HG1 " and "B   -83  -ASP -OD2 "            1.6830 A apart
