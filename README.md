@@ -21,11 +21,11 @@
 ## To clone the repository
 
 ```
-git clone https://github.com/CSB-KaracaLab/XXX.git
+git clone https://github.com/CSB-KaracaLab/eif2g-eif2bg-ints.git
 ```
 or if you would like to get the content directly via wget:
 ```
-wget https://github.com/CSB-KaracaLab/XXX/archive/master.zip
+wget https://github.com/CSB-KaracaLab/eif2g-eif2bg-ints/archive/master.zip
 ```
 
 
