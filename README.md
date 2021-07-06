@@ -4,7 +4,7 @@
 
 ## Motivation
 
-bla bla
+
 
 
 ## Our folders describe:
