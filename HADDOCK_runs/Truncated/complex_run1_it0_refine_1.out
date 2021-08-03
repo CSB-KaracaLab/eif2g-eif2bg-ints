@@ -14,9 +14,9 @@
                        L.M.Rice, G.F.Schroeder, T.Simonson, G.L.Warren.
            Copyright (c) 1997-2010 Yale University
           ============================================================
-           Running on machine: node002 (x86_64/Linux,64-bit)
-           Program started by: enmr
-           Program started at: 09:00:55 on 14-Apr-2021
+           Running on machine: wn-mars-001.farm.nikhef.nl (x86_64/Linux,64-bit)
+           Program started by: enmr049
+           Program started at: 01:46:20 on 11-Jul-2021
           ============================================================
 
  FFT3C: Using FFTPACK4.1
@@ -146,7 +146,7 @@
  DEFINE>{===>} fileroot="complex"; 
  DEFINE>{* RUN directory *} 
  DEFINE>{*  the absolute path of your current run, e.g. /home/haddock/server/run1*} 
- DEFINE>{===>} run_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1"; 
+ DEFINE>{===>} run_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1"; 
  DEFINE>{* PDB file of molecule (protein) A *} 
  DEFINE>{===>} prot_coor_A="protein1.pdb"; 
  DEFINE>{* PSF file of molecule (protein) A *} 
@@ -222,18 +222,18 @@
  DEFINE>{===>} delenph=true; 
  DEFINE>{* HADDOCK directory *} 
  DEFINE>{*  the absolute path of the HADDOCK program files *} 
- DEFINE>{===>} haddock_dir="/home/enmr/software/haddock2.2"; 
+ DEFINE>{===>} haddock_dir="/home/enmr/software/haddock2.2-grid"; 
  DEFINE>{* Logfile directory *} 
  DEFINE>{* specify a directory for the large CNS log files *} 
- DEFINE>{===>} temptrash_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1"; 
+ DEFINE>{===>} temptrash_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1"; 
  DEFINE>{==================== histidine patches =====================} 
  DEFINE>{* Patch to change doubly protonated HIS to singly protonated histidine (HD1) *} 
  DEFINE>{* just give the residue number of the histidines for the HISD patch, set them to zero if you don't want them *} 
  DEFINE>numhisd=10; 
  DEFINE>{+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +} 
- DEFINE>{===>} A_hisd_resid_1=0; 
- DEFINE>{===>} A_hisd_resid_2=0; 
- DEFINE>{===>} A_hisd_resid_3=0; 
+ DEFINE>{===>} A_hisd_resid_1=196; 
+ DEFINE>{===>} A_hisd_resid_2=203; 
+ DEFINE>{===>} A_hisd_resid_3=190; 
  DEFINE>{===>} A_hisd_resid_4=0; 
  DEFINE>{===>} A_hisd_resid_5=0; 
  DEFINE>{===>} A_hisd_resid_6=0; 
@@ -241,11 +241,11 @@
  DEFINE>{===>} A_hisd_resid_8=0; 
  DEFINE>{===>} A_hisd_resid_9=0; 
  DEFINE>{===>} A_hisd_resid_10=0; 
- DEFINE>{===>} B_hisd_resid_1=196; 
- DEFINE>{===>} B_hisd_resid_2=203; 
- DEFINE>{===>} B_hisd_resid_3=190; 
- DEFINE>{===>} B_hisd_resid_4=408; 
- DEFINE>{===>} B_hisd_resid_5=350; 
+ DEFINE>{===>} B_hisd_resid_1=408; 
+ DEFINE>{===>} B_hisd_resid_2=350; 
+ DEFINE>{===>} B_hisd_resid_3=0; 
+ DEFINE>{===>} B_hisd_resid_4=0; 
+ DEFINE>{===>} B_hisd_resid_5=0; 
  DEFINE>{===>} B_hisd_resid_6=0; 
  DEFINE>{===>} B_hisd_resid_7=0; 
  DEFINE>{===>} B_hisd_resid_8=0; 
@@ -295,18 +295,18 @@
  DEFINE>{* just give the residue number of the histidines for the HISE patch, set them to zero if you don't want them *} 
  DEFINE>numhise=10; 
  DEFINE>{+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +} 
- DEFINE>{===>} A_hise_resid_1=65; 
- DEFINE>{===>} A_hise_resid_2=197; 
- DEFINE>{===>} A_hise_resid_3=78; 
- DEFINE>{===>} A_hise_resid_4=463; 
- DEFINE>{===>} A_hise_resid_5=338; 
- DEFINE>{===>} A_hise_resid_6=142; 
- DEFINE>{===>} A_hise_resid_7=151; 
- DEFINE>{===>} A_hise_resid_8=186; 
- DEFINE>{===>} A_hise_resid_9=62; 
- DEFINE>{===>} A_hise_resid_10=0; 
- DEFINE>{===>} B_hise_resid_1=115; 
- DEFINE>{===>} B_hise_resid_2=341; 
+ DEFINE>{===>} A_hise_resid_1=1184; 
+ DEFINE>{===>} A_hise_resid_2=1065; 
+ DEFINE>{===>} A_hise_resid_3=1450; 
+ DEFINE>{===>} A_hise_resid_4=1325; 
+ DEFINE>{===>} A_hise_resid_5=1138; 
+ DEFINE>{===>} A_hise_resid_6=115; 
+ DEFINE>{===>} A_hise_resid_7=1173; 
+ DEFINE>{===>} A_hise_resid_8=1129; 
+ DEFINE>{===>} A_hise_resid_9=1049; 
+ DEFINE>{===>} A_hise_resid_10=1052; 
+ DEFINE>{===>} B_hise_resid_1=341; 
+ DEFINE>{===>} B_hise_resid_2=0; 
  DEFINE>{===>} B_hise_resid_3=0; 
  DEFINE>{===>} B_hise_resid_4=0; 
  DEFINE>{===>} B_hise_resid_5=0; 
@@ -1624,7 +1624,7 @@
  DEFINE>{* leave unused fields blank, make sure that the queues are actually running *} 
  DEFINE>{+ table: rows=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" 
  DEFINE> cols=3 "queue command" "cns executable" "number of jobs" +} 
- DEFINE>{===>} queue_1="ssub medium"; 
+ DEFINE>{===>} queue_1="/home/diracegi/grid/diracsubmit-haddock2.4-cns"; 
  DEFINE>{===>} cns_exe_1="/home/software/science/cns/cns_solve_1.31-UU/intel-x86_64bit-linux/bin/cns"; 
  DEFINE>{===>} cpunumber_1=50; 
  DEFINE>{===>} queue_2=""; 
@@ -2642,9 +2642,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_1 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_1 set to    196.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_1 set to    196.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_1 set to    408.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_1 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2659,9 +2659,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_2 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_2 set to    203.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_2 set to    203.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_2 set to    350.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2676,9 +2676,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_3 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_3 set to    190.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_3 set to    190.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2695,7 +2695,7 @@
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_4 set to    408.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2712,7 +2712,7 @@
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_5 set to    350.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2824,9 +2824,9 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_1 set to    65.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_1 set to    1184.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_1 set to    115.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_1 set to    341.000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_3_1 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_4_$ncc=&D_hise_resid_$ncc) 
@@ -2841,9 +2841,9 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_2 set to    197.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_2 set to    1065.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_2 set to    341.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_3_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_4_$ncc=&D_hise_resid_$ncc) 
@@ -2858,7 +2858,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_3 set to    78.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_3 set to    1450.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2875,7 +2875,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_4 set to    463.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_4 set to    1325.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2892,7 +2892,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_5 set to    338.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_5 set to    1138.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2909,7 +2909,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_6 set to    142.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_6 set to    115.000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_6 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2926,7 +2926,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_7 set to    151.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_7 set to    1173.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_7 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2943,7 +2943,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_8 set to    186.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_8 set to    1129.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_8 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2960,7 +2960,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_9 set to    62.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_9 set to    1049.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_9 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2977,7 +2977,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_10 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_10 set to    1052.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_10 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -4261,15 +4261,8 @@
  CNSsolve>else 
  CNSsolve>   set message=off echo=off end 
  REMARKS FILENAME="complex.psf"
- REMARKS peptide link removed (applied DPEP): from      412  to      1
- REMARKS peptide link removed (applied DPPP): from      12   to      26
- REMARKS peptide link removed (applied DPEP): from      134  to      155
- REMARKS peptide link removed (applied DPEP): from      235  to      241
- REMARKS peptide link removed (applied DPEP): from      243  to      260
- REMARKS peptide link removed (applied DPEP): from      267  to      276
- REMARKS disulphide added: from      281  to      285
  REMARKS coordinates built for more than 100 hundred atoms
- REMARKS DATE:14-Apr-2021  09:00:44       created by user: enmr
+ REMARKS DATE:11-Jul-2021  01:41:42       created by user: enmr
  REMARKS VERSION:1.3U
  %PARRDR-info: duplication of bond HC   NC2 
  %PARRDR-info: duplication of angle CH2P CH2E HA  
@@ -4523,18 +4516,11 @@
  CNSsolve>coor @@$file 
  ASSFIL: file complex_1.pdb opened.
  COOR>REMARK FILENAME="complex_1.pdb" 
- COOR>REMARK peptide link removed (applied DPEP): from      412  to      1 
- COOR>REMARK peptide link removed (applied DPPP): from      12   to      26 
- COOR>REMARK peptide link removed (applied DPEP): from      134  to      155 
- COOR>REMARK peptide link removed (applied DPEP): from      235  to      241 
- COOR>REMARK peptide link removed (applied DPEP): from      243  to      260 
- COOR>REMARK peptide link removed (applied DPEP): from      267  to      276 
- COOR>REMARK disulphide added: from      281  to      285 
  COOR>REMARK coordinates built for more than 100 hundred atoms 
- COOR>REMARK DATE:14-Apr-2021  09:00:44       created by user: enmr 
+ COOR>REMARK DATE:11-Jul-2021  01:41:42       created by user: enmr 
  COOR>REMARK VERSION:1.3U 
- COOR>ATOM      1  N   GLN    52     141.517 135.870  81.161  1.00 10.00      A 
- COOR>ATOM      2  HN  GLN    52     141.886 136.469  80.478  1.00 10.00      A 
+ COOR>ATOM      1  N   MET     1     154.446 178.242 130.904  1.00 10.00      A 
+ COOR>ATOM      2  HN  MET     1     155.117 178.430 130.215  1.00 10.00      A 
  CNSsolve> 
  CNSsolve>! check for the presence of ions and add covalent bond 
  CNSsolve>if ($iteration = 1) then 
@@ -4628,19 +4614,19 @@
  CNSsolve>{* Find CoM of protein *} 
  CNSsolve>show ave (x) (name CA or name C1') 
  SELRPN:    721 atoms have been selected out of   6795
- SHOW: average of selected elements =     138.709172
+ SHOW: average of selected elements =     138.704333
  CNSsolve>evaluate ($xcent=$result) 
- EVALUATE: symbol $XCENT set to    138.709     (real)
+ EVALUATE: symbol $XCENT set to    138.704     (real)
  CNSsolve>show ave (y) (name CA or name C1') 
  SELRPN:    721 atoms have been selected out of   6795
- SHOW: average of selected elements =     143.305631
+ SHOW: average of selected elements =     143.304990
  CNSsolve>evaluate ($ycent=$result) 
- EVALUATE: symbol $YCENT set to    143.306     (real)
+ EVALUATE: symbol $YCENT set to    143.305     (real)
  CNSsolve>show ave (z) (name CA or name C1') 
  SELRPN:    721 atoms have been selected out of   6795
- SHOW: average of selected elements =     114.668172
+ SHOW: average of selected elements =     114.669058
  CNSsolve>evaluate ($zcent=$result) 
- EVALUATE: symbol $ZCENT set to    114.668     (real)
+ EVALUATE: symbol $ZCENT set to    114.669     (real)
  CNSsolve> 
  CNSsolve>coor select (not known and resn ani) end 
  SELRPN:      0 atoms have been selected out of   6795
@@ -4952,8 +4938,8 @@
  CNSsolve>!NOEs, hbonds 
  CNSsolve>noe 
  NOE>  reset 
- NOE>  nrestraints = 4000000     ! allocate space for NOEs 
- NOE: allocating space for 4000000 restraints.
+ NOE>  nrestraints = 2000000     ! allocate space for NOEs 
+ NOE: allocating space for 2000000 restraints.
  NOE>  ceiling 1000 
  NOE>end 
  CNSsolve> 
@@ -4986,130 +4972,130 @@
  NEXTCD: condition evaluated as true
  CNSsolve>     noe class dist @@NEWIT:unambig.tbl end 
  ASSFIL: file unambig.tbl opened.
- NOE>assign (resid 340 and name CA and segid B) (resid 2 and name CA and segid B) 38.129 0.00 0.00 
+ NOE>assign (resid 1 and name CA and segid A) (resid 27 and name CA and segid A) 34.185 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 340 and name CA and segid B) (resid 27 and name CA and segid B) 26.489 0.00 0.00 
+ NOE>assign (resid 1 and name CA and segid A) (resid 156 and name CA and segid A) 36.406 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 340 and name CA and segid B) (resid 156 and name CA and segid B) 38.633 0.00 0.00 
+ NOE>assign (resid 1 and name CA and segid A) (resid 242 and name CA and segid A) 21.940 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 340 and name CA and segid B) (resid 242 and name CA and segid B) 55.354 0.00 0.00 
+ NOE>assign (resid 1 and name CA and segid A) (resid 261 and name CA and segid A) 20.815 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 340 and name CA and segid B) (resid 261 and name CA and segid B) 51.156 0.00 0.00 
+ NOE>assign (resid 1 and name CA and segid A) (resid 277 and name CA and segid A) 32.463 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 340 and name CA and segid B) (resid 277 and name CA and segid B) 24.756 0.00 0.00 
+ NOE>assign (resid 1 and name CA and segid A) (resid 1040 and name CA and segid A) 64.966 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 1 and name CA and segid B) (resid 341 and name CA and segid B) 39.758 0.00 0.00 
+ NOE>assign (resid 26 and name CA and segid A) (resid 2 and name CA and segid A) 28.470 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 1 and name CA and segid B) (resid 27 and name CA and segid B) 34.185 0.00 0.00 
+ NOE>assign (resid 26 and name CA and segid A) (resid 156 and name CA and segid A) 25.030 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 1 and name CA and segid B) (resid 156 and name CA and segid B) 36.406 0.00 0.00 
+ NOE>assign (resid 26 and name CA and segid A) (resid 242 and name CA and segid A) 36.970 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 1 and name CA and segid B) (resid 242 and name CA and segid B) 21.940 0.00 0.00 
+ NOE>assign (resid 26 and name CA and segid A) (resid 261 and name CA and segid A) 36.503 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 1 and name CA and segid B) (resid 261 and name CA and segid B) 20.815 0.00 0.00 
+ NOE>assign (resid 26 and name CA and segid A) (resid 277 and name CA and segid A) 11.566 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 1 and name CA and segid B) (resid 277 and name CA and segid B) 32.463 0.00 0.00 
+ NOE>assign (resid 26 and name CA and segid A) (resid 1040 and name CA and segid A) 50.689 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 26 and name CA and segid B) (resid 341 and name CA and segid B) 24.988 0.00 0.00 
+ NOE>assign (resid 155 and name CA and segid A) (resid 2 and name CA and segid A) 36.115 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 26 and name CA and segid B) (resid 2 and name CA and segid B) 28.470 0.00 0.00 
+ NOE>assign (resid 155 and name CA and segid A) (resid 27 and name CA and segid A) 28.696 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 26 and name CA and segid B) (resid 156 and name CA and segid B) 25.030 0.00 0.00 
+ NOE>assign (resid 155 and name CA and segid A) (resid 242 and name CA and segid A) 35.093 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 26 and name CA and segid B) (resid 242 and name CA and segid B) 36.970 0.00 0.00 
+ NOE>assign (resid 155 and name CA and segid A) (resid 261 and name CA and segid A) 30.163 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 26 and name CA and segid B) (resid 261 and name CA and segid B) 36.503 0.00 0.00 
+ NOE>assign (resid 155 and name CA and segid A) (resid 277 and name CA and segid A) 16.716 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 26 and name CA and segid B) (resid 277 and name CA and segid B) 11.566 0.00 0.00 
+ NOE>assign (resid 155 and name CA and segid A) (resid 1040 and name CA and segid A) 54.076 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 155 and name CA and segid B) (resid 341 and name CA and segid B) 41.262 0.00 0.00 
+ NOE>assign (resid 241 and name CA and segid A) (resid 2 and name CA and segid A) 22.727 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 155 and name CA and segid B) (resid 2 and name CA and segid B) 36.115 0.00 0.00 
+ NOE>assign (resid 241 and name CA and segid A) (resid 27 and name CA and segid A) 39.913 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 155 and name CA and segid B) (resid 27 and name CA and segid B) 28.696 0.00 0.00 
+ NOE>assign (resid 241 and name CA and segid A) (resid 156 and name CA and segid A) 30.482 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 155 and name CA and segid B) (resid 242 and name CA and segid B) 35.093 0.00 0.00 
+ NOE>assign (resid 241 and name CA and segid A) (resid 261 and name CA and segid A) 8.045 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 155 and name CA and segid B) (resid 261 and name CA and segid B) 30.163 0.00 0.00 
+ NOE>assign (resid 241 and name CA and segid A) (resid 277 and name CA and segid A) 35.708 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 155 and name CA and segid B) (resid 277 and name CA and segid B) 16.716 0.00 0.00 
+ NOE>assign (resid 241 and name CA and segid A) (resid 1040 and name CA and segid A) 52.776 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 241 and name CA and segid B) (resid 341 and name CA and segid B) 54.417 0.00 0.00 
+ NOE>assign (resid 260 and name CA and segid A) (resid 2 and name CA and segid A) 21.765 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 241 and name CA and segid B) (resid 2 and name CA and segid B) 22.727 0.00 0.00 
+ NOE>assign (resid 260 and name CA and segid A) (resid 27 and name CA and segid A) 43.363 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 241 and name CA and segid B) (resid 27 and name CA and segid B) 39.913 0.00 0.00 
+ NOE>assign (resid 260 and name CA and segid A) (resid 156 and name CA and segid A) 30.636 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 241 and name CA and segid B) (resid 156 and name CA and segid B) 30.482 0.00 0.00 
+ NOE>assign (resid 260 and name CA and segid A) (resid 242 and name CA and segid A) 11.619 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 241 and name CA and segid B) (resid 261 and name CA and segid B) 8.045 0.00 0.00 
+ NOE>assign (resid 260 and name CA and segid A) (resid 277 and name CA and segid A) 36.723 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 241 and name CA and segid B) (resid 277 and name CA and segid B) 35.708 0.00 0.00 
+ NOE>assign (resid 260 and name CA and segid A) (resid 1040 and name CA and segid A) 61.376 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 260 and name CA and segid B) (resid 341 and name CA and segid B) 53.961 0.00 0.00 
+ NOE>assign (resid 276 and name CA and segid A) (resid 2 and name CA and segid A) 26.776 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 260 and name CA and segid B) (resid 2 and name CA and segid B) 21.765 0.00 0.00 
+ NOE>assign (resid 276 and name CA and segid A) (resid 27 and name CA and segid A) 17.952 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 260 and name CA and segid B) (resid 27 and name CA and segid B) 43.363 0.00 0.00 
+ NOE>assign (resid 276 and name CA and segid A) (resid 156 and name CA and segid A) 14.698 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 260 and name CA and segid B) (resid 156 and name CA and segid B) 30.636 0.00 0.00 
+ NOE>assign (resid 276 and name CA and segid A) (resid 242 and name CA and segid A) 35.591 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 260 and name CA and segid B) (resid 242 and name CA and segid B) 11.619 0.00 0.00 
+ NOE>assign (resid 276 and name CA and segid A) (resid 261 and name CA and segid A) 30.966 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 260 and name CA and segid B) (resid 277 and name CA and segid B) 36.723 0.00 0.00 
+ NOE>assign (resid 276 and name CA and segid A) (resid 1040 and name CA and segid A) 59.076 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 276 and name CA and segid B) (resid 341 and name CA and segid B) 25.463 0.00 0.00 
+ NOE>assign (resid 1039 and name CA and segid A) (resid 2 and name CA and segid A) 63.319 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 276 and name CA and segid B) (resid 2 and name CA and segid B) 26.776 0.00 0.00 
+ NOE>assign (resid 1039 and name CA and segid A) (resid 27 and name CA and segid A) 51.355 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 276 and name CA and segid B) (resid 27 and name CA and segid B) 17.952 0.00 0.00 
+ NOE>assign (resid 1039 and name CA and segid A) (resid 156 and name CA and segid A) 57.477 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 276 and name CA and segid B) (resid 156 and name CA and segid B) 14.698 0.00 0.00 
+ NOE>assign (resid 1039 and name CA and segid A) (resid 242 and name CA and segid A) 50.977 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 276 and name CA and segid B) (resid 242 and name CA and segid B) 35.591 0.00 0.00 
+ NOE>assign (resid 1039 and name CA and segid A) (resid 261 and name CA and segid A) 58.861 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
- NOE>assign (resid 276 and name CA and segid B) (resid 261 and name CA and segid B) 30.966 0.00 0.00 
+ NOE>assign (resid 1039 and name CA and segid A) (resid 277 and name CA and segid A) 58.093 0.00 0.00 
  SELRPN:      1 atoms have been selected out of   6795
  SELRPN:      1 atoms have been selected out of   6795
  NOE> end 
@@ -5965,32 +5951,32 @@
  CNSsolve>    eval($watersegname_$ncount="WAT" + encode($ncount)) 
  EVALUATE: symbol $WATERSEGNAME_1 set to "WAT1" (string)
  CNSsolve>    coor orient sele=(segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) end 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  COOR: using atom subset.
  MOMENTS
- 684895.34234630  14017.95544498-240747.46372569
-                 835229.41165970-223909.00223104
-                                 524157.75802955
+2391618.394902261160173.40735733 162536.49428848
+                1956441.15539808  12376.75545952
+                                 983836.66574594
 
 
  Oriented coordinate set r' related to original set r by r'=R*r  + T
- Translation vector T = (   63.5154  -34.9054 -203.8494)
+ Translation vector T = ( -184.0310   60.3123  123.0789)
 
  Rotation matrix =
-    0.543052   -0.721072   -0.430290
-    0.211689    0.613446   -0.760836
-    0.812577    0.322086    0.485776
- Corresp. Eulerian angles (theta1,theta2,theta3)   111.6222   60.9367  209.4903
- Corresp. spherical polar angles (psi,phi,kappa)    48.9900  139.2605   71.2683
- Corresp. rotation angle    71.2683 about axis      -0.5717    0.6562   -0.4925
- Corresp. quaternions     0.8128   -0.3331    0.3823   -0.2869
+    0.055920    0.635904    0.769740
+   -0.672992    0.593495   -0.441412
+   -0.737532   -0.493345    0.461147
+ Corresp. Eulerian angles (theta1,theta2,theta3)   303.7791   62.5388  119.8324
+ Corresp. spherical polar angles (psi,phi,kappa)    40.9930   92.2721  273.1690
+ Corresp. rotation angle    86.8310 about axis       0.0260   -0.7548    0.6555
+ Corresp. quaternions     0.7264    0.0179   -0.5188    0.4505
 
  CNSsolve>    do (xcomp = x) (segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  CNSsolve>    do (ycomp = y) (segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  CNSsolve>    do (zcomp = z) (segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  CNSsolve>  end loop nsloop1 
  CNSsolve>  while ($ncount < $data.ncomponents) loop nsloop1 
  NEXTCD: condition evaluated as true
@@ -5999,32 +5985,32 @@
  CNSsolve>    eval($watersegname_$ncount="WAT" + encode($ncount)) 
  EVALUATE: symbol $WATERSEGNAME_2 set to "WAT2" (string)
  CNSsolve>    coor orient sele=(segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) end 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  COOR: using atom subset.
  MOMENTS
- 489664.58589316 201787.59483194 353184.82549094
-                 450290.75589319 220201.66289951
-                                 575150.66254080
+  30168.35080038   -337.65845197   5069.41729572
+                  26878.01626209   2504.99668816
+                                  31093.61688406
 
 
  Oriented coordinate set r' related to original set r by r'=R*r  + T
- Translation vector T = (   11.9576    6.2104  -42.0952)
+ Translation vector T = (  -47.1777   -1.4223   -1.4126)
 
  Rotation matrix =
-    0.665809    0.452085    0.593563
-   -0.362125    0.891350   -0.272692
-   -0.652352   -0.033383    0.757180
- Corresp. Eulerian angles (theta1,theta2,theta3)   272.9294   40.7838  114.6748
- Corresp. spherical polar angles (psi,phi,kappa)    34.2606   73.6211  311.0844
- Corresp. rotation angle    48.9156 about axis      -0.1587   -0.8265    0.5401
- Corresp. quaternions     0.9103   -0.0657   -0.3422    0.2236
+    0.748481    0.181511    0.637833
+    0.286068    0.779348   -0.557477
+   -0.598282    0.599725    0.531403
+ Corresp. Eulerian angles (theta1,theta2,theta3)   224.9310   57.8997  131.1541
+ Corresp. spherical polar angles (psi,phi,kappa)   136.7723  174.8372   58.0205
+ Corresp. rotation angle    58.0205 about axis      -0.6821   -0.7286   -0.0616
+ Corresp. quaternions     0.8745   -0.3308   -0.3534   -0.0299
 
  CNSsolve>    do (xcomp = x) (segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  CNSsolve>    do (ycomp = y) (segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  CNSsolve>    do (zcomp = z) (segid $Toppar.prot_segid_$ncount or segid $watersegname_$ncount) 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  CNSsolve>  end loop nsloop1 
  CNSsolve>  while ($ncount < $data.ncomponents) loop nsloop1 
  NEXTCD: condition evaluated as false
@@ -6046,24 +6032,24 @@
  CNSsolve>  if ($data.ncomponents>1) then 
  NEXTCD: condition evaluated as true
  CNSsolve>    show max (x) (segid $Toppar.prot_segid_1 or segid $watersegname_1) 
- SELRPN:   3938 atoms have been selected out of   6795
- SHOW: maximum of selected elements =      38.495987
+ SELRPN:   6109 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =      46.203780
  CNSsolve>    evaluate ($xt = -$trdis - $result ) 
- EVALUATE: symbol $XT set to   -63.4960     (real)
+ EVALUATE: symbol $XT set to   -71.2038     (real)
  CNSsolve>    coor trans sele=(segid $Toppar.prot_segid_1 or segid $watersegname_1) vector=($xt,0,0) end 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  COOR: using atom subset.
- COOR: translation vector =(   -63.496000    0.000000    0.000000 )
+ COOR: translation vector =(   -71.203800    0.000000    0.000000 )
  COOR: selected coordinates translated
  CNSsolve>    show min (x) (segid $Toppar.prot_segid_2 or segid $watersegname_2) 
- SELRPN:   2857 atoms have been selected out of   6795
- SHOW: minimum of selected elements =     -44.338525
+ SELRPN:    686 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =     -18.801117
  CNSsolve>    evaluate ($xt = $trdis - $result ) 
- EVALUATE: symbol $XT set to    69.3385     (real)
+ EVALUATE: symbol $XT set to    43.8011     (real)
  CNSsolve>    coor trans sele=(segid $Toppar.prot_segid_2 or segid $watersegname_2) vector=($xt,0,0) end 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  COOR: using atom subset.
- COOR: translation vector =(    69.338500    0.000000    0.000000 )
+ COOR: translation vector =(    43.801100    0.000000    0.000000 )
  COOR: selected coordinates translated
  CNSsolve>  end if 
  CNSsolve>  if ($data.ncomponents>2) then 
@@ -6353,25 +6339,25 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>while ($nchain1 <= $data.ncomponents) loop nloop1 
  NEXTCD: condition evaluated as true
  CNSsolve>  coor orient sele=(segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS or resn ANI or resn DAN or resn XAN)) end 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  COOR: using atom subset.
  MOMENTS
- 291481.59120451      0.00000000     -0.00000000
-                 740576.54017675     -0.00000000
-                                1012224.38065429
+ 890488.59656971      0.00000000      0.00000000
+                1079528.62011484     -0.00000000
+                                3361878.99936171
 
 
  Oriented coordinate set r' related to original set r by r'=R*r  + T
- Translation vector T = (   63.4960    0.0000    0.0000)
+ Translation vector T = (   71.2038    0.0000   -0.0000)
 
  Rotation matrix =
-    1.000000   -0.000000   -0.000000
+    1.000000   -0.000000    0.000000
     0.000000    1.000000    0.000000
-    0.000000   -0.000000    1.000000
+   -0.000000   -0.000000    1.000000
  Corresp. Eulerian angles (theta1,theta2,theta3)   360.0000    0.0000    0.0000
  Corresp. spherical polar angles (psi,phi,kappa)     0.0000    0.0000    0.0000
  Corresp. rotation angle     0.0000 about axis       0.0000    1.0000    0.0000
- Corresp. quaternions     1.0000    0.0000    0.0000   -0.0000
+ Corresp. quaternions     1.0000    0.0000   -0.0000   -0.0000
 
  CNSsolve>  {====>} {* buried surface area *} 
  CNSsolve>  do (rmsd = 0) (all) 
@@ -6379,49 +6365,49 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>  do (store2 = 0) (all) 
  SELRPN:   6795 atoms have been selected out of   6795
  CNSsolve>  surface mode=access accu=0.075 rh2o=1.4 sele=(segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) end 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  SURFAC: half the sigma value being used for atomic radii.
  SURFAC: ACCEssible surface area
  SURFAC: ACCUracy= 0.07 RH2O=  1.40
-         Z-grid=  0.32 number-of-Z-sections=  164
-         measures-of-arc= 34824 and 44451
+         Z-grid=  0.32 number-of-Z-sections=  220
+         measures-of-arc= 50230 and 70488
  CNSsolve>  show sum (rmsd) (segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) 
- SELRPN:   3938 atoms have been selected out of   6795
- SHOW: sum over selected elements =   19987.692309
+ SELRPN:   6109 atoms have been selected out of   6795
+ SHOW: sum over selected elements =   33500.343528
  CNSsolve>  evaluate ($saafree = $saafree + $result) 
- EVALUATE: symbol $SAAFREE set to    19987.7     (real)
+ EVALUATE: symbol $SAAFREE set to    33500.3     (real)
  CNSsolve>  do (store2 = rmsd * store1) (segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  CNSsolve>  show sum (store2) (segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) 
- SELRPN:   3938 atoms have been selected out of   6795
- SHOW: sum over selected elements =     -35.492797
+ SELRPN:   6109 atoms have been selected out of   6795
+ SHOW: sum over selected elements =      14.323409
  CNSsolve>  evaluate ($esolfree = $esolfree + $result) 
- EVALUATE: symbol $ESOLFREE set to   -35.4928     (real)
+ EVALUATE: symbol $ESOLFREE set to    14.3234     (real)
  CNSsolve>  evaluate ($nchain1 = $nchain1 + 1) 
  EVALUATE: symbol $NCHAIN1 set to    2.00000     (real)
  CNSsolve>end loop nloop1 
  CNSsolve>while ($nchain1 <= $data.ncomponents) loop nloop1 
  NEXTCD: condition evaluated as true
  CNSsolve>  coor orient sele=(segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS or resn ANI or resn DAN or resn XAN)) end 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  COOR: using atom subset.
  MOMENTS
- 176480.07637276     -0.00000000      0.00000000
-                 299097.07780592      0.00000000
-                                1039528.85014846
+  24079.85280495     -0.00000000     -0.00000000
+                  28039.03351139     -0.00000000
+                                  36021.09763020
 
 
  Oriented coordinate set r' related to original set r by r'=R*r  + T
- Translation vector T = ( -132.8345   -0.0000   -0.0000)
+ Translation vector T = ( -115.0049   -0.0000   -0.0000)
 
  Rotation matrix =
-    1.000000    0.000000    0.000000
-   -0.000000    1.000000   -0.000000
-   -0.000000    0.000000    1.000000
- Corresp. Eulerian angles (theta1,theta2,theta3)     0.0000    0.0000    0.0000
+    1.000000   -0.000000   -0.000000
+    0.000000    1.000000   -0.000000
+    0.000000    0.000000    1.000000
+ Corresp. Eulerian angles (theta1,theta2,theta3)   360.0000    0.0000    0.0000
  Corresp. spherical polar angles (psi,phi,kappa)     0.0000    0.0000    0.0000
  Corresp. rotation angle     0.0000 about axis       0.0000    1.0000    0.0000
- Corresp. quaternions     1.0000   -0.0000   -0.0000    0.0000
+ Corresp. quaternions     1.0000   -0.0000    0.0000   -0.0000
 
  CNSsolve>  {====>} {* buried surface area *} 
  CNSsolve>  do (rmsd = 0) (all) 
@@ -6429,24 +6415,24 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>  do (store2 = 0) (all) 
  SELRPN:   6795 atoms have been selected out of   6795
  CNSsolve>  surface mode=access accu=0.075 rh2o=1.4 sele=(segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) end 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  SURFAC: half the sigma value being used for atomic radii.
  SURFAC: ACCEssible surface area
  SURFAC: ACCUracy= 0.07 RH2O=  1.40
-         Z-grid=  0.32 number-of-Z-sections=  143
-         measures-of-arc= 21150 and 33116
+         Z-grid=  0.32 number-of-Z-sections=  108
+         measures-of-arc=  5773 and  8112
  CNSsolve>  show sum (rmsd) (segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) 
- SELRPN:   2857 atoms have been selected out of   6795
- SHOW: sum over selected elements =   17537.516593
+ SELRPN:    686 atoms have been selected out of   6795
+ SHOW: sum over selected elements =    4320.531081
  CNSsolve>  evaluate ($saafree = $saafree + $result) 
- EVALUATE: symbol $SAAFREE set to    37525.2     (real)
+ EVALUATE: symbol $SAAFREE set to    37820.9     (real)
  CNSsolve>  do (store2 = rmsd * store1) (segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  CNSsolve>  show sum (store2) (segid $Toppar.prot_segid_$nchain1 and not ((resn WAT or resn HOH or resn TIP*) or resn DMS)) 
- SELRPN:   2857 atoms have been selected out of   6795
- SHOW: sum over selected elements =      10.048390
+ SELRPN:    686 atoms have been selected out of   6795
+ SHOW: sum over selected elements =     -32.325477
  CNSsolve>  evaluate ($esolfree = $esolfree + $result) 
- EVALUATE: symbol $ESOLFREE set to   -25.4444     (real)
+ EVALUATE: symbol $ESOLFREE set to   -18.0021     (real)
  CNSsolve>  evaluate ($nchain1 = $nchain1 + 1) 
  EVALUATE: symbol $NCHAIN1 set to    3.00000     (real)
  CNSsolve>end loop nloop1 
@@ -6808,7 +6794,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>  set message=on echo=on end 
  CNSsolve>  noe cv $npart ? end 
  NOE: total number of restraints:    42 partitioned into      2 classes
- NOE: ceiling=    1000.000 current allocation= 4000000
+ NOE: ceiling=    1000.000 current allocation= 2000000
  NOE: data are partitioned into working set and test set.
  NOE: test set number=     2
  CNSsolve>else 
@@ -6899,52 +6885,52 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    evaluate ($ncount = $ncount +1) 
  EVALUATE: symbol $NCOUNT set to    1.00000     (real)
  CNSsolve>    show max (x) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
- SHOW: maximum of selected elements =     166.715000
+ SELRPN:    648 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =     173.427000
  CNSsolve>    evaluate ($xdim = $result) 
- EVALUATE: symbol $XDIM set to    166.715     (real)
+ EVALUATE: symbol $XDIM set to    173.427     (real)
  CNSsolve>    show max (y) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
- SHOW: maximum of selected elements =     165.520000
+ SELRPN:    648 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =     177.780000
  CNSsolve>    evaluate ($ydim = $result) 
- EVALUATE: symbol $YDIM set to    165.520     (real)
+ EVALUATE: symbol $YDIM set to    177.780     (real)
  CNSsolve>    show max (z) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
- SHOW: maximum of selected elements =     125.960000
+ SELRPN:    648 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =     150.286000
  CNSsolve>    evaluate ($zdim = $result) 
- EVALUATE: symbol $ZDIM set to    125.960     (real)
+ EVALUATE: symbol $ZDIM set to    150.286     (real)
  CNSsolve>    show min (x) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
- SHOW: minimum of selected elements =     114.792000
+ SELRPN:    648 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =     114.807000
  CNSsolve>    evaluate ($xdim = $xdim - $result) 
- EVALUATE: symbol $XDIM set to    51.9230     (real)
+ EVALUATE: symbol $XDIM set to    58.6200     (real)
  CNSsolve>    show min (y) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
- SHOW: minimum of selected elements =     103.098000
+ SELRPN:    648 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =     103.099000
  CNSsolve>    evaluate ($ydim = $ydim - $result) 
- EVALUATE: symbol $YDIM set to    62.4220     (real)
+ EVALUATE: symbol $YDIM set to    74.6810     (real)
  CNSsolve>    show min (z) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
- SHOW: minimum of selected elements =      68.563000
+ SELRPN:    648 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =      68.556000
  CNSsolve>    evaluate ($zdim = $zdim - $result) 
- EVALUATE: symbol $ZDIM set to    57.3970     (real)
+ EVALUATE: symbol $ZDIM set to    81.7300     (real)
  CNSsolve>    evaluate ($corr = max($xdim,$ydim)) 
- EVALUATE: symbol $CORR set to    62.4220     (real)
+ EVALUATE: symbol $CORR set to    74.6810     (real)
  CNSsolve>    evaluate ($corr = max($corr,$zdim)) 
- EVALUATE: symbol $CORR set to    62.4220     (real)
+ EVALUATE: symbol $CORR set to    81.7300     (real)
  CNSsolve>    do (store6 = 0) (all) 
  SELRPN:   6795 atoms have been selected out of   6795
  CNSsolve>    do (store6 = 1) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    422 atoms have been selected out of   6795
+ SELRPN:    648 atoms have been selected out of   6795
  CNSsolve>    show sum (store6) (all) 
  SELRPN:   6795 atoms have been selected out of   6795
- SHOW: sum over selected elements =     422.000000
+ SHOW: sum over selected elements =     648.000000
  CNSsolve>    if ($result eq 0) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($corr = 0.0) 
  CNSsolve>    end if 
  CNSsolve>    evaluate ($dim_$ncount = ($xdim + $ydim + $zdim - $corr)/4.0) 
- EVALUATE: symbol $DIM_1 set to    27.3300     (real)
+ EVALUATE: symbol $DIM_1 set to    33.3252     (real)
  CNSsolve>    if ($toppar.dna_$ncount = true) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($dim_$ncount = 0.0) 
@@ -6957,52 +6943,52 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    evaluate ($ncount = $ncount +1) 
  EVALUATE: symbol $NCOUNT set to    2.00000     (real)
  CNSsolve>    show max (x) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
- SHOW: maximum of selected elements =     173.427000
+ SELRPN:     73 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =     125.818000
  CNSsolve>    evaluate ($xdim = $result) 
- EVALUATE: symbol $XDIM set to    173.427     (real)
+ EVALUATE: symbol $XDIM set to    125.818     (real)
  CNSsolve>    show max (y) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
- SHOW: maximum of selected elements =     177.780000
+ SELRPN:     73 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =     170.074000
  CNSsolve>    evaluate ($ydim = $result) 
- EVALUATE: symbol $YDIM set to    177.780     (real)
+ EVALUATE: symbol $YDIM set to    170.074     (real)
  CNSsolve>    show max (z) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
- SHOW: maximum of selected elements =     159.503000
+ SELRPN:     73 atoms have been selected out of   6795
+ SHOW: maximum of selected elements =     159.506000
  CNSsolve>    evaluate ($zdim = $result) 
- EVALUATE: symbol $ZDIM set to    159.503     (real)
+ EVALUATE: symbol $ZDIM set to    159.506     (real)
  CNSsolve>    show min (x) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
- SHOW: minimum of selected elements =     103.946000
+ SELRPN:     73 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =     103.945000
  CNSsolve>    evaluate ($xdim = $xdim - $result) 
- EVALUATE: symbol $XDIM set to    69.4810     (real)
+ EVALUATE: symbol $XDIM set to    21.8730     (real)
  CNSsolve>    show min (y) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
- SHOW: minimum of selected elements =     134.238000
+ SELRPN:     73 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =     144.202000
  CNSsolve>    evaluate ($ydim = $ydim - $result) 
- EVALUATE: symbol $YDIM set to    43.5420     (real)
+ EVALUATE: symbol $YDIM set to    25.8720     (real)
  CNSsolve>    show min (z) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
- SHOW: minimum of selected elements =     113.869000
+ SELRPN:     73 atoms have been selected out of   6795
+ SHOW: minimum of selected elements =     132.477000
  CNSsolve>    evaluate ($zdim = $zdim - $result) 
- EVALUATE: symbol $ZDIM set to    45.6340     (real)
+ EVALUATE: symbol $ZDIM set to    27.0290     (real)
  CNSsolve>    evaluate ($corr = max($xdim,$ydim)) 
- EVALUATE: symbol $CORR set to    69.4810     (real)
+ EVALUATE: symbol $CORR set to    25.8720     (real)
  CNSsolve>    evaluate ($corr = max($corr,$zdim)) 
- EVALUATE: symbol $CORR set to    69.4810     (real)
+ EVALUATE: symbol $CORR set to    27.0290     (real)
  CNSsolve>    do (store6 = 0) (all) 
  SELRPN:   6795 atoms have been selected out of   6795
  CNSsolve>    do (store6 = 1) (segid $Toppar.prot_segid_$ncount and (name CA or name N1)) 
- SELRPN:    299 atoms have been selected out of   6795
+ SELRPN:     73 atoms have been selected out of   6795
  CNSsolve>    show sum (store6) (all) 
  SELRPN:   6795 atoms have been selected out of   6795
- SHOW: sum over selected elements =     299.000000
+ SHOW: sum over selected elements =      73.000000
  CNSsolve>    if ($result eq 0) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($corr = 0.0) 
  CNSsolve>    end if 
  CNSsolve>    evaluate ($dim_$ncount = ($xdim + $ydim + $zdim - $corr)/4.0) 
- EVALUATE: symbol $DIM_2 set to    22.2940     (real)
+ EVALUATE: symbol $DIM_2 set to    11.9363     (real)
  CNSsolve>    if ($toppar.dna_$ncount = true) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($dim_$ncount = 0.0) 
@@ -7049,8 +7035,8 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    eval($nchain = $nchain + 1) 
  EVALUATE: symbol $NCHAIN set to    1.00000     (real)
  CNSsolve>    show sum (store9) (segid $Toppar.prot_segid_$nchain) 
- SELRPN:   3938 atoms have been selected out of   6795
- SHOW: sum over selected elements =     422.000000
+ SELRPN:   6109 atoms have been selected out of   6795
+ SHOW: sum over selected elements =     648.000000
  CNSsolve>    if ($result < 3) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($selat$nchain = 0 ) 
@@ -7064,8 +7050,8 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    eval($nchain = $nchain + 1) 
  EVALUATE: symbol $NCHAIN set to    2.00000     (real)
  CNSsolve>    show sum (store9) (segid $Toppar.prot_segid_$nchain) 
- SELRPN:   2857 atoms have been selected out of   6795
- SHOW: sum over selected elements =     299.000000
+ SELRPN:    686 atoms have been selected out of   6795
+ SHOW: sum over selected elements =      73.000000
  CNSsolve>    if ($result < 3) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($selat$nchain = 0 ) 
@@ -7100,15 +7086,15 @@ FREE MOLECULES INTERNAL ENERGY = 0
  NOE>        eval($nchain2 = $nchain2 + 1) 
  EVALUATE: symbol $NCHAIN2 set to    2.00000     (real)
  NOE>        eval($cm_dist = $dim_$nchain1 + $dim_$nchain2) 
- EVALUATE: symbol $CM_DIST set to    22.2940     (real)
+ EVALUATE: symbol $CM_DIST set to    11.9363     (real)
  NOE>        if ($selat$nchain1 = 1) then 
  NEXTCD: condition evaluated as true
  NOE>          if ($selat$nchain2 = 1) then 
  NEXTCD: condition evaluated as true
  NOE>            assign (segid $Toppar.prot_segid_$nchain1 and ( name CA or name N1 )) 
- SELRPN:    422 atoms have been selected out of   6795
+ SELRPN:    648 atoms have been selected out of   6795
  SELRPN>	               (segid $Toppar.prot_segid_$nchain2 and ( name CA or name N1 )) $cm_dist $cm_dist 1.0 
- SELRPN:    299 atoms have been selected out of   6795
+ SELRPN:     73 atoms have been selected out of   6795
  NOE>	      else 
  NOE>            assign (segid $Toppar.prot_segid_$nchain1 and ( name CA or name N1 )) 
  NOE>	               (segid $Toppar.prot_segid_$nchain2) $cm_dist $cm_dist 1.0 
@@ -7247,8 +7233,8 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    eval($nchain = $nchain + 1) 
  EVALUATE: symbol $NCHAIN set to    1.00000     (real)
  CNSsolve>    show sum (store9) (segid $Toppar.prot_segid_$nchain) 
- SELRPN:   3938 atoms have been selected out of   6795
- SHOW: sum over selected elements =     422.000000
+ SELRPN:   6109 atoms have been selected out of   6795
+ SHOW: sum over selected elements =     648.000000
  CNSsolve>    if ($result < 3) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($selat$nchain = 0) 
@@ -7265,8 +7251,8 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    eval($nchain = $nchain + 1) 
  EVALUATE: symbol $NCHAIN set to    2.00000     (real)
  CNSsolve>    show sum (store9) (segid $Toppar.prot_segid_$nchain) 
- SELRPN:   2857 atoms have been selected out of   6795
- SHOW: sum over selected elements =     299.000000
+ SELRPN:    686 atoms have been selected out of   6795
+ SHOW: sum over selected elements =      73.000000
  CNSsolve>    if ($result < 3) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($selat$nchain = 0) 
@@ -7311,9 +7297,9 @@ FREE MOLECULES INTERNAL ENERGY = 0
  NOE>          if ($selat$nchain2 = 1) then 
  NEXTCD: condition evaluated as true
  NOE>            assign (segid $Toppar.prot_segid_$nchain1 and ( name CA or name N1 )) 
- SELRPN:    422 atoms have been selected out of   6795
+ SELRPN:    648 atoms have been selected out of   6795
  SELRPN>	               (segid $Toppar.prot_segid_$nchain2 and ( name CA or name N1 )) $updist $updist 1.0 
- SELRPN:    299 atoms have been selected out of   6795
+ SELRPN:     73 atoms have been selected out of   6795
  NOE>	      else 
  NOE>            assign (segid $Toppar.prot_segid_$nchain1 and ( name CA or name N1 )) 
  NOE>	               (segid $Toppar.prot_segid_$nchain2) $updist $updist 1.0 
@@ -9463,7 +9449,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>!NOEs, hbonds 
  CNSsolve>noe 
  CNSsolve>  reset 
- CNSsolve>  nrestraints = 4000000     ! allocate space for NOEs 
+ CNSsolve>  nrestraints = 2000000     ! allocate space for NOEs 
  CNSsolve>  ceiling 1000 
  CNSsolve>end 
  CNSsolve> 
@@ -11648,7 +11634,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>!NOEs, hbonds 
  CNSsolve>noe 
  CNSsolve>  reset 
- CNSsolve>  nrestraints = 4000000     ! allocate space for NOEs 
+ CNSsolve>  nrestraints = 2000000     ! allocate space for NOEs 
  CNSsolve>  ceiling 1000 
  CNSsolve>end 
  CNSsolve> 
@@ -11821,7 +11807,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>!NOEs, hbonds 
  CNSsolve>noe 
  CNSsolve>  reset 
- CNSsolve>  nrestraints = 4000000     ! allocate space for NOEs 
+ CNSsolve>  nrestraints = 2000000     ! allocate space for NOEs 
  CNSsolve>  ceiling 1000 
  CNSsolve>end 
  CNSsolve> 
@@ -12696,9 +12682,9 @@ FREE MOLECULES INTERNAL ENERGY = 0
  IGROup>      eval($scalfac = $kinter * $Toppar.int_$nchain1_$nchain2) 
  EVALUATE: symbol $SCALFAC set to    1.00000     (real)
  IGROup>      interaction (segid $Toppar.prot_segid_$nchain1 and not (resn ANI or resn DAN or resn XAN)) 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  SELRPN>                  (segid $Toppar.prot_segid_$nchain2 and not (resn ANI or resn DAN or resn XAN)) weight * 1.0 vdw $scalfac elec $scalfac end 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  IGROup>    end loop nloop2 
  IGROup>    while ($nchain2 < $data.ncomponents) loop nloop2 
  NEXTCD: condition evaluated as false
@@ -12708,7 +12694,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  IGROup>                  (segid $Toppar.prot_segid_$nchain2 and not (resn ANI or resn DAN or resn XAN)) weight * 1.0 vdw $scalfac elec $scalfac end 
  IGROup>    end loop nloop2 
  IGROup>    interaction (segid $Toppar.prot_segid_$nchain1 and not (resn ANI or resn DAN or resn XAN)) 
- SELRPN:   3938 atoms have been selected out of   6795
+ SELRPN:   6109 atoms have been selected out of   6795
  SELRPN>                ((resn WAT or resn HOH or resn TIP*)) weight * 1.0 vdw $kinter elec $kinter end 
  SELRPN:      0 atoms have been selected out of   6795
  IGROup> 
@@ -12727,7 +12713,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  IGROup>                  (segid $Toppar.prot_segid_$nchain2 and not (resn ANI or resn DAN or resn XAN)) weight * 1.0 vdw $scalfac elec $scalfac end 
  IGROup>    end loop nloop2 
  IGROup>    interaction (segid $Toppar.prot_segid_$nchain1 and not (resn ANI or resn DAN or resn XAN)) 
- SELRPN:   2857 atoms have been selected out of   6795
+ SELRPN:    686 atoms have been selected out of   6795
  SELRPN>                ((resn WAT or resn HOH or resn TIP*)) weight * 1.0 vdw $kinter elec $kinter end 
  SELRPN:      0 atoms have been selected out of   6795
  IGROup> 
@@ -13258,7 +13244,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>    energy end 
  NBONDS: generating intra-molecular exclusion list with mode= 5
  MAKINB: mode   5 found      0 exclusions and      0 interactions(1-4)
- NBONDS: found     3494 intra-atom interactions
+ NBONDS: found     5589 intra-atom interactions
  NBONDS: generating intra-molecular exclusion list with mode= 5
  MAKINB: mode   5 found      0 exclusions and      0 interactions(1-4)
  NBONDS: found        0 intra-atom interactions
@@ -13269,11 +13255,11 @@ FREE MOLECULES INTERNAL ENERGY = 0
  MAKINB: mode   5 found      0 exclusions and      0 interactions(1-4)
  NBONDS: found        0 intra-atom interactions
  --------------- cycle=     1 --------------------------------------------------
- | Etotal =4443.772   grad(E)=283.205    E(VDW )=4296.657   E(ELEC)=1.449      |
- | E(NOE )=145.666                                                             |
+ | Etotal =13308.791  grad(E)=898.471    E(VDW )=12920.615  E(ELEC)=1.621      |
+ | E(NOE )=386.556                                                             |
  -------------------------------------------------------------------------------
  CNSsolve>    evaluate ($bestair = $noe) 
- EVALUATE: symbol $BESTAIR set to    145.666     (real)
+ EVALUATE: symbol $BESTAIR set to    386.556     (real)
  CNSsolve> 
  CNSsolve>  end if 
  CNSsolve> 
@@ -13313,7 +13299,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
  CNSsolve>!NOEs, hbonds 
  CNSsolve>noe 
  CNSsolve>  reset 
- CNSsolve>  nrestraints = 4000000     ! allocate space for NOEs 
+ CNSsolve>  nrestraints = 2000000     ! allocate space for NOEs 
  CNSsolve>  ceiling 1000 
  CNSsolve>end 
  CNSsolve> 
@@ -13983,7 +13969,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
        noe cv $ncvbest 
               ^^^^^^^^
  NOE: total number of restraints:    44 partitioned into      4 classes
- NOE: ceiling=    1000.000 current allocation= 4000000
+ NOE: ceiling=    1000.000 current allocation= 2000000
  CNSsolve>    end if 
  CNSsolve>    if ( $log_level = verbose ) then 
  NEXTCD: condition evaluated as false
@@ -13997,18 +13983,36 @@ FREE MOLECULES INTERNAL ENERGY = 0
                  SQCOnstant=   1.000 SQEXponent=    2 SQOFfsets(+/-)=   0.000   0.000
                  SOEXponent=    1 RSWItch=   1.000 ASYMptote=   2.000
  
- ========== restraint    39 ==========
+ ========== restraint    31 ==========
  set-i-atoms
-          B    276  ALA  CA  
+          A    276  ALA  CA  
  set-j-atoms
-          B    27   LEU  CA  
- R<average>=  18.979 NOE=17.95 (- 0.00/+ 0.00) Delta=  -1.027  E(NOE)=   1.055
- ========== restraint    40 ==========
+          A    2    GLU  CA  
+ R<average>=  27.104 NOE=26.78 (- 0.00/+ 0.00) Delta=  -0.328  E(NOE)=   0.108
+ ========== restraint    32 ==========
  set-i-atoms
-          B    276  ALA  CA  
+          A    276  ALA  CA  
  set-j-atoms
-          B    156  ASP  CA  
- R<average>=  14.335 NOE=14.70 (- 0.00/+ 0.00) Delta=   0.363  E(NOE)=   0.132
+          A    27   LEU  CA  
+ R<average>=  19.146 NOE=17.95 (- 0.00/+ 0.00) Delta=  -1.194  E(NOE)=   1.388
+ ========== restraint    33 ==========
+ set-i-atoms
+          A    276  ALA  CA  
+ set-j-atoms
+          A    156  ASP  CA  
+ R<average>=  14.249 NOE=14.70 (- 0.00/+ 0.00) Delta=   0.449  E(NOE)=   0.202
+ ========== restraint    34 ==========
+ set-i-atoms
+          A    276  ALA  CA  
+ set-j-atoms
+          A    242  SER  CA  
+ R<average>=  35.914 NOE=35.59 (- 0.00/+ 0.00) Delta=  -0.323  E(NOE)=   0.104
+ ========== restraint    36 ==========
+ set-i-atoms
+          A    276  ALA  CA  
+ set-j-atoms
+          A    1040 ALA  CA  
+ R<average>=  59.967 NOE=59.08 (- 0.00/+ 0.00) Delta=  -0.891  E(NOE)=   0.794
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  +++++++++++++++++++++++++++++++ CLASS CONT +++++++++++++++++++++++++++++++++++
@@ -14017,428 +14021,654 @@ FREE MOLECULES INTERNAL ENERGY = 0
  
  ========== restraint    43 ==========
  set-i-atoms
-          A    52   GLN  CA  
-          A    53   ALA  CA  
-          A    54   THR  CA  
-          A    55   ILE  CA  
-          A    56   ASN  CA  
-          A    57   ILE  CA  
-          A    58   GLY  CA  
-          A    59   THR  CA  
-          A    60   ILE  CA  
-          A    61   GLY  CA  
-          A    62   HIS  CA  
-          A    63   VAL  CA  
-          A    64   ALA  CA  
-          A    65   HIS  CA  
-          A    66   GLY  CA  
-          A    67   LYS  CA  
-          A    68   SER  CA  
-          A    69   THR  CA  
-          A    70   VAL  CA  
-          A    71   VAL  CA  
+          A    1    MET  CA  
+          A    2    GLU  CA  
+          A    3    PHE  CA  
+          A    4    GLN  CA  
+          A    5    ALA  CA  
+          A    6    VAL  CA  
+          A    7    VAL  CA  
+          A    8    MET  CA  
+          A    9    ALA  CA  
+          A    10   VAL  CA  
+          A    11   GLY  CA  
+          A    12   GLY  CA  
+          A    26   PRO  CA  
+          A    27   LEU  CA  
+          A    28   LEU  CA  
+          A    29   PRO  CA  
+          A    30   VAL  CA  
+          A    31   GLY  CA  
+          A    32   ASN  CA  
+          A    33   LYS  CA  
+          A    34   PRO  CA  
+          A    35   LEU  CA  
+          A    36   ILE  CA  
+          A    37   TRP  CA  
+          A    38   TYR  CA  
+          A    39   PRO  CA  
+          A    40   LEU  CA  
+          A    41   ASN  CA  
+          A    42   LEU  CA  
+          A    43   LEU  CA  
+          A    44   GLU  CA  
+          A    45   ARG  CA  
+          A    46   VAL  CA  
+          A    47   GLY  CA  
+          A    48   PHE  CA  
+          A    49   GLU  CA  
+          A    50   GLU  CA  
+          A    51   VAL  CA  
+          A    52   ILE  CA  
+          A    53   VAL  CA  
+          A    54   VAL  CA  
+          A    55   THR  CA  
+          A    56   THR  CA  
+          A    61   LYS  CA  
+          A    62   ALA  CA  
+          A    63   LEU  CA  
+          A    64   CYS  CA  
+          A    65   ALA  CA  
+          A    66   GLU  CA  
+          A    67   PHE  CA  
+          A    68   LYS  CA  
+          A    69   MET  CA  
+          A    70   LYS  CA  
+          A    71   MET  CA  
           A    72   LYS  CA  
-          A    73   ALA  CA  
-          A    74   ILE  CA  
-          A    75   SER  CA  
-          A    76   GLY  CA  
-          A    77   VAL  CA  
-          A    78   HIS  CA  
-          A    79   THR  CA  
-          A    80   VAL  CA  
-          A    81   ARG  CA  
-          A    82   PHE  CA  
-          A    83   LYS  CA  
-          A    84   ASN  CA  
-          A    85   GLU  CA  
-          A    86   LEU  CA  
-          A    87   GLU  CA  
-          A    88   ARG  CA  
-          A    89   ASN  CA  
-          A    90   ILE  CA  
-          A    91   THR  CA  
-          A    92   ILE  CA  
-          A    93   LYS  CA  
-          A    94   LEU  CA  
-          A    95   GLY  CA  
-          A    96   TYR  CA  
-          A    97   ALA  CA  
-          A    98   ASN  CA  
-          A    99   ALA  CA  
-          A    100  LYS  CA  
-          A    101  ILE  CA  
-          A    102  TYR  CA  
-          A    103  LYS  CA  
+          A    73   PRO  CA  
+          A    74   ASP  CA  
+          A    75   ILE  CA  
+          A    76   VAL  CA  
+          A    77   CYS  CA  
+          A    78   ILE  CA  
+          A    79   PRO  CA  
+          A    80   ASP  CA  
+          A    81   ASP  CA  
+          A    82   ALA  CA  
+          A    83   ASP  CA  
+          A    84   MET  CA  
+          A    85   GLY  CA  
+          A    86   THR  CA  
+          A    87   ALA  CA  
+          A    88   ASP  CA  
+          A    89   SER  CA  
+          A    90   LEU  CA  
+          A    91   ARG  CA  
+          A    92   TYR  CA  
+          A    93   ILE  CA  
+          A    94   TYR  CA  
+          A    95   PRO  CA  
+          A    96   LYS  CA  
+          A    97   LEU  CA  
+          A    98   LYS  CA  
+          A    99   THR  CA  
+          A    100  ASP  CA  
+          A    101  VAL  CA  
+          A    102  LEU  CA  
+          A    103  VAL  CA  
           A    104  LEU  CA  
-          A    105  ASP  CA  
-          A    106  ASP  CA  
-          A    107  PRO  CA  
-          A    108  SER  CA  
-          A    109  CYS  CA  
-          A    110  PRO  CA  
-          A    111  ARG  CA  
-          A    112  PRO  CA  
-          A    113  GLU  CA  
-          A    114  CYS  CA  
-          A    115  TYR  CA  
-          A    116  ARG  CA  
-          A    117  SER  CA  
-          A    118  CYS  CA  
-          A    119  GLY  CA  
-          A    120  SER  CA  
-          A    121  SER  CA  
-          A    122  THR  CA  
-          A    123  PRO  CA  
-          A    124  ASP  CA  
-          A    125  GLU  CA  
-          A    126  PHE  CA  
-          A    127  PRO  CA  
-          A    128  THR  CA  
-          A    129  ASP  CA  
-          A    130  ILE  CA  
-          A    131  PRO  CA  
-          A    132  GLY  CA  
-          A    133  THR  CA  
+          A    105  SER  CA  
+          A    106  CYS  CA  
+          A    107  ASP  CA  
+          A    108  LEU  CA  
+          A    109  ILE  CA  
+          A    110  THR  CA  
+          A    111  ASP  CA  
+          A    112  VAL  CA  
+          A    113  ALA  CA  
+          A    114  LEU  CA  
+          A    115  HIS  CA  
+          A    116  GLU  CA  
+          A    117  VAL  CA  
+          A    118  VAL  CA  
+          A    119  ASP  CA  
+          A    120  LEU  CA  
+          A    121  PHE  CA  
+          A    122  ARG  CA  
+          A    123  ALA  CA  
+          A    124  TYR  CA  
+          A    125  ASP  CA  
+          A    126  ALA  CA  
+          A    127  SER  CA  
+          A    128  LEU  CA  
+          A    129  ALA  CA  
+          A    130  MET  CA  
+          A    131  LEU  CA  
+          A    132  MET  CA  
+          A    133  ARG  CA  
           A    134  LYS  CA  
-          A    135  GLY  CA  
-          A    136  ASN  CA  
-          A    137  PHE  CA  
-          A    138  LYS  CA  
-          A    139  LEU  CA  
-          A    140  VAL  CA  
-          A    141  ARG  CA  
-          A    142  HIS  CA  
-          A    143  VAL  CA  
-          A    144  SER  CA  
-          A    145  PHE  CA  
-          A    146  VAL  CA  
-          A    147  ASP  CA  
-          A    148  CYS  CA  
-          A    149  PRO  CA  
-          A    150  GLY  CA  
-          A    151  HIS  CA  
-          A    152  ASP  CA  
-          A    153  ILE  CA  
-          A    154  LEU  CA  
-          A    155  MET  CA  
-          A    156  ALA  CA  
-          A    157  THR  CA  
-          A    158  MET  CA  
-          A    159  LEU  CA  
-          A    160  ASN  CA  
-          A    161  GLY  CA  
-          A    162  ALA  CA  
-          A    163  ALA  CA  
-          A    164  VAL  CA  
-          A    165  MET  CA  
-          A    166  ASP  CA  
-          A    167  ALA  CA  
-          A    168  ALA  CA  
-          A    169  LEU  CA  
-          A    170  LEU  CA  
-          A    171  LEU  CA  
-          A    172  ILE  CA  
-          A    173  ALA  CA  
-          A    174  GLY  CA  
-          A    175  ASN  CA  
-          A    176  GLU  CA  
-          A    177  SER  CA  
-          A    178  CYS  CA  
-          A    179  PRO  CA  
-          A    180  GLN  CA  
-          A    181  PRO  CA  
-          A    182  GLN  CA  
-          A    183  THR  CA  
-          A    184  SER  CA  
-          A    185  GLU  CA  
-          A    186  HIS  CA  
+          A    155  ARG  CA  
+          A    156  ASP  CA  
+          A    157  PHE  CA  
+          A    158  ILE  CA  
+          A    159  GLY  CA  
+          A    160  VAL  CA  
+          A    161  ASP  CA  
+          A    162  SER  CA  
+          A    163  THR  CA  
+          A    164  GLY  CA  
+          A    165  LYS  CA  
+          A    166  ARG  CA  
+          A    167  LEU  CA  
+          A    168  LEU  CA  
+          A    169  PHE  CA  
+          A    170  MET  CA  
+          A    171  ALA  CA  
+          A    172  ASN  CA  
+          A    173  GLU  CA  
+          A    174  ALA  CA  
+          A    175  ASP  CA  
+          A    176  LEU  CA  
+          A    177  ASP  CA  
+          A    178  GLU  CA  
+          A    179  GLU  CA  
+          A    180  LEU  CA  
+          A    181  VAL  CA  
+          A    182  ILE  CA  
+          A    183  LYS  CA  
+          A    184  GLY  CA  
+          A    185  SER  CA  
+          A    186  ILE  CA  
           A    187  LEU  CA  
-          A    188  ALA  CA  
-          A    189  ALA  CA  
-          A    190  ILE  CA  
-          A    191  GLU  CA  
-          A    192  ILE  CA  
-          A    193  MET  CA  
-          A    194  LYS  CA  
-          A    195  LEU  CA  
-          A    196  LYS  CA  
-          A    197  HIS  CA  
-          A    198  ILE  CA  
+          A    188  GLN  CA  
+          A    189  LYS  CA  
+          A    190  HIS  CA  
+          A    191  PRO  CA  
+          A    192  ARG  CA  
+          A    193  ILE  CA  
+          A    194  ARG  CA  
+          A    195  PHE  CA  
+          A    196  HIS  CA  
+          A    197  THR  CA  
+          A    198  GLY  CA  
           A    199  LEU  CA  
-          A    200  ILE  CA  
-          A    201  LEU  CA  
-          A    202  GLN  CA  
-          A    203  ASN  CA  
-          A    204  LYS  CA  
-          A    205  ILE  CA  
-          A    206  ASP  CA  
+          A    200  VAL  CA  
+          A    201  ASP  CA  
+          A    202  ALA  CA  
+          A    203  HIS  CA  
+          A    204  LEU  CA  
+          A    205  TYR  CA  
+          A    206  CYS  CA  
           A    207  LEU  CA  
-          A    208  VAL  CA  
+          A    208  LYS  CA  
           A    209  LYS  CA  
-          A    210  GLU  CA  
-          A    211  SER  CA  
-          A    212  GLN  CA  
-          A    213  ALA  CA  
-          A    214  LYS  CA  
-          A    215  GLU  CA  
-          A    216  GLN  CA  
-          A    217  TYR  CA  
-          A    218  GLU  CA  
-          A    219  GLN  CA  
-          A    220  ILE  CA  
-          A    221  LEU  CA  
-          A    222  ALA  CA  
-          A    223  PHE  CA  
-          A    224  VAL  CA  
-          A    225  GLN  CA  
-          A    226  GLY  CA  
-          A    227  THR  CA  
-          A    228  VAL  CA  
-          A    229  ALA  CA  
-          A    230  GLU  CA  
-          A    231  GLY  CA  
-          A    232  ALA  CA  
-          A    233  PRO  CA  
-          A    234  ILE  CA  
-          A    235  ILE  CA  
-          A    236  PRO  CA  
-          A    237  ILE  CA  
-          A    238  SER  CA  
-          A    239  ALA  CA  
-          A    240  GLN  CA  
-          A    241  LEU  CA  
-          A    242  LYS  CA  
-          A    243  TYR  CA  
-          A    244  ASN  CA  
-          A    245  ILE  CA  
-          A    246  GLU  CA  
-          A    247  VAL  CA  
-          A    248  VAL  CA  
-          A    249  CYS  CA  
-          A    250  GLU  CA  
-          A    251  TYR  CA  
-          A    252  ILE  CA  
-          A    253  VAL  CA  
-          A    254  LYS  CA  
-          A    255  LYS  CA  
-          A    256  ILE  CA  
-          A    257  PRO  CA  
-          A    258  VAL  CA  
-          A    259  PRO  CA  
-          A    260  PRO  CA  
-          A    261  ARG  CA  
+          A    210  TYR  CA  
+          A    211  ILE  CA  
+          A    212  VAL  CA  
+          A    213  ASP  CA  
+          A    214  PHE  CA  
+          A    215  LEU  CA  
+          A    216  MET  CA  
+          A    217  GLU  CA  
+          A    218  ASN  CA  
+          A    219  GLY  CA  
+          A    220  SER  CA  
+          A    221  ILE  CA  
+          A    222  THR  CA  
+          A    223  SER  CA  
+          A    224  ILE  CA  
+          A    225  ARG  CA  
+          A    226  SER  CA  
+          A    227  GLU  CA  
+          A    228  LEU  CA  
+          A    229  ILE  CA  
+          A    230  PRO  CA  
+          A    231  TYR  CA  
+          A    232  LEU  CA  
+          A    233  VAL  CA  
+          A    234  ARG  CA  
+          A    235  LYS  CA  
+          A    241  SER  CA  
+          A    242  SER  CA  
+          A    243  GLN  CA  
+          A    260  SER  CA  
+          A    261  LEU  CA  
           A    262  ASP  CA  
-          A    263  PHE  CA  
-          A    264  THR  CA  
+          A    263  ILE  CA  
+          A    264  TYR  CA  
           A    265  SER  CA  
-          A    266  GLU  CA  
-          A    267  PRO  CA  
-          A    268  ARG  CA  
-          A    269  LEU  CA  
-          A    270  ILE  CA  
-          A    271  VAL  CA  
-          A    272  ILE  CA  
-          A    273  ARG  CA  
-          A    274  SER  CA  
-          A    275  PHE  CA  
-          A    276  ASP  CA  
-          A    277  VAL  CA  
-          A    278  ASN  CA  
-          A    279  LYS  CA  
-          A    280  PRO  CA  
-          A    281  GLY  CA  
-          A    282  CYS  CA  
-          A    283  GLU  CA  
-          A    284  VAL  CA  
-          A    285  ASP  CA  
-          A    286  ASP  CA  
-          A    287  LEU  CA  
-          A    288  LYS  CA  
-          A    289  GLY  CA  
-          A    290  GLY  CA  
-          A    291  VAL  CA  
-          A    292  ALA  CA  
-          A    293  GLY  CA  
-          A    294  GLY  CA  
-          A    295  SER  CA  
-          A    296  ILE  CA  
-          A    297  LEU  CA  
-          A    298  LYS  CA  
-          A    299  GLY  CA  
-          A    300  VAL  CA  
-          A    301  LEU  CA  
-          A    302  LYS  CA  
-          A    303  VAL  CA  
-          A    304  GLY  CA  
-          A    305  GLN  CA  
-          A    306  GLU  CA  
-          A    307  ILE  CA  
-          A    308  GLU  CA  
-          A    309  VAL  CA  
-          A    310  ARG  CA  
-          A    311  PRO  CA  
-          A    312  GLY  CA  
-          A    313  ILE  CA  
-          A    314  VAL  CA  
-          A    315  SER  CA  
-          A    316  LYS  CA  
-          A    317  ASP  CA  
-          A    318  SER  CA  
-          A    319  GLU  CA  
-          A    320  GLY  CA  
-          A    321  LYS  CA  
-          A    322  LEU  CA  
-          A    323  MET  CA  
-          A    324  CYS  CA  
-          A    325  LYS  CA  
-          A    326  PRO  CA  
-          A    327  ILE  CA  
-          A    328  PHE  CA  
-          A    329  SER  CA  
-          A    330  LYS  CA  
-          A    331  ILE  CA  
-          A    332  VAL  CA  
-          A    333  SER  CA  
-          A    334  LEU  CA  
-          A    335  PHE  CA  
-          A    336  ALA  CA  
-          A    337  GLU  CA  
-          A    338  HIS  CA  
-          A    339  ASN  CA  
-          A    340  ASP  CA  
-          A    341  LEU  CA  
-          A    342  GLN  CA  
-          A    343  TYR  CA  
-          A    344  ALA  CA  
-          A    345  ALA  CA  
-          A    346  PRO  CA  
-          A    347  GLY  CA  
-          A    348  GLY  CA  
-          A    349  LEU  CA  
-          A    350  ILE  CA  
-          A    351  GLY  CA  
-          A    352  VAL  CA  
-          A    353  GLY  CA  
-          A    354  THR  CA  
-          A    355  LYS  CA  
-          A    356  ILE  CA  
-          A    357  ASP  CA  
-          A    358  PRO  CA  
-          A    359  THR  CA  
-          A    360  LEU  CA  
-          A    361  CYS  CA  
-          A    362  ARG  CA  
-          A    363  ALA  CA  
-          A    364  ASP  CA  
-          A    365  ARG  CA  
-          A    366  MET  CA  
-          A    367  VAL  CA  
-          A    368  GLY  CA  
-          A    369  GLN  CA  
-          A    370  VAL  CA  
-          A    371  LEU  CA  
-          A    372  GLY  CA  
-          A    373  ALA  CA  
-          A    374  VAL  CA  
-          A    375  GLY  CA  
-          A    376  ALA  CA  
-          A    377  LEU  CA  
-          A    378  PRO  CA  
-          A    379  GLU  CA  
-          A    380  ILE  CA  
-          A    381  PHE  CA  
-          A    382  THR  CA  
-          A    383  GLU  CA  
-          A    384  LEU  CA  
-          A    385  GLU  CA  
-          A    386  ILE  CA  
-          A    387  SER  CA  
-          A    388  TYR  CA  
-          A    389  PHE  CA  
-          A    390  LEU  CA  
-          A    391  LEU  CA  
-          A    392  ARG  CA  
-          A    393  ARG  CA  
-          A    394  LEU  CA  
-          A    395  LEU  CA  
-          A    396  GLY  CA  
-          A    397  VAL  CA  
-          A    398  ARG  CA  
-          A    399  THR  CA  
-          A    400  GLU  CA  
-          A    401  GLY  CA  
-          A    402  ASP  CA  
-          A    403  LYS  CA  
-          A    404  LYS  CA  
-          A    405  ALA  CA  
-          A    406  ALA  CA  
-          A    407  LYS  CA  
-          A    408  VAL  CA  
-          A    409  GLN  CA  
-          A    410  LYS  CA  
-          A    411  LEU  CA  
-          A    412  SER  CA  
-          A    413  LYS  CA  
-          A    414  ASN  CA  
-          A    415  GLU  CA  
-          A    416  VAL  CA  
-          A    417  LEU  CA  
-          A    418  MET  CA  
-          A    419  VAL  CA  
-          A    420  ASN  CA  
-          A    421  ILE  CA  
-          A    422  GLY  CA  
-          A    423  SER  CA  
-          A    424  LEU  CA  
-          A    425  SER  CA  
-          A    426  THR  CA  
-          A    427  GLY  CA  
-          A    428  GLY  CA  
-          A    429  ARG  CA  
-          A    430  VAL  CA  
-          A    431  SER  CA  
-          A    432  ALA  CA  
-          A    433  VAL  CA  
-          A    434  LYS  CA  
-          A    435  ALA  CA  
-          A    436  ASP  CA  
-          A    437  LEU  CA  
-          A    438  GLY  CA  
-          A    439  LYS  CA  
-          A    440  ILE  CA  
-          A    441  VAL  CA  
-          A    442  LEU  CA  
-          A    443  THR  CA  
-          A    444  ASN  CA  
-          A    445  PRO  CA  
-          A    446  VAL  CA  
-          A    447  CYS  CA  
-          A    448  THR  CA  
-          A    449  GLU  CA  
-          A    450  VAL  CA  
-          A    451  GLY  CA  
-          A    452  GLU  CA  
-          A    453  LYS  CA  
-          A    454  ILE  CA  
-          A    455  ALA  CA  
-          A    456  LEU  CA  
-          A    457  SER  CA  
-          A    458  ARG  CA  
-          A    459  ARG  CA  
-          A    460  VAL  CA  
-          A    461  GLU  CA  
-          A    462  LYS  CA  
-          A    463  HIS  CA  
-          A    464  TRP  CA  
-          A    465  ARG  CA  
-          A    466  LEU  CA  
-          A    467  ILE  CA  
-          A    468  GLY  CA  
-          A    469  TRP  CA  
-          A    470  GLY  CA  
-          A    471  GLN  CA  
-          A    472  ILE  CA  
-          A    473  ARG  CA  
+          A    266  PHE  CA  
+          A    267  ILE  CA  
+          A    276  ALA  CA  
+          A    277  PRO  CA  
+          A    278  TYR  CA  
+          A    279  ASP  CA  
+          A    280  ALA  CA  
+          A    281  CYS  CA  
+          A    282  TRP  CA  
+          A    283  ASN  CA  
+          A    284  ALA  CA  
+          A    285  CYS  CA  
+          A    286  ARG  CA  
+          A    287  GLY  CA  
+          A    288  ASP  CA  
+          A    289  ARG  CA  
+          A    290  TRP  CA  
+          A    291  GLU  CA  
+          A    292  ASP  CA  
+          A    1039 GLN  CA  
+          A    1040 ALA  CA  
+          A    1041 THR  CA  
+          A    1042 ILE  CA  
+          A    1043 ASN  CA  
+          A    1044 ILE  CA  
+          A    1045 GLY  CA  
+          A    1046 THR  CA  
+          A    1047 ILE  CA  
+          A    1048 GLY  CA  
+          A    1049 HIS  CA  
+          A    1050 VAL  CA  
+          A    1051 ALA  CA  
+          A    1052 HIS  CA  
+          A    1053 GLY  CA  
+          A    1054 LYS  CA  
+          A    1055 SER  CA  
+          A    1056 THR  CA  
+          A    1057 VAL  CA  
+          A    1058 VAL  CA  
+          A    1059 LYS  CA  
+          A    1060 ALA  CA  
+          A    1061 ILE  CA  
+          A    1062 SER  CA  
+          A    1063 GLY  CA  
+          A    1064 VAL  CA  
+          A    1065 HIS  CA  
+          A    1066 THR  CA  
+          A    1067 VAL  CA  
+          A    1068 ARG  CA  
+          A    1069 PHE  CA  
+          A    1070 LYS  CA  
+          A    1071 ASN  CA  
+          A    1072 GLU  CA  
+          A    1073 LEU  CA  
+          A    1074 GLU  CA  
+          A    1075 ARG  CA  
+          A    1076 ASN  CA  
+          A    1077 ILE  CA  
+          A    1078 THR  CA  
+          A    1079 ILE  CA  
+          A    1080 LYS  CA  
+          A    1081 LEU  CA  
+          A    1082 GLY  CA  
+          A    1083 TYR  CA  
+          A    1084 ALA  CA  
+          A    1085 ASN  CA  
+          A    1086 ALA  CA  
+          A    1087 LYS  CA  
+          A    1088 ILE  CA  
+          A    1089 TYR  CA  
+          A    1090 LYS  CA  
+          A    1091 LEU  CA  
+          A    1092 ASP  CA  
+          A    1093 ASP  CA  
+          A    1094 PRO  CA  
+          A    1095 SER  CA  
+          A    1096 CYS  CA  
+          A    1097 PRO  CA  
+          A    1098 ARG  CA  
+          A    1099 PRO  CA  
+          A    1100 GLU  CA  
+          A    1101 CYS  CA  
+          A    1102 TYR  CA  
+          A    1103 ARG  CA  
+          A    1104 SER  CA  
+          A    1105 CYS  CA  
+          A    1106 GLY  CA  
+          A    1107 SER  CA  
+          A    1108 SER  CA  
+          A    1109 THR  CA  
+          A    1110 PRO  CA  
+          A    1111 ASP  CA  
+          A    1112 GLU  CA  
+          A    1113 PHE  CA  
+          A    1114 PRO  CA  
+          A    1115 THR  CA  
+          A    1116 ASP  CA  
+          A    1117 ILE  CA  
+          A    1118 PRO  CA  
+          A    1119 GLY  CA  
+          A    1120 THR  CA  
+          A    1121 LYS  CA  
+          A    1122 GLY  CA  
+          A    1123 ASN  CA  
+          A    1124 PHE  CA  
+          A    1125 LYS  CA  
+          A    1126 LEU  CA  
+          A    1127 VAL  CA  
+          A    1128 ARG  CA  
+          A    1129 HIS  CA  
+          A    1130 VAL  CA  
+          A    1131 SER  CA  
+          A    1132 PHE  CA  
+          A    1133 VAL  CA  
+          A    1134 ASP  CA  
+          A    1135 CYS  CA  
+          A    1136 PRO  CA  
+          A    1137 GLY  CA  
+          A    1138 HIS  CA  
+          A    1139 ASP  CA  
+          A    1140 ILE  CA  
+          A    1141 LEU  CA  
+          A    1142 MET  CA  
+          A    1143 ALA  CA  
+          A    1144 THR  CA  
+          A    1145 MET  CA  
+          A    1146 LEU  CA  
+          A    1147 ASN  CA  
+          A    1148 GLY  CA  
+          A    1149 ALA  CA  
+          A    1150 ALA  CA  
+          A    1151 VAL  CA  
+          A    1152 MET  CA  
+          A    1153 ASP  CA  
+          A    1154 ALA  CA  
+          A    1155 ALA  CA  
+          A    1156 LEU  CA  
+          A    1157 LEU  CA  
+          A    1158 LEU  CA  
+          A    1159 ILE  CA  
+          A    1160 ALA  CA  
+          A    1161 GLY  CA  
+          A    1162 ASN  CA  
+          A    1163 GLU  CA  
+          A    1164 SER  CA  
+          A    1165 CYS  CA  
+          A    1166 PRO  CA  
+          A    1167 GLN  CA  
+          A    1168 PRO  CA  
+          A    1169 GLN  CA  
+          A    1170 THR  CA  
+          A    1171 SER  CA  
+          A    1172 GLU  CA  
+          A    1173 HIS  CA  
+          A    1174 LEU  CA  
+          A    1175 ALA  CA  
+          A    1176 ALA  CA  
+          A    1177 ILE  CA  
+          A    1178 GLU  CA  
+          A    1179 ILE  CA  
+          A    1180 MET  CA  
+          A    1181 LYS  CA  
+          A    1182 LEU  CA  
+          A    1183 LYS  CA  
+          A    1184 HIS  CA  
+          A    1185 ILE  CA  
+          A    1186 LEU  CA  
+          A    1187 ILE  CA  
+          A    1188 LEU  CA  
+          A    1189 GLN  CA  
+          A    1190 ASN  CA  
+          A    1191 LYS  CA  
+          A    1192 ILE  CA  
+          A    1193 ASP  CA  
+          A    1194 LEU  CA  
+          A    1195 VAL  CA  
+          A    1196 LYS  CA  
+          A    1197 GLU  CA  
+          A    1198 SER  CA  
+          A    1199 GLN  CA  
+          A    1200 ALA  CA  
+          A    1201 LYS  CA  
+          A    1202 GLU  CA  
+          A    1203 GLN  CA  
+          A    1204 TYR  CA  
+          A    1205 GLU  CA  
+          A    1206 GLN  CA  
+          A    1207 ILE  CA  
+          A    1208 LEU  CA  
+          A    1209 ALA  CA  
+          A    1210 PHE  CA  
+          A    1211 VAL  CA  
+          A    1212 GLN  CA  
+          A    1213 GLY  CA  
+          A    1214 THR  CA  
+          A    1215 VAL  CA  
+          A    1216 ALA  CA  
+          A    1217 GLU  CA  
+          A    1218 GLY  CA  
+          A    1219 ALA  CA  
+          A    1220 PRO  CA  
+          A    1221 ILE  CA  
+          A    1222 ILE  CA  
+          A    1223 PRO  CA  
+          A    1224 ILE  CA  
+          A    1225 SER  CA  
+          A    1226 ALA  CA  
+          A    1227 GLN  CA  
+          A    1228 LEU  CA  
+          A    1229 LYS  CA  
+          A    1230 TYR  CA  
+          A    1231 ASN  CA  
+          A    1232 ILE  CA  
+          A    1233 GLU  CA  
+          A    1234 VAL  CA  
+          A    1235 VAL  CA  
+          A    1236 CYS  CA  
+          A    1237 GLU  CA  
+          A    1238 TYR  CA  
+          A    1239 ILE  CA  
+          A    1240 VAL  CA  
+          A    1241 LYS  CA  
+          A    1242 LYS  CA  
+          A    1243 ILE  CA  
+          A    1244 PRO  CA  
+          A    1245 VAL  CA  
+          A    1246 PRO  CA  
+          A    1247 PRO  CA  
+          A    1248 ARG  CA  
+          A    1249 ASP  CA  
+          A    1250 PHE  CA  
+          A    1251 THR  CA  
+          A    1252 SER  CA  
+          A    1253 GLU  CA  
+          A    1254 PRO  CA  
+          A    1255 ARG  CA  
+          A    1256 LEU  CA  
+          A    1257 ILE  CA  
+          A    1258 VAL  CA  
+          A    1259 ILE  CA  
+          A    1260 ARG  CA  
+          A    1261 SER  CA  
+          A    1262 PHE  CA  
+          A    1263 ASP  CA  
+          A    1264 VAL  CA  
+          A    1265 ASN  CA  
+          A    1266 LYS  CA  
+          A    1267 PRO  CA  
+          A    1268 GLY  CA  
+          A    1269 CYS  CA  
+          A    1270 GLU  CA  
+          A    1271 VAL  CA  
+          A    1272 ASP  CA  
+          A    1273 ASP  CA  
+          A    1274 LEU  CA  
+          A    1275 LYS  CA  
+          A    1276 GLY  CA  
+          A    1277 GLY  CA  
+          A    1278 VAL  CA  
+          A    1279 ALA  CA  
+          A    1280 GLY  CA  
+          A    1281 GLY  CA  
+          A    1282 SER  CA  
+          A    1283 ILE  CA  
+          A    1284 LEU  CA  
+          A    1285 LYS  CA  
+          A    1286 GLY  CA  
+          A    1287 VAL  CA  
+          A    1288 LEU  CA  
+          A    1289 LYS  CA  
+          A    1290 VAL  CA  
+          A    1291 GLY  CA  
+          A    1292 GLN  CA  
+          A    1293 GLU  CA  
+          A    1294 ILE  CA  
+          A    1295 GLU  CA  
+          A    1296 VAL  CA  
+          A    1297 ARG  CA  
+          A    1298 PRO  CA  
+          A    1299 GLY  CA  
+          A    1300 ILE  CA  
+          A    1301 VAL  CA  
+          A    1302 SER  CA  
+          A    1303 LYS  CA  
+          A    1304 ASP  CA  
+          A    1305 SER  CA  
+          A    1306 GLU  CA  
+          A    1307 GLY  CA  
+          A    1308 LYS  CA  
+          A    1309 LEU  CA  
+          A    1310 MET  CA  
+          A    1311 CYS  CA  
+          A    1312 LYS  CA  
+          A    1313 PRO  CA  
+          A    1314 ILE  CA  
+          A    1315 PHE  CA  
+          A    1316 SER  CA  
+          A    1317 LYS  CA  
+          A    1318 ILE  CA  
+          A    1319 VAL  CA  
+          A    1320 SER  CA  
+          A    1321 LEU  CA  
+          A    1322 PHE  CA  
+          A    1323 ALA  CA  
+          A    1324 GLU  CA  
+          A    1325 HIS  CA  
+          A    1326 ASN  CA  
+          A    1327 ASP  CA  
+          A    1328 LEU  CA  
+          A    1329 GLN  CA  
+          A    1330 TYR  CA  
+          A    1331 ALA  CA  
+          A    1332 ALA  CA  
+          A    1333 PRO  CA  
+          A    1334 GLY  CA  
+          A    1335 GLY  CA  
+          A    1336 LEU  CA  
+          A    1337 ILE  CA  
+          A    1338 GLY  CA  
+          A    1339 VAL  CA  
+          A    1340 GLY  CA  
+          A    1341 THR  CA  
+          A    1342 LYS  CA  
+          A    1343 ILE  CA  
+          A    1344 ASP  CA  
+          A    1345 PRO  CA  
+          A    1346 THR  CA  
+          A    1347 LEU  CA  
+          A    1348 CYS  CA  
+          A    1349 ARG  CA  
+          A    1350 ALA  CA  
+          A    1351 ASP  CA  
+          A    1352 ARG  CA  
+          A    1353 MET  CA  
+          A    1354 VAL  CA  
+          A    1355 GLY  CA  
+          A    1356 GLN  CA  
+          A    1357 VAL  CA  
+          A    1358 LEU  CA  
+          A    1359 GLY  CA  
+          A    1360 ALA  CA  
+          A    1361 VAL  CA  
+          A    1362 GLY  CA  
+          A    1363 ALA  CA  
+          A    1364 LEU  CA  
+          A    1365 PRO  CA  
+          A    1366 GLU  CA  
+          A    1367 ILE  CA  
+          A    1368 PHE  CA  
+          A    1369 THR  CA  
+          A    1370 GLU  CA  
+          A    1371 LEU  CA  
+          A    1372 GLU  CA  
+          A    1373 ILE  CA  
+          A    1374 SER  CA  
+          A    1375 TYR  CA  
+          A    1376 PHE  CA  
+          A    1377 LEU  CA  
+          A    1378 LEU  CA  
+          A    1379 ARG  CA  
+          A    1380 ARG  CA  
+          A    1381 LEU  CA  
+          A    1382 LEU  CA  
+          A    1383 GLY  CA  
+          A    1384 VAL  CA  
+          A    1385 ARG  CA  
+          A    1386 THR  CA  
+          A    1387 GLU  CA  
+          A    1388 GLY  CA  
+          A    1389 ASP  CA  
+          A    1390 LYS  CA  
+          A    1391 LYS  CA  
+          A    1392 ALA  CA  
+          A    1393 ALA  CA  
+          A    1394 LYS  CA  
+          A    1395 VAL  CA  
+          A    1396 GLN  CA  
+          A    1397 LYS  CA  
+          A    1398 LEU  CA  
+          A    1399 SER  CA  
+          A    1400 LYS  CA  
+          A    1401 ASN  CA  
+          A    1402 GLU  CA  
+          A    1403 VAL  CA  
+          A    1404 LEU  CA  
+          A    1405 MET  CA  
+          A    1406 VAL  CA  
+          A    1407 ASN  CA  
+          A    1408 ILE  CA  
+          A    1409 GLY  CA  
+          A    1410 SER  CA  
+          A    1411 LEU  CA  
+          A    1412 SER  CA  
+          A    1413 THR  CA  
+          A    1414 GLY  CA  
+          A    1415 GLY  CA  
+          A    1416 ARG  CA  
+          A    1417 VAL  CA  
+          A    1418 SER  CA  
+          A    1419 ALA  CA  
+          A    1420 VAL  CA  
+          A    1421 LYS  CA  
+          A    1422 ALA  CA  
+          A    1423 ASP  CA  
+          A    1424 LEU  CA  
+          A    1425 GLY  CA  
+          A    1426 LYS  CA  
+          A    1427 ILE  CA  
+          A    1428 VAL  CA  
+          A    1429 LEU  CA  
+          A    1430 THR  CA  
+          A    1431 ASN  CA  
+          A    1432 PRO  CA  
+          A    1433 VAL  CA  
+          A    1434 CYS  CA  
+          A    1435 THR  CA  
+          A    1436 GLU  CA  
+          A    1437 VAL  CA  
+          A    1438 GLY  CA  
+          A    1439 GLU  CA  
+          A    1440 LYS  CA  
+          A    1441 ILE  CA  
+          A    1442 ALA  CA  
+          A    1443 LEU  CA  
+          A    1444 SER  CA  
+          A    1445 ARG  CA  
+          A    1446 ARG  CA  
+          A    1447 VAL  CA  
+          A    1448 GLU  CA  
+          A    1449 LYS  CA  
+          A    1450 HIS  CA  
+          A    1451 TRP  CA  
+          A    1452 ARG  CA  
+          A    1453 LEU  CA  
+          A    1454 ILE  CA  
+          A    1455 GLY  CA  
+          A    1456 TRP  CA  
+          A    1457 GLY  CA  
+          A    1458 GLN  CA  
+          A    1459 ILE  CA  
+          A    1460 ARG  CA  
  set-j-atoms
           B    340  VAL  CA  
           B    341  HIS  CA  
@@ -14513,233 +14743,7 @@ FREE MOLECULES INTERNAL ENERGY = 0
           B    410  ARG  CA  
           B    411  GLN  CA  
           B    412  ARG  CA  
-          B    1    MET  CA  
-          B    2    GLU  CA  
-          B    3    PHE  CA  
-          B    4    GLN  CA  
-          B    5    ALA  CA  
-          B    6    VAL  CA  
-          B    7    VAL  CA  
-          B    8    MET  CA  
-          B    9    ALA  CA  
-          B    10   VAL  CA  
-          B    11   GLY  CA  
-          B    12   GLY  CA  
-          B    26   PRO  CA  
-          B    27   LEU  CA  
-          B    28   LEU  CA  
-          B    29   PRO  CA  
-          B    30   VAL  CA  
-          B    31   GLY  CA  
-          B    32   ASN  CA  
-          B    33   LYS  CA  
-          B    34   PRO  CA  
-          B    35   LEU  CA  
-          B    36   ILE  CA  
-          B    37   TRP  CA  
-          B    38   TYR  CA  
-          B    39   PRO  CA  
-          B    40   LEU  CA  
-          B    41   ASN  CA  
-          B    42   LEU  CA  
-          B    43   LEU  CA  
-          B    44   GLU  CA  
-          B    45   ARG  CA  
-          B    46   VAL  CA  
-          B    47   GLY  CA  
-          B    48   PHE  CA  
-          B    49   GLU  CA  
-          B    50   GLU  CA  
-          B    51   VAL  CA  
-          B    52   ILE  CA  
-          B    53   VAL  CA  
-          B    54   VAL  CA  
-          B    55   THR  CA  
-          B    56   THR  CA  
-          B    61   LYS  CA  
-          B    62   ALA  CA  
-          B    63   LEU  CA  
-          B    64   CYS  CA  
-          B    65   ALA  CA  
-          B    66   GLU  CA  
-          B    67   PHE  CA  
-          B    68   LYS  CA  
-          B    69   MET  CA  
-          B    70   LYS  CA  
-          B    71   MET  CA  
-          B    72   LYS  CA  
-          B    73   PRO  CA  
-          B    74   ASP  CA  
-          B    75   ILE  CA  
-          B    76   VAL  CA  
-          B    77   CYS  CA  
-          B    78   ILE  CA  
-          B    79   PRO  CA  
-          B    80   ASP  CA  
-          B    81   ASP  CA  
-          B    82   ALA  CA  
-          B    83   ASP  CA  
-          B    84   MET  CA  
-          B    85   GLY  CA  
-          B    86   THR  CA  
-          B    87   ALA  CA  
-          B    88   ASP  CA  
-          B    89   SER  CA  
-          B    90   LEU  CA  
-          B    91   ARG  CA  
-          B    92   TYR  CA  
-          B    93   ILE  CA  
-          B    94   TYR  CA  
-          B    95   PRO  CA  
-          B    96   LYS  CA  
-          B    97   LEU  CA  
-          B    98   LYS  CA  
-          B    99   THR  CA  
-          B    100  ASP  CA  
-          B    101  VAL  CA  
-          B    102  LEU  CA  
-          B    103  VAL  CA  
-          B    104  LEU  CA  
-          B    105  SER  CA  
-          B    106  CYS  CA  
-          B    107  ASP  CA  
-          B    108  LEU  CA  
-          B    109  ILE  CA  
-          B    110  THR  CA  
-          B    111  ASP  CA  
-          B    112  VAL  CA  
-          B    113  ALA  CA  
-          B    114  LEU  CA  
-          B    115  HIS  CA  
-          B    116  GLU  CA  
-          B    117  VAL  CA  
-          B    118  VAL  CA  
-          B    119  ASP  CA  
-          B    120  LEU  CA  
-          B    121  PHE  CA  
-          B    122  ARG  CA  
-          B    123  ALA  CA  
-          B    124  TYR  CA  
-          B    125  ASP  CA  
-          B    126  ALA  CA  
-          B    127  SER  CA  
-          B    128  LEU  CA  
-          B    129  ALA  CA  
-          B    130  MET  CA  
-          B    131  LEU  CA  
-          B    132  MET  CA  
-          B    133  ARG  CA  
-          B    134  LYS  CA  
-          B    155  ARG  CA  
-          B    156  ASP  CA  
-          B    157  PHE  CA  
-          B    158  ILE  CA  
-          B    159  GLY  CA  
-          B    160  VAL  CA  
-          B    161  ASP  CA  
-          B    162  SER  CA  
-          B    163  THR  CA  
-          B    164  GLY  CA  
-          B    165  LYS  CA  
-          B    166  ARG  CA  
-          B    167  LEU  CA  
-          B    168  LEU  CA  
-          B    169  PHE  CA  
-          B    170  MET  CA  
-          B    171  ALA  CA  
-          B    172  ASN  CA  
-          B    173  GLU  CA  
-          B    174  ALA  CA  
-          B    175  ASP  CA  
-          B    176  LEU  CA  
-          B    177  ASP  CA  
-          B    178  GLU  CA  
-          B    179  GLU  CA  
-          B    180  LEU  CA  
-          B    181  VAL  CA  
-          B    182  ILE  CA  
-          B    183  LYS  CA  
-          B    184  GLY  CA  
-          B    185  SER  CA  
-          B    186  ILE  CA  
-          B    187  LEU  CA  
-          B    188  GLN  CA  
-          B    189  LYS  CA  
-          B    190  HIS  CA  
-          B    191  PRO  CA  
-          B    192  ARG  CA  
-          B    193  ILE  CA  
-          B    194  ARG  CA  
-          B    195  PHE  CA  
-          B    196  HIS  CA  
-          B    197  THR  CA  
-          B    198  GLY  CA  
-          B    199  LEU  CA  
-          B    200  VAL  CA  
-          B    201  ASP  CA  
-          B    202  ALA  CA  
-          B    203  HIS  CA  
-          B    204  LEU  CA  
-          B    205  TYR  CA  
-          B    206  CYS  CA  
-          B    207  LEU  CA  
-          B    208  LYS  CA  
-          B    209  LYS  CA  
-          B    210  TYR  CA  
-          B    211  ILE  CA  
-          B    212  VAL  CA  
-          B    213  ASP  CA  
-          B    214  PHE  CA  
-          B    215  LEU  CA  
-          B    216  MET  CA  
-          B    217  GLU  CA  
-          B    218  ASN  CA  
-          B    219  GLY  CA  
-          B    220  SER  CA  
-          B    221  ILE  CA  
-          B    222  THR  CA  
-          B    223  SER  CA  
-          B    224  ILE  CA  
-          B    225  ARG  CA  
-          B    226  SER  CA  
-          B    227  GLU  CA  
-          B    228  LEU  CA  
-          B    229  ILE  CA  
-          B    230  PRO  CA  
-          B    231  TYR  CA  
-          B    232  LEU  CA  
-          B    233  VAL  CA  
-          B    234  ARG  CA  
-          B    235  LYS  CA  
-          B    241  SER  CA  
-          B    242  SER  CA  
-          B    243  GLN  CA  
-          B    260  SER  CA  
-          B    261  LEU  CA  
-          B    262  ASP  CA  
-          B    263  ILE  CA  
-          B    264  TYR  CA  
-          B    265  SER  CA  
-          B    266  PHE  CA  
-          B    267  ILE  CA  
-          B    276  ALA  CA  
-          B    277  PRO  CA  
-          B    278  TYR  CA  
-          B    279  ASP  CA  
-          B    280  ALA  CA  
-          B    281  CYS  CA  
-          B    282  TRP  CA  
-          B    283  ASN  CA  
-          B    284  ALA  CA  
-          B    285  CYS  CA  
-          B    286  ARG  CA  
-          B    287  GLY  CA  
-          B    288  ASP  CA  
-          B    289  ARG  CA  
-          B    290  TRP  CA  
-          B    291  GLU  CA  
-          B    292  ASP  CA  
- R<average>=  44.286 NOE=22.29 (-22.29/+ 1.00) Delta= -21.992  E(NOE)= 144.167
+ R<average>=  47.821 NOE=11.94 (-11.94/+ 1.00) Delta= -35.885  E(NOE)= 383.843
 
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  +++++++++++++++++++++++++++++++ CLASS SURF +++++++++++++++++++++++++++++++++++
@@ -14748,428 +14752,654 @@ FREE MOLECULES INTERNAL ENERGY = 0
  
  ========== restraint    44 ==========
  set-i-atoms
-          A    52   GLN  CA  
-          A    53   ALA  CA  
-          A    54   THR  CA  
-          A    55   ILE  CA  
-          A    56   ASN  CA  
-          A    57   ILE  CA  
-          A    58   GLY  CA  
-          A    59   THR  CA  
-          A    60   ILE  CA  
-          A    61   GLY  CA  
-          A    62   HIS  CA  
-          A    63   VAL  CA  
-          A    64   ALA  CA  
-          A    65   HIS  CA  
-          A    66   GLY  CA  
-          A    67   LYS  CA  
-          A    68   SER  CA  
-          A    69   THR  CA  
-          A    70   VAL  CA  
-          A    71   VAL  CA  
+          A    1    MET  CA  
+          A    2    GLU  CA  
+          A    3    PHE  CA  
+          A    4    GLN  CA  
+          A    5    ALA  CA  
+          A    6    VAL  CA  
+          A    7    VAL  CA  
+          A    8    MET  CA  
+          A    9    ALA  CA  
+          A    10   VAL  CA  
+          A    11   GLY  CA  
+          A    12   GLY  CA  
+          A    26   PRO  CA  
+          A    27   LEU  CA  
+          A    28   LEU  CA  
+          A    29   PRO  CA  
+          A    30   VAL  CA  
+          A    31   GLY  CA  
+          A    32   ASN  CA  
+          A    33   LYS  CA  
+          A    34   PRO  CA  
+          A    35   LEU  CA  
+          A    36   ILE  CA  
+          A    37   TRP  CA  
+          A    38   TYR  CA  
+          A    39   PRO  CA  
+          A    40   LEU  CA  
+          A    41   ASN  CA  
+          A    42   LEU  CA  
+          A    43   LEU  CA  
+          A    44   GLU  CA  
+          A    45   ARG  CA  
+          A    46   VAL  CA  
+          A    47   GLY  CA  
+          A    48   PHE  CA  
+          A    49   GLU  CA  
+          A    50   GLU  CA  
+          A    51   VAL  CA  
+          A    52   ILE  CA  
+          A    53   VAL  CA  
+          A    54   VAL  CA  
+          A    55   THR  CA  
+          A    56   THR  CA  
+          A    61   LYS  CA  
+          A    62   ALA  CA  
+          A    63   LEU  CA  
+          A    64   CYS  CA  
+          A    65   ALA  CA  
+          A    66   GLU  CA  
+          A    67   PHE  CA  
+          A    68   LYS  CA  
+          A    69   MET  CA  
+          A    70   LYS  CA  
+          A    71   MET  CA  
           A    72   LYS  CA  
-          A    73   ALA  CA  
-          A    74   ILE  CA  
-          A    75   SER  CA  
-          A    76   GLY  CA  
-          A    77   VAL  CA  
-          A    78   HIS  CA  
-          A    79   THR  CA  
-          A    80   VAL  CA  
-          A    81   ARG  CA  
-          A    82   PHE  CA  
-          A    83   LYS  CA  
-          A    84   ASN  CA  
-          A    85   GLU  CA  
-          A    86   LEU  CA  
-          A    87   GLU  CA  
-          A    88   ARG  CA  
-          A    89   ASN  CA  
-          A    90   ILE  CA  
-          A    91   THR  CA  
-          A    92   ILE  CA  
-          A    93   LYS  CA  
-          A    94   LEU  CA  
-          A    95   GLY  CA  
-          A    96   TYR  CA  
-          A    97   ALA  CA  
-          A    98   ASN  CA  
-          A    99   ALA  CA  
-          A    100  LYS  CA  
-          A    101  ILE  CA  
-          A    102  TYR  CA  
-          A    103  LYS  CA  
+          A    73   PRO  CA  
+          A    74   ASP  CA  
+          A    75   ILE  CA  
+          A    76   VAL  CA  
+          A    77   CYS  CA  
+          A    78   ILE  CA  
+          A    79   PRO  CA  
+          A    80   ASP  CA  
+          A    81   ASP  CA  
+          A    82   ALA  CA  
+          A    83   ASP  CA  
+          A    84   MET  CA  
+          A    85   GLY  CA  
+          A    86   THR  CA  
+          A    87   ALA  CA  
+          A    88   ASP  CA  
+          A    89   SER  CA  
+          A    90   LEU  CA  
+          A    91   ARG  CA  
+          A    92   TYR  CA  
+          A    93   ILE  CA  
+          A    94   TYR  CA  
+          A    95   PRO  CA  
+          A    96   LYS  CA  
+          A    97   LEU  CA  
+          A    98   LYS  CA  
+          A    99   THR  CA  
+          A    100  ASP  CA  
+          A    101  VAL  CA  
+          A    102  LEU  CA  
+          A    103  VAL  CA  
           A    104  LEU  CA  
-          A    105  ASP  CA  
-          A    106  ASP  CA  
-          A    107  PRO  CA  
-          A    108  SER  CA  
-          A    109  CYS  CA  
-          A    110  PRO  CA  
-          A    111  ARG  CA  
-          A    112  PRO  CA  
-          A    113  GLU  CA  
-          A    114  CYS  CA  
-          A    115  TYR  CA  
-          A    116  ARG  CA  
-          A    117  SER  CA  
-          A    118  CYS  CA  
-          A    119  GLY  CA  
-          A    120  SER  CA  
-          A    121  SER  CA  
-          A    122  THR  CA  
-          A    123  PRO  CA  
-          A    124  ASP  CA  
-          A    125  GLU  CA  
-          A    126  PHE  CA  
-          A    127  PRO  CA  
-          A    128  THR  CA  
-          A    129  ASP  CA  
-          A    130  ILE  CA  
-          A    131  PRO  CA  
-          A    132  GLY  CA  
-          A    133  THR  CA  
+          A    105  SER  CA  
+          A    106  CYS  CA  
+          A    107  ASP  CA  
+          A    108  LEU  CA  
+          A    109  ILE  CA  
+          A    110  THR  CA  
+          A    111  ASP  CA  
+          A    112  VAL  CA  
+          A    113  ALA  CA  
+          A    114  LEU  CA  
+          A    115  HIS  CA  
+          A    116  GLU  CA  
+          A    117  VAL  CA  
+          A    118  VAL  CA  
+          A    119  ASP  CA  
+          A    120  LEU  CA  
+          A    121  PHE  CA  
+          A    122  ARG  CA  
+          A    123  ALA  CA  
+          A    124  TYR  CA  
+          A    125  ASP  CA  
+          A    126  ALA  CA  
+          A    127  SER  CA  
+          A    128  LEU  CA  
+          A    129  ALA  CA  
+          A    130  MET  CA  
+          A    131  LEU  CA  
+          A    132  MET  CA  
+          A    133  ARG  CA  
           A    134  LYS  CA  
-          A    135  GLY  CA  
-          A    136  ASN  CA  
-          A    137  PHE  CA  
-          A    138  LYS  CA  
-          A    139  LEU  CA  
-          A    140  VAL  CA  
-          A    141  ARG  CA  
-          A    142  HIS  CA  
-          A    143  VAL  CA  
-          A    144  SER  CA  
-          A    145  PHE  CA  
-          A    146  VAL  CA  
-          A    147  ASP  CA  
-          A    148  CYS  CA  
-          A    149  PRO  CA  
-          A    150  GLY  CA  
-          A    151  HIS  CA  
-          A    152  ASP  CA  
-          A    153  ILE  CA  
-          A    154  LEU  CA  
-          A    155  MET  CA  
-          A    156  ALA  CA  
-          A    157  THR  CA  
-          A    158  MET  CA  
-          A    159  LEU  CA  
-          A    160  ASN  CA  
-          A    161  GLY  CA  
-          A    162  ALA  CA  
-          A    163  ALA  CA  
-          A    164  VAL  CA  
-          A    165  MET  CA  
-          A    166  ASP  CA  
-          A    167  ALA  CA  
-          A    168  ALA  CA  
-          A    169  LEU  CA  
-          A    170  LEU  CA  
-          A    171  LEU  CA  
-          A    172  ILE  CA  
-          A    173  ALA  CA  
-          A    174  GLY  CA  
-          A    175  ASN  CA  
-          A    176  GLU  CA  
-          A    177  SER  CA  
-          A    178  CYS  CA  
-          A    179  PRO  CA  
-          A    180  GLN  CA  
-          A    181  PRO  CA  
-          A    182  GLN  CA  
-          A    183  THR  CA  
-          A    184  SER  CA  
-          A    185  GLU  CA  
-          A    186  HIS  CA  
+          A    155  ARG  CA  
+          A    156  ASP  CA  
+          A    157  PHE  CA  
+          A    158  ILE  CA  
+          A    159  GLY  CA  
+          A    160  VAL  CA  
+          A    161  ASP  CA  
+          A    162  SER  CA  
+          A    163  THR  CA  
+          A    164  GLY  CA  
+          A    165  LYS  CA  
+          A    166  ARG  CA  
+          A    167  LEU  CA  
+          A    168  LEU  CA  
+          A    169  PHE  CA  
+          A    170  MET  CA  
+          A    171  ALA  CA  
+          A    172  ASN  CA  
+          A    173  GLU  CA  
+          A    174  ALA  CA  
+          A    175  ASP  CA  
+          A    176  LEU  CA  
+          A    177  ASP  CA  
+          A    178  GLU  CA  
+          A    179  GLU  CA  
+          A    180  LEU  CA  
+          A    181  VAL  CA  
+          A    182  ILE  CA  
+          A    183  LYS  CA  
+          A    184  GLY  CA  
+          A    185  SER  CA  
+          A    186  ILE  CA  
           A    187  LEU  CA  
-          A    188  ALA  CA  
-          A    189  ALA  CA  
-          A    190  ILE  CA  
-          A    191  GLU  CA  
-          A    192  ILE  CA  
-          A    193  MET  CA  
-          A    194  LYS  CA  
-          A    195  LEU  CA  
-          A    196  LYS  CA  
-          A    197  HIS  CA  
-          A    198  ILE  CA  
+          A    188  GLN  CA  
+          A    189  LYS  CA  
+          A    190  HIS  CA  
+          A    191  PRO  CA  
+          A    192  ARG  CA  
+          A    193  ILE  CA  
+          A    194  ARG  CA  
+          A    195  PHE  CA  
+          A    196  HIS  CA  
+          A    197  THR  CA  
+          A    198  GLY  CA  
           A    199  LEU  CA  
-          A    200  ILE  CA  
-          A    201  LEU  CA  
-          A    202  GLN  CA  
-          A    203  ASN  CA  
-          A    204  LYS  CA  
-          A    205  ILE  CA  
-          A    206  ASP  CA  
+          A    200  VAL  CA  
+          A    201  ASP  CA  
+          A    202  ALA  CA  
+          A    203  HIS  CA  
+          A    204  LEU  CA  
+          A    205  TYR  CA  
+          A    206  CYS  CA  
           A    207  LEU  CA  
-          A    208  VAL  CA  
+          A    208  LYS  CA  
           A    209  LYS  CA  
-          A    210  GLU  CA  
-          A    211  SER  CA  
-          A    212  GLN  CA  
-          A    213  ALA  CA  
-          A    214  LYS  CA  
-          A    215  GLU  CA  
-          A    216  GLN  CA  
-          A    217  TYR  CA  
-          A    218  GLU  CA  
-          A    219  GLN  CA  
-          A    220  ILE  CA  
-          A    221  LEU  CA  
-          A    222  ALA  CA  
-          A    223  PHE  CA  
-          A    224  VAL  CA  
-          A    225  GLN  CA  
-          A    226  GLY  CA  
-          A    227  THR  CA  
-          A    228  VAL  CA  
-          A    229  ALA  CA  
-          A    230  GLU  CA  
-          A    231  GLY  CA  
-          A    232  ALA  CA  
-          A    233  PRO  CA  
-          A    234  ILE  CA  
-          A    235  ILE  CA  
-          A    236  PRO  CA  
-          A    237  ILE  CA  
-          A    238  SER  CA  
-          A    239  ALA  CA  
-          A    240  GLN  CA  
-          A    241  LEU  CA  
-          A    242  LYS  CA  
-          A    243  TYR  CA  
-          A    244  ASN  CA  
-          A    245  ILE  CA  
-          A    246  GLU  CA  
-          A    247  VAL  CA  
-          A    248  VAL  CA  
-          A    249  CYS  CA  
-          A    250  GLU  CA  
-          A    251  TYR  CA  
-          A    252  ILE  CA  
-          A    253  VAL  CA  
-          A    254  LYS  CA  
-          A    255  LYS  CA  
-          A    256  ILE  CA  
-          A    257  PRO  CA  
-          A    258  VAL  CA  
-          A    259  PRO  CA  
-          A    260  PRO  CA  
-          A    261  ARG  CA  
+          A    210  TYR  CA  
+          A    211  ILE  CA  
+          A    212  VAL  CA  
+          A    213  ASP  CA  
+          A    214  PHE  CA  
+          A    215  LEU  CA  
+          A    216  MET  CA  
+          A    217  GLU  CA  
+          A    218  ASN  CA  
+          A    219  GLY  CA  
+          A    220  SER  CA  
+          A    221  ILE  CA  
+          A    222  THR  CA  
+          A    223  SER  CA  
+          A    224  ILE  CA  
+          A    225  ARG  CA  
+          A    226  SER  CA  
+          A    227  GLU  CA  
+          A    228  LEU  CA  
+          A    229  ILE  CA  
+          A    230  PRO  CA  
+          A    231  TYR  CA  
+          A    232  LEU  CA  
+          A    233  VAL  CA  
+          A    234  ARG  CA  
+          A    235  LYS  CA  
+          A    241  SER  CA  
+          A    242  SER  CA  
+          A    243  GLN  CA  
+          A    260  SER  CA  
+          A    261  LEU  CA  
           A    262  ASP  CA  
-          A    263  PHE  CA  
-          A    264  THR  CA  
+          A    263  ILE  CA  
+          A    264  TYR  CA  
           A    265  SER  CA  
-          A    266  GLU  CA  
-          A    267  PRO  CA  
-          A    268  ARG  CA  
-          A    269  LEU  CA  
-          A    270  ILE  CA  
-          A    271  VAL  CA  
-          A    272  ILE  CA  
-          A    273  ARG  CA  
-          A    274  SER  CA  
-          A    275  PHE  CA  
-          A    276  ASP  CA  
-          A    277  VAL  CA  
-          A    278  ASN  CA  
-          A    279  LYS  CA  
-          A    280  PRO  CA  
-          A    281  GLY  CA  
-          A    282  CYS  CA  
-          A    283  GLU  CA  
-          A    284  VAL  CA  
-          A    285  ASP  CA  
-          A    286  ASP  CA  
-          A    287  LEU  CA  
-          A    288  LYS  CA  
-          A    289  GLY  CA  
-          A    290  GLY  CA  
-          A    291  VAL  CA  
-          A    292  ALA  CA  
-          A    293  GLY  CA  
-          A    294  GLY  CA  
-          A    295  SER  CA  
-          A    296  ILE  CA  
-          A    297  LEU  CA  
-          A    298  LYS  CA  
-          A    299  GLY  CA  
-          A    300  VAL  CA  
-          A    301  LEU  CA  
-          A    302  LYS  CA  
-          A    303  VAL  CA  
-          A    304  GLY  CA  
-          A    305  GLN  CA  
-          A    306  GLU  CA  
-          A    307  ILE  CA  
-          A    308  GLU  CA  
-          A    309  VAL  CA  
-          A    310  ARG  CA  
-          A    311  PRO  CA  
-          A    312  GLY  CA  
-          A    313  ILE  CA  
-          A    314  VAL  CA  
-          A    315  SER  CA  
-          A    316  LYS  CA  
-          A    317  ASP  CA  
-          A    318  SER  CA  
-          A    319  GLU  CA  
-          A    320  GLY  CA  
-          A    321  LYS  CA  
-          A    322  LEU  CA  
-          A    323  MET  CA  
-          A    324  CYS  CA  
-          A    325  LYS  CA  
-          A    326  PRO  CA  
-          A    327  ILE  CA  
-          A    328  PHE  CA  
-          A    329  SER  CA  
-          A    330  LYS  CA  
-          A    331  ILE  CA  
-          A    332  VAL  CA  
-          A    333  SER  CA  
-          A    334  LEU  CA  
-          A    335  PHE  CA  
-          A    336  ALA  CA  
-          A    337  GLU  CA  
-          A    338  HIS  CA  
-          A    339  ASN  CA  
-          A    340  ASP  CA  
-          A    341  LEU  CA  
-          A    342  GLN  CA  
-          A    343  TYR  CA  
-          A    344  ALA  CA  
-          A    345  ALA  CA  
-          A    346  PRO  CA  
-          A    347  GLY  CA  
-          A    348  GLY  CA  
-          A    349  LEU  CA  
-          A    350  ILE  CA  
-          A    351  GLY  CA  
-          A    352  VAL  CA  
-          A    353  GLY  CA  
-          A    354  THR  CA  
-          A    355  LYS  CA  
-          A    356  ILE  CA  
-          A    357  ASP  CA  
-          A    358  PRO  CA  
-          A    359  THR  CA  
-          A    360  LEU  CA  
-          A    361  CYS  CA  
-          A    362  ARG  CA  
-          A    363  ALA  CA  
-          A    364  ASP  CA  
-          A    365  ARG  CA  
-          A    366  MET  CA  
-          A    367  VAL  CA  
-          A    368  GLY  CA  
-          A    369  GLN  CA  
-          A    370  VAL  CA  
-          A    371  LEU  CA  
-          A    372  GLY  CA  
-          A    373  ALA  CA  
-          A    374  VAL  CA  
-          A    375  GLY  CA  
-          A    376  ALA  CA  
-          A    377  LEU  CA  
-          A    378  PRO  CA  
-          A    379  GLU  CA  
-          A    380  ILE  CA  
-          A    381  PHE  CA  
-          A    382  THR  CA  
-          A    383  GLU  CA  
-          A    384  LEU  CA  
-          A    385  GLU  CA  
-          A    386  ILE  CA  
-          A    387  SER  CA  
-          A    388  TYR  CA  
-          A    389  PHE  CA  
-          A    390  LEU  CA  
-          A    391  LEU  CA  
-          A    392  ARG  CA  
-          A    393  ARG  CA  
-          A    394  LEU  CA  
-          A    395  LEU  CA  
-          A    396  GLY  CA  
-          A    397  VAL  CA  
-          A    398  ARG  CA  
-          A    399  THR  CA  
-          A    400  GLU  CA  
-          A    401  GLY  CA  
-          A    402  ASP  CA  
-          A    403  LYS  CA  
-          A    404  LYS  CA  
-          A    405  ALA  CA  
-          A    406  ALA  CA  
-          A    407  LYS  CA  
-          A    408  VAL  CA  
-          A    409  GLN  CA  
-          A    410  LYS  CA  
-          A    411  LEU  CA  
-          A    412  SER  CA  
-          A    413  LYS  CA  
-          A    414  ASN  CA  
-          A    415  GLU  CA  
-          A    416  VAL  CA  
-          A    417  LEU  CA  
-          A    418  MET  CA  
-          A    419  VAL  CA  
-          A    420  ASN  CA  
-          A    421  ILE  CA  
-          A    422  GLY  CA  
-          A    423  SER  CA  
-          A    424  LEU  CA  
-          A    425  SER  CA  
-          A    426  THR  CA  
-          A    427  GLY  CA  
-          A    428  GLY  CA  
-          A    429  ARG  CA  
-          A    430  VAL  CA  
-          A    431  SER  CA  
-          A    432  ALA  CA  
-          A    433  VAL  CA  
-          A    434  LYS  CA  
-          A    435  ALA  CA  
-          A    436  ASP  CA  
-          A    437  LEU  CA  
-          A    438  GLY  CA  
-          A    439  LYS  CA  
-          A    440  ILE  CA  
-          A    441  VAL  CA  
-          A    442  LEU  CA  
-          A    443  THR  CA  
-          A    444  ASN  CA  
-          A    445  PRO  CA  
-          A    446  VAL  CA  
-          A    447  CYS  CA  
-          A    448  THR  CA  
-          A    449  GLU  CA  
-          A    450  VAL  CA  
-          A    451  GLY  CA  
-          A    452  GLU  CA  
-          A    453  LYS  CA  
-          A    454  ILE  CA  
-          A    455  ALA  CA  
-          A    456  LEU  CA  
-          A    457  SER  CA  
-          A    458  ARG  CA  
-          A    459  ARG  CA  
-          A    460  VAL  CA  
-          A    461  GLU  CA  
-          A    462  LYS  CA  
-          A    463  HIS  CA  
-          A    464  TRP  CA  
-          A    465  ARG  CA  
-          A    466  LEU  CA  
-          A    467  ILE  CA  
-          A    468  GLY  CA  
-          A    469  TRP  CA  
-          A    470  GLY  CA  
-          A    471  GLN  CA  
-          A    472  ILE  CA  
-          A    473  ARG  CA  
+          A    266  PHE  CA  
+          A    267  ILE  CA  
+          A    276  ALA  CA  
+          A    277  PRO  CA  
+          A    278  TYR  CA  
+          A    279  ASP  CA  
+          A    280  ALA  CA  
+          A    281  CYS  CA  
+          A    282  TRP  CA  
+          A    283  ASN  CA  
+          A    284  ALA  CA  
+          A    285  CYS  CA  
+          A    286  ARG  CA  
+          A    287  GLY  CA  
+          A    288  ASP  CA  
+          A    289  ARG  CA  
+          A    290  TRP  CA  
+          A    291  GLU  CA  
+          A    292  ASP  CA  
+          A    1039 GLN  CA  
+          A    1040 ALA  CA  
+          A    1041 THR  CA  
+          A    1042 ILE  CA  
+          A    1043 ASN  CA  
+          A    1044 ILE  CA  
+          A    1045 GLY  CA  
+          A    1046 THR  CA  
+          A    1047 ILE  CA  
+          A    1048 GLY  CA  
+          A    1049 HIS  CA  
+          A    1050 VAL  CA  
+          A    1051 ALA  CA  
+          A    1052 HIS  CA  
+          A    1053 GLY  CA  
+          A    1054 LYS  CA  
+          A    1055 SER  CA  
+          A    1056 THR  CA  
+          A    1057 VAL  CA  
+          A    1058 VAL  CA  
+          A    1059 LYS  CA  
+          A    1060 ALA  CA  
+          A    1061 ILE  CA  
+          A    1062 SER  CA  
+          A    1063 GLY  CA  
+          A    1064 VAL  CA  
+          A    1065 HIS  CA  
+          A    1066 THR  CA  
+          A    1067 VAL  CA  
+          A    1068 ARG  CA  
+          A    1069 PHE  CA  
+          A    1070 LYS  CA  
+          A    1071 ASN  CA  
+          A    1072 GLU  CA  
+          A    1073 LEU  CA  
+          A    1074 GLU  CA  
+          A    1075 ARG  CA  
+          A    1076 ASN  CA  
+          A    1077 ILE  CA  
+          A    1078 THR  CA  
+          A    1079 ILE  CA  
+          A    1080 LYS  CA  
+          A    1081 LEU  CA  
+          A    1082 GLY  CA  
+          A    1083 TYR  CA  
+          A    1084 ALA  CA  
+          A    1085 ASN  CA  
+          A    1086 ALA  CA  
+          A    1087 LYS  CA  
+          A    1088 ILE  CA  
+          A    1089 TYR  CA  
+          A    1090 LYS  CA  
+          A    1091 LEU  CA  
+          A    1092 ASP  CA  
+          A    1093 ASP  CA  
+          A    1094 PRO  CA  
+          A    1095 SER  CA  
+          A    1096 CYS  CA  
+          A    1097 PRO  CA  
+          A    1098 ARG  CA  
+          A    1099 PRO  CA  
+          A    1100 GLU  CA  
+          A    1101 CYS  CA  
+          A    1102 TYR  CA  
+          A    1103 ARG  CA  
+          A    1104 SER  CA  
+          A    1105 CYS  CA  
+          A    1106 GLY  CA  
+          A    1107 SER  CA  
+          A    1108 SER  CA  
+          A    1109 THR  CA  
+          A    1110 PRO  CA  
+          A    1111 ASP  CA  
+          A    1112 GLU  CA  
+          A    1113 PHE  CA  
+          A    1114 PRO  CA  
+          A    1115 THR  CA  
+          A    1116 ASP  CA  
+          A    1117 ILE  CA  
+          A    1118 PRO  CA  
+          A    1119 GLY  CA  
+          A    1120 THR  CA  
+          A    1121 LYS  CA  
+          A    1122 GLY  CA  
+          A    1123 ASN  CA  
+          A    1124 PHE  CA  
+          A    1125 LYS  CA  
+          A    1126 LEU  CA  
+          A    1127 VAL  CA  
+          A    1128 ARG  CA  
+          A    1129 HIS  CA  
+          A    1130 VAL  CA  
+          A    1131 SER  CA  
+          A    1132 PHE  CA  
+          A    1133 VAL  CA  
+          A    1134 ASP  CA  
+          A    1135 CYS  CA  
+          A    1136 PRO  CA  
+          A    1137 GLY  CA  
+          A    1138 HIS  CA  
+          A    1139 ASP  CA  
+          A    1140 ILE  CA  
+          A    1141 LEU  CA  
+          A    1142 MET  CA  
+          A    1143 ALA  CA  
+          A    1144 THR  CA  
+          A    1145 MET  CA  
+          A    1146 LEU  CA  
+          A    1147 ASN  CA  
+          A    1148 GLY  CA  
+          A    1149 ALA  CA  
+          A    1150 ALA  CA  
+          A    1151 VAL  CA  
+          A    1152 MET  CA  
+          A    1153 ASP  CA  
+          A    1154 ALA  CA  
+          A    1155 ALA  CA  
+          A    1156 LEU  CA  
+          A    1157 LEU  CA  
+          A    1158 LEU  CA  
+          A    1159 ILE  CA  
+          A    1160 ALA  CA  
+          A    1161 GLY  CA  
+          A    1162 ASN  CA  
+          A    1163 GLU  CA  
+          A    1164 SER  CA  
+          A    1165 CYS  CA  
+          A    1166 PRO  CA  
+          A    1167 GLN  CA  
+          A    1168 PRO  CA  
+          A    1169 GLN  CA  
+          A    1170 THR  CA  
+          A    1171 SER  CA  
+          A    1172 GLU  CA  
+          A    1173 HIS  CA  
+          A    1174 LEU  CA  
+          A    1175 ALA  CA  
+          A    1176 ALA  CA  
+          A    1177 ILE  CA  
+          A    1178 GLU  CA  
+          A    1179 ILE  CA  
+          A    1180 MET  CA  
+          A    1181 LYS  CA  
+          A    1182 LEU  CA  
+          A    1183 LYS  CA  
+          A    1184 HIS  CA  
+          A    1185 ILE  CA  
+          A    1186 LEU  CA  
+          A    1187 ILE  CA  
+          A    1188 LEU  CA  
+          A    1189 GLN  CA  
+          A    1190 ASN  CA  
+          A    1191 LYS  CA  
+          A    1192 ILE  CA  
+          A    1193 ASP  CA  
+          A    1194 LEU  CA  
+          A    1195 VAL  CA  
+          A    1196 LYS  CA  
+          A    1197 GLU  CA  
+          A    1198 SER  CA  
+          A    1199 GLN  CA  
+          A    1200 ALA  CA  
+          A    1201 LYS  CA  
+          A    1202 GLU  CA  
+          A    1203 GLN  CA  
+          A    1204 TYR  CA  
+          A    1205 GLU  CA  
+          A    1206 GLN  CA  
+          A    1207 ILE  CA  
+          A    1208 LEU  CA  
+          A    1209 ALA  CA  
+          A    1210 PHE  CA  
+          A    1211 VAL  CA  
+          A    1212 GLN  CA  
+          A    1213 GLY  CA  
+          A    1214 THR  CA  
+          A    1215 VAL  CA  
+          A    1216 ALA  CA  
+          A    1217 GLU  CA  
+          A    1218 GLY  CA  
+          A    1219 ALA  CA  
+          A    1220 PRO  CA  
+          A    1221 ILE  CA  
+          A    1222 ILE  CA  
+          A    1223 PRO  CA  
+          A    1224 ILE  CA  
+          A    1225 SER  CA  
+          A    1226 ALA  CA  
+          A    1227 GLN  CA  
+          A    1228 LEU  CA  
+          A    1229 LYS  CA  
+          A    1230 TYR  CA  
+          A    1231 ASN  CA  
+          A    1232 ILE  CA  
+          A    1233 GLU  CA  
+          A    1234 VAL  CA  
+          A    1235 VAL  CA  
+          A    1236 CYS  CA  
+          A    1237 GLU  CA  
+          A    1238 TYR  CA  
+          A    1239 ILE  CA  
+          A    1240 VAL  CA  
+          A    1241 LYS  CA  
+          A    1242 LYS  CA  
+          A    1243 ILE  CA  
+          A    1244 PRO  CA  
+          A    1245 VAL  CA  
+          A    1246 PRO  CA  
+          A    1247 PRO  CA  
+          A    1248 ARG  CA  
+          A    1249 ASP  CA  
+          A    1250 PHE  CA  
+          A    1251 THR  CA  
+          A    1252 SER  CA  
+          A    1253 GLU  CA  
+          A    1254 PRO  CA  
+          A    1255 ARG  CA  
+          A    1256 LEU  CA  
+          A    1257 ILE  CA  
+          A    1258 VAL  CA  
+          A    1259 ILE  CA  
+          A    1260 ARG  CA  
+          A    1261 SER  CA  
+          A    1262 PHE  CA  
+          A    1263 ASP  CA  
+          A    1264 VAL  CA  
+          A    1265 ASN  CA  
+          A    1266 LYS  CA  
+          A    1267 PRO  CA  
+          A    1268 GLY  CA  
+          A    1269 CYS  CA  
+          A    1270 GLU  CA  
+          A    1271 VAL  CA  
+          A    1272 ASP  CA  
+          A    1273 ASP  CA  
+          A    1274 LEU  CA  
+          A    1275 LYS  CA  
+          A    1276 GLY  CA  
+          A    1277 GLY  CA  
+          A    1278 VAL  CA  
+          A    1279 ALA  CA  
+          A    1280 GLY  CA  
+          A    1281 GLY  CA  
+          A    1282 SER  CA  
+          A    1283 ILE  CA  
+          A    1284 LEU  CA  
+          A    1285 LYS  CA  
+          A    1286 GLY  CA  
+          A    1287 VAL  CA  
+          A    1288 LEU  CA  
+          A    1289 LYS  CA  
+          A    1290 VAL  CA  
+          A    1291 GLY  CA  
+          A    1292 GLN  CA  
+          A    1293 GLU  CA  
+          A    1294 ILE  CA  
+          A    1295 GLU  CA  
+          A    1296 VAL  CA  
+          A    1297 ARG  CA  
+          A    1298 PRO  CA  
+          A    1299 GLY  CA  
+          A    1300 ILE  CA  
+          A    1301 VAL  CA  
+          A    1302 SER  CA  
+          A    1303 LYS  CA  
+          A    1304 ASP  CA  
+          A    1305 SER  CA  
+          A    1306 GLU  CA  
+          A    1307 GLY  CA  
+          A    1308 LYS  CA  
+          A    1309 LEU  CA  
+          A    1310 MET  CA  
+          A    1311 CYS  CA  
+          A    1312 LYS  CA  
+          A    1313 PRO  CA  
+          A    1314 ILE  CA  
+          A    1315 PHE  CA  
+          A    1316 SER  CA  
+          A    1317 LYS  CA  
+          A    1318 ILE  CA  
+          A    1319 VAL  CA  
+          A    1320 SER  CA  
+          A    1321 LEU  CA  
+          A    1322 PHE  CA  
+          A    1323 ALA  CA  
+          A    1324 GLU  CA  
+          A    1325 HIS  CA  
+          A    1326 ASN  CA  
+          A    1327 ASP  CA  
+          A    1328 LEU  CA  
+          A    1329 GLN  CA  
+          A    1330 TYR  CA  
+          A    1331 ALA  CA  
+          A    1332 ALA  CA  
+          A    1333 PRO  CA  
+          A    1334 GLY  CA  
+          A    1335 GLY  CA  
+          A    1336 LEU  CA  
+          A    1337 ILE  CA  
+          A    1338 GLY  CA  
+          A    1339 VAL  CA  
+          A    1340 GLY  CA  
+          A    1341 THR  CA  
+          A    1342 LYS  CA  
+          A    1343 ILE  CA  
+          A    1344 ASP  CA  
+          A    1345 PRO  CA  
+          A    1346 THR  CA  
+          A    1347 LEU  CA  
+          A    1348 CYS  CA  
+          A    1349 ARG  CA  
+          A    1350 ALA  CA  
+          A    1351 ASP  CA  
+          A    1352 ARG  CA  
+          A    1353 MET  CA  
+          A    1354 VAL  CA  
+          A    1355 GLY  CA  
+          A    1356 GLN  CA  
+          A    1357 VAL  CA  
+          A    1358 LEU  CA  
+          A    1359 GLY  CA  
+          A    1360 ALA  CA  
+          A    1361 VAL  CA  
+          A    1362 GLY  CA  
+          A    1363 ALA  CA  
+          A    1364 LEU  CA  
+          A    1365 PRO  CA  
+          A    1366 GLU  CA  
+          A    1367 ILE  CA  
+          A    1368 PHE  CA  
+          A    1369 THR  CA  
+          A    1370 GLU  CA  
+          A    1371 LEU  CA  
+          A    1372 GLU  CA  
+          A    1373 ILE  CA  
+          A    1374 SER  CA  
+          A    1375 TYR  CA  
+          A    1376 PHE  CA  
+          A    1377 LEU  CA  
+          A    1378 LEU  CA  
+          A    1379 ARG  CA  
+          A    1380 ARG  CA  
+          A    1381 LEU  CA  
+          A    1382 LEU  CA  
+          A    1383 GLY  CA  
+          A    1384 VAL  CA  
+          A    1385 ARG  CA  
+          A    1386 THR  CA  
+          A    1387 GLU  CA  
+          A    1388 GLY  CA  
+          A    1389 ASP  CA  
+          A    1390 LYS  CA  
+          A    1391 LYS  CA  
+          A    1392 ALA  CA  
+          A    1393 ALA  CA  
+          A    1394 LYS  CA  
+          A    1395 VAL  CA  
+          A    1396 GLN  CA  
+          A    1397 LYS  CA  
+          A    1398 LEU  CA  
+          A    1399 SER  CA  
+          A    1400 LYS  CA  
+          A    1401 ASN  CA  
+          A    1402 GLU  CA  
+          A    1403 VAL  CA  
+          A    1404 LEU  CA  
+          A    1405 MET  CA  
+          A    1406 VAL  CA  
+          A    1407 ASN  CA  
+          A    1408 ILE  CA  
+          A    1409 GLY  CA  
+          A    1410 SER  CA  
+          A    1411 LEU  CA  
+          A    1412 SER  CA  
+          A    1413 THR  CA  
+          A    1414 GLY  CA  
+          A    1415 GLY  CA  
+          A    1416 ARG  CA  
+          A    1417 VAL  CA  
+          A    1418 SER  CA  
+          A    1419 ALA  CA  
+          A    1420 VAL  CA  
+          A    1421 LYS  CA  
+          A    1422 ALA  CA  
+          A    1423 ASP  CA  
+          A    1424 LEU  CA  
+          A    1425 GLY  CA  
+          A    1426 LYS  CA  
+          A    1427 ILE  CA  
+          A    1428 VAL  CA  
+          A    1429 LEU  CA  
+          A    1430 THR  CA  
+          A    1431 ASN  CA  
+          A    1432 PRO  CA  
+          A    1433 VAL  CA  
+          A    1434 CYS  CA  
+          A    1435 THR  CA  
+          A    1436 GLU  CA  
+          A    1437 VAL  CA  
+          A    1438 GLY  CA  
+          A    1439 GLU  CA  
+          A    1440 LYS  CA  
+          A    1441 ILE  CA  
+          A    1442 ALA  CA  
+          A    1443 LEU  CA  
+          A    1444 SER  CA  
+          A    1445 ARG  CA  
+          A    1446 ARG  CA  
+          A    1447 VAL  CA  
+          A    1448 GLU  CA  
+          A    1449 LYS  CA  
+          A    1450 HIS  CA  
+          A    1451 TRP  CA  
+          A    1452 ARG  CA  
+          A    1453 LEU  CA  
+          A    1454 ILE  CA  
+          A    1455 GLY  CA  
+          A    1456 TRP  CA  
+          A    1457 GLY  CA  
+          A    1458 GLN  CA  
+          A    1459 ILE  CA  
+          A    1460 ARG  CA  
  set-j-atoms
           B    340  VAL  CA  
           B    341  HIS  CA  
@@ -15244,238 +15474,12 @@ FREE MOLECULES INTERNAL ENERGY = 0
           B    410  ARG  CA  
           B    411  GLN  CA  
           B    412  ARG  CA  
-          B    1    MET  CA  
-          B    2    GLU  CA  
-          B    3    PHE  CA  
-          B    4    GLN  CA  
-          B    5    ALA  CA  
-          B    6    VAL  CA  
-          B    7    VAL  CA  
-          B    8    MET  CA  
-          B    9    ALA  CA  
-          B    10   VAL  CA  
-          B    11   GLY  CA  
-          B    12   GLY  CA  
-          B    26   PRO  CA  
-          B    27   LEU  CA  
-          B    28   LEU  CA  
-          B    29   PRO  CA  
-          B    30   VAL  CA  
-          B    31   GLY  CA  
-          B    32   ASN  CA  
-          B    33   LYS  CA  
-          B    34   PRO  CA  
-          B    35   LEU  CA  
-          B    36   ILE  CA  
-          B    37   TRP  CA  
-          B    38   TYR  CA  
-          B    39   PRO  CA  
-          B    40   LEU  CA  
-          B    41   ASN  CA  
-          B    42   LEU  CA  
-          B    43   LEU  CA  
-          B    44   GLU  CA  
-          B    45   ARG  CA  
-          B    46   VAL  CA  
-          B    47   GLY  CA  
-          B    48   PHE  CA  
-          B    49   GLU  CA  
-          B    50   GLU  CA  
-          B    51   VAL  CA  
-          B    52   ILE  CA  
-          B    53   VAL  CA  
-          B    54   VAL  CA  
-          B    55   THR  CA  
-          B    56   THR  CA  
-          B    61   LYS  CA  
-          B    62   ALA  CA  
-          B    63   LEU  CA  
-          B    64   CYS  CA  
-          B    65   ALA  CA  
-          B    66   GLU  CA  
-          B    67   PHE  CA  
-          B    68   LYS  CA  
-          B    69   MET  CA  
-          B    70   LYS  CA  
-          B    71   MET  CA  
-          B    72   LYS  CA  
-          B    73   PRO  CA  
-          B    74   ASP  CA  
-          B    75   ILE  CA  
-          B    76   VAL  CA  
-          B    77   CYS  CA  
-          B    78   ILE  CA  
-          B    79   PRO  CA  
-          B    80   ASP  CA  
-          B    81   ASP  CA  
-          B    82   ALA  CA  
-          B    83   ASP  CA  
-          B    84   MET  CA  
-          B    85   GLY  CA  
-          B    86   THR  CA  
-          B    87   ALA  CA  
-          B    88   ASP  CA  
-          B    89   SER  CA  
-          B    90   LEU  CA  
-          B    91   ARG  CA  
-          B    92   TYR  CA  
-          B    93   ILE  CA  
-          B    94   TYR  CA  
-          B    95   PRO  CA  
-          B    96   LYS  CA  
-          B    97   LEU  CA  
-          B    98   LYS  CA  
-          B    99   THR  CA  
-          B    100  ASP  CA  
-          B    101  VAL  CA  
-          B    102  LEU  CA  
-          B    103  VAL  CA  
-          B    104  LEU  CA  
-          B    105  SER  CA  
-          B    106  CYS  CA  
-          B    107  ASP  CA  
-          B    108  LEU  CA  
-          B    109  ILE  CA  
-          B    110  THR  CA  
-          B    111  ASP  CA  
-          B    112  VAL  CA  
-          B    113  ALA  CA  
-          B    114  LEU  CA  
-          B    115  HIS  CA  
-          B    116  GLU  CA  
-          B    117  VAL  CA  
-          B    118  VAL  CA  
-          B    119  ASP  CA  
-          B    120  LEU  CA  
-          B    121  PHE  CA  
-          B    122  ARG  CA  
-          B    123  ALA  CA  
-          B    124  TYR  CA  
-          B    125  ASP  CA  
-          B    126  ALA  CA  
-          B    127  SER  CA  
-          B    128  LEU  CA  
-          B    129  ALA  CA  
-          B    130  MET  CA  
-          B    131  LEU  CA  
-          B    132  MET  CA  
-          B    133  ARG  CA  
-          B    134  LYS  CA  
-          B    155  ARG  CA  
-          B    156  ASP  CA  
-          B    157  PHE  CA  
-          B    158  ILE  CA  
-          B    159  GLY  CA  
-          B    160  VAL  CA  
-          B    161  ASP  CA  
-          B    162  SER  CA  
-          B    163  THR  CA  
-          B    164  GLY  CA  
-          B    165  LYS  CA  
-          B    166  ARG  CA  
-          B    167  LEU  CA  
-          B    168  LEU  CA  
-          B    169  PHE  CA  
-          B    170  MET  CA  
-          B    171  ALA  CA  
-          B    172  ASN  CA  
-          B    173  GLU  CA  
-          B    174  ALA  CA  
-          B    175  ASP  CA  
-          B    176  LEU  CA  
-          B    177  ASP  CA  
-          B    178  GLU  CA  
-          B    179  GLU  CA  
-          B    180  LEU  CA  
-          B    181  VAL  CA  
-          B    182  ILE  CA  
-          B    183  LYS  CA  
-          B    184  GLY  CA  
-          B    185  SER  CA  
-          B    186  ILE  CA  
-          B    187  LEU  CA  
-          B    188  GLN  CA  
-          B    189  LYS  CA  
-          B    190  HIS  CA  
-          B    191  PRO  CA  
-          B    192  ARG  CA  
-          B    193  ILE  CA  
-          B    194  ARG  CA  
-          B    195  PHE  CA  
-          B    196  HIS  CA  
-          B    197  THR  CA  
-          B    198  GLY  CA  
-          B    199  LEU  CA  
-          B    200  VAL  CA  
-          B    201  ASP  CA  
-          B    202  ALA  CA  
-          B    203  HIS  CA  
-          B    204  LEU  CA  
-          B    205  TYR  CA  
-          B    206  CYS  CA  
-          B    207  LEU  CA  
-          B    208  LYS  CA  
-          B    209  LYS  CA  
-          B    210  TYR  CA  
-          B    211  ILE  CA  
-          B    212  VAL  CA  
-          B    213  ASP  CA  
-          B    214  PHE  CA  
-          B    215  LEU  CA  
-          B    216  MET  CA  
-          B    217  GLU  CA  
-          B    218  ASN  CA  
-          B    219  GLY  CA  
-          B    220  SER  CA  
-          B    221  ILE  CA  
-          B    222  THR  CA  
-          B    223  SER  CA  
-          B    224  ILE  CA  
-          B    225  ARG  CA  
-          B    226  SER  CA  
-          B    227  GLU  CA  
-          B    228  LEU  CA  
-          B    229  ILE  CA  
-          B    230  PRO  CA  
-          B    231  TYR  CA  
-          B    232  LEU  CA  
-          B    233  VAL  CA  
-          B    234  ARG  CA  
-          B    235  LYS  CA  
-          B    241  SER  CA  
-          B    242  SER  CA  
-          B    243  GLN  CA  
-          B    260  SER  CA  
-          B    261  LEU  CA  
-          B    262  ASP  CA  
-          B    263  ILE  CA  
-          B    264  TYR  CA  
-          B    265  SER  CA  
-          B    266  PHE  CA  
-          B    267  ILE  CA  
-          B    276  ALA  CA  
-          B    277  PRO  CA  
-          B    278  TYR  CA  
-          B    279  ASP  CA  
-          B    280  ALA  CA  
-          B    281  CYS  CA  
-          B    282  TRP  CA  
-          B    283  ASN  CA  
-          B    284  ALA  CA  
-          B    285  CYS  CA  
-          B    286  ARG  CA  
-          B    287  GLY  CA  
-          B    288  ASP  CA  
-          B    289  ARG  CA  
-          B    290  TRP  CA  
-          B    291  GLU  CA  
-          B    292  ASP  CA  
- R<average>=   2.910 NOE= 7.00 (- 7.00/+ 1.00) Delta=   4.090  E(NOE)=   0.102
+ R<average>=   3.817 NOE= 7.00 (- 7.00/+ 1.00) Delta=   3.183  E(NOE)=   0.062
 
- NOEPRI: RMS diff. =   3.377,  #(violat.> 0.3)=     4 of     44 NOEs
- NOEPRI: RMS diff. class DIST =   0.182,  #(viol.> 0.3)=     2 of     42 NOEs
- NOEPRI: RMS diff. class CONT =  21.992,  #(viol.> 0.3)=     1 of      1 NOEs
- NOEPRI: RMS diff. class SURF =   4.090,  #(viol.> 0.3)=     1 of      1 NOEs
+ NOEPRI: RMS diff. =   5.437,  #(violat.> 0.3)=     7 of     44 NOEs
+ NOEPRI: RMS diff. class DIST =   0.253,  #(viol.> 0.3)=     5 of     42 NOEs
+ NOEPRI: RMS diff. class CONT =  35.885,  #(viol.> 0.3)=     1 of      1 NOEs
+ NOEPRI: RMS diff. class SURF =   3.183,  #(viol.> 0.3)=     1 of      1 NOEs
  %WDSUB-ERR: symbol not found:
        evaluate ($rms_test_noe=$test_rms)
                                ^^^^^^^^^
@@ -15484,10 +15488,10 @@ FREE MOLECULES INTERNAL ENERGY = 0
                                       ^^^^^^^^^^^^^^^^
  NBONDS: generating intra-molecular exclusion list with mode= 5
  MAKINB: mode   5 found      0 exclusions and      0 interactions(1-4)
- NBONDS: found     3494 intra-atom interactions
+ NBONDS: found     5589 intra-atom interactions
  --------------- cycle=     2 --------------------------------------------------
- | Etotal =4368.045   grad(E)=283.208    E(BOND)=0.000      E(ANGL)=0.000      |
- | E(IMPR)=0.000      E(VDW )=4296.657   E(ELEC)=1.449      E(NOE )=69.938     |
+ | Etotal =13054.876  grad(E)=898.473    E(BOND)=0.000      E(ANGL)=0.000      |
+ | E(IMPR)=0.000      E(VDW )=12920.615  E(ELEC)=1.621      E(NOE )=132.641    |
  -------------------------------------------------------------------------------
  Total number of dihedral angle restraints=     0
   overall scale =    1.0000
@@ -15552,31 +15556,31 @@ delta SANI greater than the cutoff:
  SURFAC: half the sigma value being used for atomic radii.
  SURFAC: ACCEssible surface area
  SURFAC: ACCUracy= 0.07 RH2O=  1.40
-         Z-grid=  0.32 number-of-Z-sections=  213
-         measures-of-arc= 34461 and 44894
+         Z-grid=  0.32 number-of-Z-sections=  298
+         measures-of-arc= 50120 and 70370
  SURFAC: half the sigma value being used for atomic radii.
  SURFAC: ACCEssible surface area
  SURFAC: ACCUracy= 0.07 RH2O=  1.40
-         Z-grid=  0.32 number-of-Z-sections=  183
-         measures-of-arc= 21444 and 33603
+         Z-grid=  0.32 number-of-Z-sections=  117
+         measures-of-arc=  5777 and  7950
  SURFAC: half the sigma value being used for atomic radii.
  SURFAC: ACCEssible surface area
  SURFAC: ACCUracy= 0.07 RH2O=  1.40
          Z-grid=  0.32 number-of-Z-sections=  320
-         measures-of-arc= 56065 and 78683
+         measures-of-arc= 56281 and 78784
  MOMENTS
- 684895.34234630  14017.95544498-240747.46372569
-                 835229.41165970-223909.00223104
-                                 524157.75802955
+2391618.394902261160173.40735733 162536.49428848
+                1956441.15539808  12376.75545952
+                                 983836.66574594
 
- HEAP: maximum use      =  1002652952 current use      =       96000 bytes
+ HEAP: maximum use      =   569082392 current use      =       96000 bytes
  HEAP: maximum overhead =        2672 current overhead =         752 bytes
  PRIEND:    1 levels not terminated
              LEVEL=   1 KEY=CNSsolve>        ACTION=GO  
           ============================================================
-           Maximum dynamic memory allocation:  1002652952 bytes
+           Maximum dynamic memory allocation:   569082392 bytes
            Maximum dynamic memory overhead:          2672 bytes
-           Program started at: 09:00:55 on 14-Apr-2021
-           Program stopped at: 09:00:58 on 14-Apr-2021
-           CPU time used:       2.6076 seconds
+           Program started at: 01:46:20 on 11-Jul-2021
+           Program stopped at: 01:46:21 on 11-Jul-2021
+           CPU time used:       1.8378 seconds
           ============================================================

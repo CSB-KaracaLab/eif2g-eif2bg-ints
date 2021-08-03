@@ -258,7 +258,7 @@ for s in $mobi
 do
     echo -e "$s \c" >> rmsd.temp
 #    echo ${ZONE[@]}
-    IN="refe $reference\nmobi $s\nATOMS $ATOMS\n"$ZONES"\nquit"
+    IN="refe $reference\nmobi $s\nATOMS $ATOMS\n"${ZONES[@]}"\nquit"
     OUT=$(echo -e "$IN" | $PROFIT) # Capture output
     if [ -z $LIGAND_MODE ]
     then

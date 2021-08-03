@@ -1,10 +1,10 @@
 Ligand Mode ON
 Loaded 20 structures
-Using complex_17w.pdb as reference
+Using complex_18w.pdb as reference
 Read 2 chains from reference file: AB
 ^.{21}A
 0 0
-Checking chain lengths: WARNING!! Chains have different lengths! (B:299 != A:422)
+Checking chain lengths: WARNING!! Chains have different lengths! (B:73 != A:648)
 You main run into problems later on...
 OK!
 Generating ZONE definitions..
@@ -12,42 +12,42 @@ Defined 1 zone(s)
 ZONE CLEAR \n ZONE A* \n FIT \nRZONE B*\n
 RMS: 0.000
 1
-RMS: 0.549
+RMS: 0.330
 1
-RMS: 0.548
+RMS: 0.378
 1
-RMS: 0.511
+RMS: 0.404
 1
-RMS: 0.532
+RMS: 0.346
 1
-RMS: 0.514
+RMS: 0.367
 1
-RMS: 0.589
+RMS: 0.395
 1
-RMS: 0.561
+RMS: 0.356
 1
-RMS: 0.515
+RMS: 0.438
 1
-RMS: 0.507
+RMS: 0.336
 1
-RMS: 0.555
+RMS: 0.383
 1
-RMS: 0.521
+RMS: 0.392
 1
-RMS: 0.529
+RMS: 0.471
 1
-RMS: 0.510
+RMS: 0.374
 1
-RMS: 0.543
+RMS: 0.366
 1
-RMS: 0.572
+RMS: 0.414
 1
-RMS: 0.515
+RMS: 0.359
 1
-RMS: 0.516
+RMS: 0.342
 1
-RMS: 0.514
+RMS: 0.298
 1
-RMS: 0.558
+RMS: 0.359
 1
 

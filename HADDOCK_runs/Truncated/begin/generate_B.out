@@ -14,9 +14,9 @@
                        L.M.Rice, G.F.Schroeder, T.Simonson, G.L.Warren.
            Copyright (c) 1997-2010 Yale University
           ============================================================
-           Running on machine: node002 (x86_64/Linux,64-bit)
+           Running on machine: node018 (x86_64/Linux,64-bit)
            Program started by: enmr
-           Program started at: 09:00:22 on 14-Apr-2021
+           Program started at: 01:41:20 on 11-Jul-2021
           ============================================================
 
  FFT3C: Using FFTPACK4.1
@@ -379,7 +379,7 @@
  DEFINE>{===>} fileroot="complex"; 
  DEFINE>{* RUN directory *} 
  DEFINE>{*  the absolute path of your current run, e.g. /home/haddock/server/run1*} 
- DEFINE>{===>} run_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1"; 
+ DEFINE>{===>} run_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1"; 
  DEFINE>{* PDB file of molecule (protein) A *} 
  DEFINE>{===>} prot_coor_A="protein1.pdb"; 
  DEFINE>{* PSF file of molecule (protein) A *} 
@@ -455,18 +455,18 @@
  DEFINE>{===>} delenph=true; 
  DEFINE>{* HADDOCK directory *} 
  DEFINE>{*  the absolute path of the HADDOCK program files *} 
- DEFINE>{===>} haddock_dir="/home/enmr/software/haddock2.2"; 
+ DEFINE>{===>} haddock_dir="/home/enmr/software/haddock2.2-grid"; 
  DEFINE>{* Logfile directory *} 
  DEFINE>{* specify a directory for the large CNS log files *} 
- DEFINE>{===>} temptrash_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1"; 
+ DEFINE>{===>} temptrash_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1"; 
  DEFINE>{==================== histidine patches =====================} 
  DEFINE>{* Patch to change doubly protonated HIS to singly protonated histidine (HD1) *} 
  DEFINE>{* just give the residue number of the histidines for the HISD patch, set them to zero if you don't want them *} 
  DEFINE>numhisd=10; 
  DEFINE>{+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +} 
- DEFINE>{===>} A_hisd_resid_1=0; 
- DEFINE>{===>} A_hisd_resid_2=0; 
- DEFINE>{===>} A_hisd_resid_3=0; 
+ DEFINE>{===>} A_hisd_resid_1=196; 
+ DEFINE>{===>} A_hisd_resid_2=203; 
+ DEFINE>{===>} A_hisd_resid_3=190; 
  DEFINE>{===>} A_hisd_resid_4=0; 
  DEFINE>{===>} A_hisd_resid_5=0; 
  DEFINE>{===>} A_hisd_resid_6=0; 
@@ -474,11 +474,11 @@
  DEFINE>{===>} A_hisd_resid_8=0; 
  DEFINE>{===>} A_hisd_resid_9=0; 
  DEFINE>{===>} A_hisd_resid_10=0; 
- DEFINE>{===>} B_hisd_resid_1=196; 
- DEFINE>{===>} B_hisd_resid_2=203; 
- DEFINE>{===>} B_hisd_resid_3=190; 
- DEFINE>{===>} B_hisd_resid_4=408; 
- DEFINE>{===>} B_hisd_resid_5=350; 
+ DEFINE>{===>} B_hisd_resid_1=408; 
+ DEFINE>{===>} B_hisd_resid_2=350; 
+ DEFINE>{===>} B_hisd_resid_3=0; 
+ DEFINE>{===>} B_hisd_resid_4=0; 
+ DEFINE>{===>} B_hisd_resid_5=0; 
  DEFINE>{===>} B_hisd_resid_6=0; 
  DEFINE>{===>} B_hisd_resid_7=0; 
  DEFINE>{===>} B_hisd_resid_8=0; 
@@ -528,18 +528,18 @@
  DEFINE>{* just give the residue number of the histidines for the HISE patch, set them to zero if you don't want them *} 
  DEFINE>numhise=10; 
  DEFINE>{+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +} 
- DEFINE>{===>} A_hise_resid_1=65; 
- DEFINE>{===>} A_hise_resid_2=197; 
- DEFINE>{===>} A_hise_resid_3=78; 
- DEFINE>{===>} A_hise_resid_4=463; 
- DEFINE>{===>} A_hise_resid_5=338; 
- DEFINE>{===>} A_hise_resid_6=142; 
- DEFINE>{===>} A_hise_resid_7=151; 
- DEFINE>{===>} A_hise_resid_8=186; 
- DEFINE>{===>} A_hise_resid_9=62; 
- DEFINE>{===>} A_hise_resid_10=0; 
- DEFINE>{===>} B_hise_resid_1=115; 
- DEFINE>{===>} B_hise_resid_2=341; 
+ DEFINE>{===>} A_hise_resid_1=1184; 
+ DEFINE>{===>} A_hise_resid_2=1065; 
+ DEFINE>{===>} A_hise_resid_3=1450; 
+ DEFINE>{===>} A_hise_resid_4=1325; 
+ DEFINE>{===>} A_hise_resid_5=1138; 
+ DEFINE>{===>} A_hise_resid_6=115; 
+ DEFINE>{===>} A_hise_resid_7=1173; 
+ DEFINE>{===>} A_hise_resid_8=1129; 
+ DEFINE>{===>} A_hise_resid_9=1049; 
+ DEFINE>{===>} A_hise_resid_10=1052; 
+ DEFINE>{===>} B_hise_resid_1=341; 
+ DEFINE>{===>} B_hise_resid_2=0; 
  DEFINE>{===>} B_hise_resid_3=0; 
  DEFINE>{===>} B_hise_resid_4=0; 
  DEFINE>{===>} B_hise_resid_5=0; 
@@ -1857,7 +1857,7 @@
  DEFINE>{* leave unused fields blank, make sure that the queues are actually running *} 
  DEFINE>{+ table: rows=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" 
  DEFINE> cols=3 "queue command" "cns executable" "number of jobs" +} 
- DEFINE>{===>} queue_1="ssub medium"; 
+ DEFINE>{===>} queue_1="/home/diracegi/grid/diracsubmit-haddock2.4-cns"; 
  DEFINE>{===>} cns_exe_1="/home/software/science/cns/cns_solve_1.31-UU/intel-x86_64bit-linux/bin/cns"; 
  DEFINE>{===>} cpunumber_1=50; 
  DEFINE>{===>} queue_2=""; 
@@ -2893,9 +2893,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_1 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_1 set to    196.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_1 set to    196.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_1 set to    408.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_1 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2910,9 +2910,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_2 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_2 set to    203.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_2 set to    203.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_2 set to    350.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2927,9 +2927,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_3 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_3 set to    190.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_3 set to    190.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2946,7 +2946,7 @@
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_4 set to    408.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2963,7 +2963,7 @@
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_5 set to    350.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -3075,9 +3075,9 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_1 set to    65.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_1 set to    1184.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_1 set to    115.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_1 set to    341.000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_3_1 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_4_$ncc=&D_hise_resid_$ncc) 
@@ -3092,9 +3092,9 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_2 set to    197.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_2 set to    1065.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_2 set to    341.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_3_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_4_$ncc=&D_hise_resid_$ncc) 
@@ -3109,7 +3109,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_3 set to    78.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_3 set to    1450.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3126,7 +3126,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_4 set to    463.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_4 set to    1325.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3143,7 +3143,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_5 set to    338.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_5 set to    1138.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3160,7 +3160,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_6 set to    142.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_6 set to    115.000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_6 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3177,7 +3177,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_7 set to    151.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_7 set to    1173.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_7 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3194,7 +3194,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_8 set to    186.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_8 set to    1129.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_8 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3211,7 +3211,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_9 set to    62.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_9 set to    1049.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_9 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3228,7 +3228,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_10 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_10 set to    1052.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_10 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -4817,29 +4817,30 @@
  CHAIN>     coordinates @@$coor_infile 
  ASSFIL: file protein2.pdb opened.
  COOR>ATOM      1  N   VAL   340     120.589 164.935 153.398  1.00  1.24 
- SEGMNT-info: chain termination due to END keyword.   299 residues were inserted into segid "    "
+ SEGMNT-info: chain termination due to TER keyword.    73 residues were inserted into segid "    "
+ COOR>END 
  CHAIN>   end 
  SEGMENT> end 
  Status of internal molecular topology database:
- -> NATOM=       4757(MAXA=      500000)  NBOND=       4800(MAXB=      500000)
- -> NTHETA=      8719(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2494(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
+ -> NATOM=       1127(MAXA=      500000)  NBOND=       1132(MAXB=      500000)
+ -> NTHETA=      2054(MAXT=     1000000)  NGRP=          73(MAXGRP=    500000)
+ -> NPHI=        1799(MAXP=     1000000)  NIMPHI=       563(MAXIMP=    500000)
+ -> NNB=          606(MAXNB=     500000) 
  CNSsolve> 
  CNSsolve> if ( &BLANK%ile_CD_becomes = false ) then 
  NEXTCD: condition evaluated as true
  CNSsolve>   do (name=&ile_CD_becomes) (resn ILE and name CD) 
- SELRPN:      0 atoms have been selected out of   4757
+ SELRPN:      0 atoms have been selected out of   1127
  CNSsolve> end if 
  CNSsolve> if ( &BLANK%OT1_becomes = false ) then 
  NEXTCD: condition evaluated as true
  CNSsolve>   do (name=&OT1_becomes) (name OT1) 
- SELRPN:      0 atoms have been selected out of   4757
+ SELRPN:      0 atoms have been selected out of   1127
  CNSsolve> end if 
  CNSsolve> if ( &BLANK%OT2_becomes = false ) then 
  NEXTCD: condition evaluated as true
  CNSsolve>   do (name=&OT2_becomes) (name OT2) 
- SELRPN:      0 atoms have been selected out of   4757
+ SELRPN:      0 atoms have been selected out of   1127
  CNSsolve> end if 
  CNSsolve> 
  CNSsolve>!for the histidine patches: 
@@ -4850,17 +4851,17 @@
  CNSsolve>   if ($Toppar.hisd_resid_$chain_$hisd_counter > 0) then 
  NEXTCD: condition evaluated as true
  CNSsolve>     show (resn) (tag and resid $Toppar.hisd_resid_$chain_$hisd_counter) 
- SELRPN:      1 atoms have been selected out of   4757
- (      HIS  196  N    )  HIS 
+ SELRPN:      1 atoms have been selected out of   1127
+ (      HIS  408  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
  NEXTCD: condition evaluated as true
  CNSsolve>       patch hisd reference=nil=(resid $Toppar.hisd_resid_$chain_$hisd_counter) end 
- SELRPN:     18 atoms have been selected out of   4757
+ SELRPN:     18 atoms have been selected out of   1127
  Status of internal molecular topology database:
- -> NATOM=       4756(MAXA=      500000)  NBOND=       4799(MAXB=      500000)
- -> NTHETA=      8717(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2493(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
+ -> NATOM=       1126(MAXA=      500000)  NBOND=       1131(MAXB=      500000)
+ -> NTHETA=      2052(MAXT=     1000000)  NGRP=          73(MAXGRP=    500000)
+ -> NPHI=        1799(MAXP=     1000000)  NIMPHI=       562(MAXIMP=    500000)
+ -> NNB=          606(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hisd_counter=$hisd_counter + 1) 
@@ -4871,17 +4872,17 @@
  CNSsolve>   if ($Toppar.hisd_resid_$chain_$hisd_counter > 0) then 
  NEXTCD: condition evaluated as true
  CNSsolve>     show (resn) (tag and resid $Toppar.hisd_resid_$chain_$hisd_counter) 
- SELRPN:      1 atoms have been selected out of   4756
- (      HIS  203  N    )  HIS 
+ SELRPN:      1 atoms have been selected out of   1126
+ (      HIS  350  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
  NEXTCD: condition evaluated as true
  CNSsolve>       patch hisd reference=nil=(resid $Toppar.hisd_resid_$chain_$hisd_counter) end 
- SELRPN:     18 atoms have been selected out of   4756
+ SELRPN:     18 atoms have been selected out of   1126
  Status of internal molecular topology database:
- -> NATOM=       4755(MAXA=      500000)  NBOND=       4798(MAXB=      500000)
- -> NTHETA=      8715(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2492(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
+ -> NATOM=       1125(MAXA=      500000)  NBOND=       1130(MAXB=      500000)
+ -> NTHETA=      2050(MAXT=     1000000)  NGRP=          73(MAXGRP=    500000)
+ -> NPHI=        1799(MAXP=     1000000)  NIMPHI=       561(MAXIMP=    500000)
+ -> NNB=          606(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hisd_counter=$hisd_counter + 1) 
@@ -4890,19 +4891,10 @@
  CNSsolve> while ($hisd_counter le $Toppar.nhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>   if ($Toppar.hisd_resid_$chain_$hisd_counter > 0) then 
- NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
  CNSsolve>     show (resn) (tag and resid $Toppar.hisd_resid_$chain_$hisd_counter) 
- SELRPN:      1 atoms have been selected out of   4755
- (      HIS  190  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
- NEXTCD: condition evaluated as true
  CNSsolve>       patch hisd reference=nil=(resid $Toppar.hisd_resid_$chain_$hisd_counter) end 
- SELRPN:     18 atoms have been selected out of   4755
- Status of internal molecular topology database:
- -> NATOM=       4754(MAXA=      500000)  NBOND=       4797(MAXB=      500000)
- -> NTHETA=      8713(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2491(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hisd_counter=$hisd_counter + 1) 
@@ -4911,19 +4903,10 @@
  CNSsolve> while ($hisd_counter le $Toppar.nhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>   if ($Toppar.hisd_resid_$chain_$hisd_counter > 0) then 
- NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
  CNSsolve>     show (resn) (tag and resid $Toppar.hisd_resid_$chain_$hisd_counter) 
- SELRPN:      1 atoms have been selected out of   4754
- (      HIS  408  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
- NEXTCD: condition evaluated as true
  CNSsolve>       patch hisd reference=nil=(resid $Toppar.hisd_resid_$chain_$hisd_counter) end 
- SELRPN:     18 atoms have been selected out of   4754
- Status of internal molecular topology database:
- -> NATOM=       4753(MAXA=      500000)  NBOND=       4796(MAXB=      500000)
- -> NTHETA=      8711(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2490(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hisd_counter=$hisd_counter + 1) 
@@ -4932,19 +4915,10 @@
  CNSsolve> while ($hisd_counter le $Toppar.nhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>   if ($Toppar.hisd_resid_$chain_$hisd_counter > 0) then 
- NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
  CNSsolve>     show (resn) (tag and resid $Toppar.hisd_resid_$chain_$hisd_counter) 
- SELRPN:      1 atoms have been selected out of   4753
- (      HIS  350  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
- NEXTCD: condition evaluated as true
  CNSsolve>       patch hisd reference=nil=(resid $Toppar.hisd_resid_$chain_$hisd_counter) end 
- SELRPN:     18 atoms have been selected out of   4753
- Status of internal molecular topology database:
- -> NATOM=       4752(MAXA=      500000)  NBOND=       4795(MAXB=      500000)
- -> NTHETA=      8709(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2489(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hisd_counter=$hisd_counter + 1) 
@@ -5028,17 +5002,17 @@
  CNSsolve>   if ($Toppar.hise_resid_$chain_$hise_counter > 0) then 
  NEXTCD: condition evaluated as true
  CNSsolve>     show (resn) (tag and resid $Toppar.hise_resid_$chain_$hise_counter) 
- SELRPN:      1 atoms have been selected out of   4752
- (      HIS  115  N    )  HIS 
+ SELRPN:      1 atoms have been selected out of   1125
+ (      HIS  341  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
  NEXTCD: condition evaluated as true
  CNSsolve>       patch hise reference=nil=(resid $Toppar.hise_resid_$chain_$hise_counter) end 
- SELRPN:     18 atoms have been selected out of   4752
+ SELRPN:     18 atoms have been selected out of   1125
  Status of internal molecular topology database:
- -> NATOM=       4751(MAXA=      500000)  NBOND=       4794(MAXB=      500000)
- -> NTHETA=      8707(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2488(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
+ -> NATOM=       1124(MAXA=      500000)  NBOND=       1129(MAXB=      500000)
+ -> NTHETA=      2048(MAXT=     1000000)  NGRP=          73(MAXGRP=    500000)
+ -> NPHI=        1799(MAXP=     1000000)  NIMPHI=       560(MAXIMP=    500000)
+ -> NNB=          606(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hise_counter=$hise_counter + 1) 
@@ -5047,19 +5021,10 @@
  CNSsolve> while ($hise_counter le $Toppar.nhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>   if ($Toppar.hise_resid_$chain_$hise_counter > 0) then 
- NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
  CNSsolve>     show (resn) (tag and resid $Toppar.hise_resid_$chain_$hise_counter) 
- SELRPN:      1 atoms have been selected out of   4751
- (      HIS  341  N    )  HIS 
  CNSsolve>     if ($result eq "HIS") then 
- NEXTCD: condition evaluated as true
  CNSsolve>       patch hise reference=nil=(resid $Toppar.hise_resid_$chain_$hise_counter) end 
- SELRPN:     18 atoms have been selected out of   4751
- Status of internal molecular topology database:
- -> NATOM=       4750(MAXA=      500000)  NBOND=       4793(MAXB=      500000)
- -> NTHETA=      8705(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7500(MAXP=     1000000)  NIMPHI=      2487(MAXIMP=    500000)
- -> NNB=         2418(MAXNB=     500000) 
  CNSsolve>     end if 
  CNSsolve>   end if 
  CNSsolve>   evaluate($hise_counter=$hise_counter + 1) 
@@ -5193,20 +5158,20 @@
  CNSsolve> if ($Toppar.delenph = true) then 
  NEXTCD: condition evaluated as true
  CNSsolve>   delete sele=(name H* and attr charge = 0) end 
- SELRPN:   1891 atoms have been selected out of   4750
+ SELRPN:    438 atoms have been selected out of   1124
  Status of internal molecular topology database:
- -> NATOM=       2859(MAXA=      500000)  NBOND=       2902(MAXB=      500000)
- -> NTHETA=      4159(MAXT=     1000000)  NGRP=         299(MAXGRP=    500000)
- -> NPHI=        7290(MAXP=     1000000)  NIMPHI=      1399(MAXIMP=    500000)
- -> NNB=          132(MAXNB=     500000) 
+ -> NATOM=        686(MAXA=      500000)  NBOND=        691(MAXB=      500000)
+ -> NTHETA=       987(MAXT=     1000000)  NGRP=          73(MAXGRP=    500000)
+ -> NPHI=        1748(MAXP=     1000000)  NIMPHI=       314(MAXIMP=    500000)
+ -> NNB=            6(MAXNB=     500000) 
  CNSsolve> end if 
  CNSsolve> 
  CNSsolve> evaluate ($nstruc = 1) 
  EVALUATE: symbol $NSTRUC set to    1.00000     (real)
  CNSsolve> for $file in ( @@$coor_inlist )  loop main 
  ASSFIL: file file_B.list opened.
- FOR-clause="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1/data/sequence/protein2.pdb" 
- FOR LOOP: symbol FILE set to "/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1/data/sequence/protein2.pdb" (string)
+ FOR-clause="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1/data/sequence/protein2.pdb" 
+ FOR LOOP: symbol FILE set to "/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1/data/sequence/protein2.pdb" (string)
  FOR-clause= )  loop main 
  CNSsolve> 
  CNSsolve> set seed=$Saprotocol.iniseed end 
@@ -5772,1632 +5737,15 @@
  %READC-ERR: atom      412  ARG  2HH1 not found in molecular structure
  %READC-ERR: atom      412  ARG  1HH2 not found in molecular structure
  %READC-ERR: atom      412  ARG  2HH2 not found in molecular structure
- %READC-ERR: atom      1    MET  HT1  not found in molecular structure
- %READC-ERR: atom      1    MET  HT2  not found in molecular structure
- %READC-ERR: atom      1    MET  HT3  not found in molecular structure
- %READC-ERR: atom      1    MET  HA   not found in molecular structure
- %READC-ERR: atom      1    MET  1HB  not found in molecular structure
- %READC-ERR: atom      1    MET  2HB  not found in molecular structure
- %READC-ERR: atom      1    MET  1HG  not found in molecular structure
- %READC-ERR: atom      1    MET  2HG  not found in molecular structure
- %READC-ERR: atom      1    MET  1HE  not found in molecular structure
- %READC-ERR: atom      1    MET  2HE  not found in molecular structure
- %READC-ERR: atom      1    MET  3HE  not found in molecular structure
- %READC-ERR: atom      2    GLU  H    not found in molecular structure
- %READC-ERR: atom      2    GLU  HA   not found in molecular structure
- %READC-ERR: atom      2    GLU  1HB  not found in molecular structure
- %READC-ERR: atom      2    GLU  2HB  not found in molecular structure
- %READC-ERR: atom      2    GLU  1HG  not found in molecular structure
- %READC-ERR: atom      2    GLU  2HG  not found in molecular structure
- %READC-ERR: atom      3    PHE  H    not found in molecular structure
- %READC-ERR: atom      3    PHE  HA   not found in molecular structure
- %READC-ERR: atom      3    PHE  1HB  not found in molecular structure
- %READC-ERR: atom      3    PHE  2HB  not found in molecular structure
- %READC-ERR: atom      3    PHE  HD1  not found in molecular structure
- %READC-ERR: atom      3    PHE  HD2  not found in molecular structure
- %READC-ERR: atom      3    PHE  HE1  not found in molecular structure
- %READC-ERR: atom      3    PHE  HE2  not found in molecular structure
- %READC-ERR: atom      3    PHE  HZ   not found in molecular structure
- %READC-ERR: atom      4    GLN  H    not found in molecular structure
- %READC-ERR: atom      4    GLN  HA   not found in molecular structure
- %READC-ERR: atom      4    GLN  1HB  not found in molecular structure
- %READC-ERR: atom      4    GLN  2HB  not found in molecular structure
- %READC-ERR: atom      4    GLN  1HG  not found in molecular structure
- %READC-ERR: atom      4    GLN  2HG  not found in molecular structure
- %READC-ERR: atom      5    ALA  H    not found in molecular structure
- %READC-ERR: atom      5    ALA  HA   not found in molecular structure
- %READC-ERR: atom      5    ALA  1HB  not found in molecular structure
- %READC-ERR: atom      5    ALA  2HB  not found in molecular structure
- %READC-ERR: atom      5    ALA  3HB  not found in molecular structure
- %READC-ERR: atom      6    VAL  H    not found in molecular structure
- %READC-ERR: atom      6    VAL  HA   not found in molecular structure
- %READC-ERR: atom      6    VAL  HB   not found in molecular structure
- %READC-ERR: atom      6    VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      6    VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      6    VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      6    VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      6    VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      6    VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      7    VAL  H    not found in molecular structure
- %READC-ERR: atom      7    VAL  HA   not found in molecular structure
- %READC-ERR: atom      7    VAL  HB   not found in molecular structure
- %READC-ERR: atom      7    VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      7    VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      7    VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      7    VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      7    VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      7    VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      8    MET  H    not found in molecular structure
- %READC-ERR: atom      8    MET  HA   not found in molecular structure
- %READC-ERR: atom      8    MET  1HB  not found in molecular structure
- %READC-ERR: atom      8    MET  2HB  not found in molecular structure
- %READC-ERR: atom      8    MET  1HG  not found in molecular structure
- %READC-ERR: atom      8    MET  2HG  not found in molecular structure
- %READC-ERR: atom      8    MET  1HE  not found in molecular structure
- %READC-ERR: atom      8    MET  2HE  not found in molecular structure
- %READC-ERR: atom      8    MET  3HE  not found in molecular structure
- %READC-ERR: atom      9    ALA  H    not found in molecular structure
- %READC-ERR: atom      9    ALA  HA   not found in molecular structure
- %READC-ERR: atom      9    ALA  1HB  not found in molecular structure
- %READC-ERR: atom      9    ALA  2HB  not found in molecular structure
- %READC-ERR: atom      9    ALA  3HB  not found in molecular structure
- %READC-ERR: atom      10   VAL  H    not found in molecular structure
- %READC-ERR: atom      10   VAL  HA   not found in molecular structure
- %READC-ERR: atom      10   VAL  HB   not found in molecular structure
- %READC-ERR: atom      10   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      10   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      10   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      10   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      10   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      10   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      11   GLY  H    not found in molecular structure
- %READC-ERR: atom      11   GLY  1HA  not found in molecular structure
- %READC-ERR: atom      11   GLY  2HA  not found in molecular structure
- %READC-ERR: atom      12   GLY  H    not found in molecular structure
- %READC-ERR: atom      12   GLY  1HA  not found in molecular structure
- %READC-ERR: atom      12   GLY  2HA  not found in molecular structure
- %READC-ERR: atom      26   PRO  HA   not found in molecular structure
- %READC-ERR: atom      26   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      26   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      26   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      26   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      26   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      26   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      27   LEU  H    not found in molecular structure
- %READC-ERR: atom      27   LEU  HA   not found in molecular structure
- %READC-ERR: atom      27   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      27   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      27   LEU  HG   not found in molecular structure
- %READC-ERR: atom      27   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      27   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      27   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      27   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      27   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      27   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      28   LEU  H    not found in molecular structure
- %READC-ERR: atom      28   LEU  HA   not found in molecular structure
- %READC-ERR: atom      28   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      28   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      28   LEU  HG   not found in molecular structure
- %READC-ERR: atom      28   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      28   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      28   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      28   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      28   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      28   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      29   PRO  HA   not found in molecular structure
- %READC-ERR: atom      29   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      29   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      29   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      29   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      29   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      29   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      30   VAL  H    not found in molecular structure
- %READC-ERR: atom      30   VAL  HA   not found in molecular structure
- %READC-ERR: atom      30   VAL  HB   not found in molecular structure
- %READC-ERR: atom      30   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      30   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      30   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      30   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      30   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      30   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      31   GLY  H    not found in molecular structure
- %READC-ERR: atom      31   GLY  1HA  not found in molecular structure
- %READC-ERR: atom      31   GLY  2HA  not found in molecular structure
- %READC-ERR: atom      32   ASN  H    not found in molecular structure
- %READC-ERR: atom      32   ASN  HA   not found in molecular structure
- %READC-ERR: atom      32   ASN  1HB  not found in molecular structure
- %READC-ERR: atom      32   ASN  2HB  not found in molecular structure
- %READC-ERR: atom      33   LYS  H    not found in molecular structure
- %READC-ERR: atom      33   LYS  HA   not found in molecular structure
- %READC-ERR: atom      33   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      33   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      33   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      33   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      33   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      33   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      33   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      33   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      34   PRO  HA   not found in molecular structure
- %READC-ERR: atom      34   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      34   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      34   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      34   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      34   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      34   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      35   LEU  H    not found in molecular structure
- %READC-ERR: atom      35   LEU  HA   not found in molecular structure
- %READC-ERR: atom      35   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      35   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      35   LEU  HG   not found in molecular structure
- %READC-ERR: atom      35   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      35   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      35   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      35   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      35   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      35   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      36   ILE  H    not found in molecular structure
- %READC-ERR: atom      36   ILE  HA   not found in molecular structure
- %READC-ERR: atom      36   ILE  HB   not found in molecular structure
- %READC-ERR: atom      36   ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      36   ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      36   ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      36   ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      36   ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      36   ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      36   ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      36   ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      37   TRP  H    not found in molecular structure
- %READC-ERR: atom      37   TRP  HA   not found in molecular structure
- %READC-ERR: atom      37   TRP  1HB  not found in molecular structure
- %READC-ERR: atom      37   TRP  2HB  not found in molecular structure
- %READC-ERR: atom      37   TRP  HD1  not found in molecular structure
- %READC-ERR: atom      37   TRP  HE3  not found in molecular structure
- %READC-ERR: atom      37   TRP  HZ2  not found in molecular structure
- %READC-ERR: atom      37   TRP  HZ3  not found in molecular structure
- %READC-ERR: atom      37   TRP  HH2  not found in molecular structure
- %READC-ERR: atom      38   TYR  H    not found in molecular structure
- %READC-ERR: atom      38   TYR  HA   not found in molecular structure
- %READC-ERR: atom      38   TYR  1HB  not found in molecular structure
- %READC-ERR: atom      38   TYR  2HB  not found in molecular structure
- %READC-ERR: atom      38   TYR  HD1  not found in molecular structure
- %READC-ERR: atom      38   TYR  HD2  not found in molecular structure
- %READC-ERR: atom      38   TYR  HE1  not found in molecular structure
- %READC-ERR: atom      38   TYR  HE2  not found in molecular structure
- %READC-ERR: atom      39   PRO  HA   not found in molecular structure
- %READC-ERR: atom      39   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      39   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      39   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      39   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      39   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      39   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      40   LEU  H    not found in molecular structure
- %READC-ERR: atom      40   LEU  HA   not found in molecular structure
- %READC-ERR: atom      40   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      40   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      40   LEU  HG   not found in molecular structure
- %READC-ERR: atom      40   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      40   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      40   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      40   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      40   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      40   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      41   ASN  H    not found in molecular structure
- %READC-ERR: atom      41   ASN  HA   not found in molecular structure
- %READC-ERR: atom      41   ASN  1HB  not found in molecular structure
- %READC-ERR: atom      41   ASN  2HB  not found in molecular structure
- %READC-ERR: atom      42   LEU  H    not found in molecular structure
- %READC-ERR: atom      42   LEU  HA   not found in molecular structure
- %READC-ERR: atom      42   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      42   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      42   LEU  HG   not found in molecular structure
- %READC-ERR: atom      42   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      42   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      42   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      42   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      42   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      42   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      43   LEU  H    not found in molecular structure
- %READC-ERR: atom      43   LEU  HA   not found in molecular structure
- %READC-ERR: atom      43   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      43   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      43   LEU  HG   not found in molecular structure
- %READC-ERR: atom      43   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      43   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      43   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      43   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      43   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      43   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      44   GLU  H    not found in molecular structure
- %READC-ERR: atom      44   GLU  HA   not found in molecular structure
- %READC-ERR: atom      44   GLU  1HB  not found in molecular structure
- %READC-ERR: atom      44   GLU  2HB  not found in molecular structure
- %READC-ERR: atom      44   GLU  1HG  not found in molecular structure
- %READC-ERR: atom      44   GLU  2HG  not found in molecular structure
- %READC-ERR: atom      45   ARG  H    not found in molecular structure
- %READC-ERR: atom      45   ARG  HA   not found in molecular structure
- %READC-ERR: atom      45   ARG  1HB  not found in molecular structure
- %READC-ERR: atom      45   ARG  2HB  not found in molecular structure
- %READC-ERR: atom      45   ARG  1HG  not found in molecular structure
- %READC-ERR: atom      45   ARG  2HG  not found in molecular structure
- %READC-ERR: atom      45   ARG  1HD  not found in molecular structure
- %READC-ERR: atom      45   ARG  2HD  not found in molecular structure
- %READC-ERR: atom      46   VAL  H    not found in molecular structure
- %READC-ERR: atom      46   VAL  HA   not found in molecular structure
- %READC-ERR: atom      46   VAL  HB   not found in molecular structure
- %READC-ERR: atom      46   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      46   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      46   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      46   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      46   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      46   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      47   GLY  H    not found in molecular structure
- %READC-ERR: atom      47   GLY  1HA  not found in molecular structure
- %READC-ERR: atom      47   GLY  2HA  not found in molecular structure
- %READC-ERR: atom      48   PHE  H    not found in molecular structure
- %READC-ERR: atom      48   PHE  HA   not found in molecular structure
- %READC-ERR: atom      48   PHE  1HB  not found in molecular structure
- %READC-ERR: atom      48   PHE  2HB  not found in molecular structure
- %READC-ERR: atom      48   PHE  HD1  not found in molecular structure
- %READC-ERR: atom      48   PHE  HD2  not found in molecular structure
- %READC-ERR: atom      48   PHE  HE1  not found in molecular structure
- %READC-ERR: atom      48   PHE  HE2  not found in molecular structure
- %READC-ERR: atom      48   PHE  HZ   not found in molecular structure
- %READC-ERR: atom      49   GLU  H    not found in molecular structure
- %READC-ERR: atom      49   GLU  HA   not found in molecular structure
- %READC-ERR: atom      49   GLU  1HB  not found in molecular structure
- %READC-ERR: atom      49   GLU  2HB  not found in molecular structure
- %READC-ERR: atom      49   GLU  1HG  not found in molecular structure
- %READC-ERR: atom      49   GLU  2HG  not found in molecular structure
- %READC-ERR: atom      50   GLU  H    not found in molecular structure
- %READC-ERR: atom      50   GLU  HA   not found in molecular structure
- %READC-ERR: atom      50   GLU  1HB  not found in molecular structure
- %READC-ERR: atom      50   GLU  2HB  not found in molecular structure
- %READC-ERR: atom      50   GLU  1HG  not found in molecular structure
- %READC-ERR: atom      50   GLU  2HG  not found in molecular structure
- %READC-ERR: atom      51   VAL  H    not found in molecular structure
- %READC-ERR: atom      51   VAL  HA   not found in molecular structure
- %READC-ERR: atom      51   VAL  HB   not found in molecular structure
- %READC-ERR: atom      51   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      51   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      51   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      51   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      51   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      51   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      52   ILE  H    not found in molecular structure
- %READC-ERR: atom      52   ILE  HA   not found in molecular structure
- %READC-ERR: atom      52   ILE  HB   not found in molecular structure
- %READC-ERR: atom      52   ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      52   ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      52   ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      52   ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      52   ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      52   ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      52   ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      52   ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      53   VAL  H    not found in molecular structure
- %READC-ERR: atom      53   VAL  HA   not found in molecular structure
- %READC-ERR: atom      53   VAL  HB   not found in molecular structure
- %READC-ERR: atom      53   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      53   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      53   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      53   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      53   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      53   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      54   VAL  H    not found in molecular structure
- %READC-ERR: atom      54   VAL  HA   not found in molecular structure
- %READC-ERR: atom      54   VAL  HB   not found in molecular structure
- %READC-ERR: atom      54   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      54   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      54   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      54   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      54   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      54   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      55   THR  H    not found in molecular structure
- %READC-ERR: atom      55   THR  HA   not found in molecular structure
- %READC-ERR: atom      55   THR  HB   not found in molecular structure
- %READC-ERR: atom      55   THR  1HG2 not found in molecular structure
- %READC-ERR: atom      55   THR  2HG2 not found in molecular structure
- %READC-ERR: atom      55   THR  3HG2 not found in molecular structure
- %READC-ERR: atom      56   THR  H    not found in molecular structure
- %READC-ERR: atom      56   THR  HA   not found in molecular structure
- %READC-ERR: atom      56   THR  HB   not found in molecular structure
- %READC-ERR: atom      56   THR  1HG2 not found in molecular structure
- %READC-ERR: atom      56   THR  2HG2 not found in molecular structure
- %READC-ERR: atom      56   THR  3HG2 not found in molecular structure
- %READC-ERR: atom      61   LYS  HA   not found in molecular structure
- %READC-ERR: atom      61   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      61   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      61   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      61   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      61   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      61   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      61   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      61   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      62   ALA  H    not found in molecular structure
- %READC-ERR: atom      62   ALA  HA   not found in molecular structure
- %READC-ERR: atom      62   ALA  1HB  not found in molecular structure
- %READC-ERR: atom      62   ALA  2HB  not found in molecular structure
- %READC-ERR: atom      62   ALA  3HB  not found in molecular structure
- %READC-ERR: atom      63   LEU  H    not found in molecular structure
- %READC-ERR: atom      63   LEU  HA   not found in molecular structure
- %READC-ERR: atom      63   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      63   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      63   LEU  HG   not found in molecular structure
- %READC-ERR: atom      63   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      63   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      63   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      63   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      63   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      63   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      64   CYS  H    not found in molecular structure
- %READC-ERR: atom      64   CYS  HA   not found in molecular structure
- %READC-ERR: atom      64   CYS  1HB  not found in molecular structure
- %READC-ERR: atom      64   CYS  2HB  not found in molecular structure
- %READC-ERR: atom      65   ALA  H    not found in molecular structure
- %READC-ERR: atom      65   ALA  HA   not found in molecular structure
- %READC-ERR: atom      65   ALA  1HB  not found in molecular structure
- %READC-ERR: atom      65   ALA  2HB  not found in molecular structure
- %READC-ERR: atom      65   ALA  3HB  not found in molecular structure
- %READC-ERR: atom      66   GLU  H    not found in molecular structure
- %READC-ERR: atom      66   GLU  HA   not found in molecular structure
- %READC-ERR: atom      66   GLU  1HB  not found in molecular structure
- %READC-ERR: atom      66   GLU  2HB  not found in molecular structure
- %READC-ERR: atom      66   GLU  1HG  not found in molecular structure
- %READC-ERR: atom      66   GLU  2HG  not found in molecular structure
- %READC-ERR: atom      67   PHE  H    not found in molecular structure
- %READC-ERR: atom      67   PHE  HA   not found in molecular structure
- %READC-ERR: atom      67   PHE  1HB  not found in molecular structure
- %READC-ERR: atom      67   PHE  2HB  not found in molecular structure
- %READC-ERR: atom      67   PHE  HD1  not found in molecular structure
- %READC-ERR: atom      67   PHE  HD2  not found in molecular structure
- %READC-ERR: atom      67   PHE  HE1  not found in molecular structure
- %READC-ERR: atom      67   PHE  HE2  not found in molecular structure
- %READC-ERR: atom      67   PHE  HZ   not found in molecular structure
- %READC-ERR: atom      68   LYS  H    not found in molecular structure
- %READC-ERR: atom      68   LYS  HA   not found in molecular structure
- %READC-ERR: atom      68   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      68   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      68   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      68   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      68   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      68   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      68   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      68   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      69   MET  H    not found in molecular structure
- %READC-ERR: atom      69   MET  HA   not found in molecular structure
- %READC-ERR: atom      69   MET  1HB  not found in molecular structure
- %READC-ERR: atom      69   MET  2HB  not found in molecular structure
- %READC-ERR: atom      69   MET  1HG  not found in molecular structure
- %READC-ERR: atom      69   MET  2HG  not found in molecular structure
- %READC-ERR: atom      69   MET  1HE  not found in molecular structure
- %READC-ERR: atom      69   MET  2HE  not found in molecular structure
- %READC-ERR: atom      69   MET  3HE  not found in molecular structure
- %READC-ERR: atom      70   LYS  H    not found in molecular structure
- %READC-ERR: atom      70   LYS  HA   not found in molecular structure
- %READC-ERR: atom      70   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      70   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      70   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      70   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      70   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      70   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      70   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      70   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      71   MET  H    not found in molecular structure
- %READC-ERR: atom      71   MET  HA   not found in molecular structure
- %READC-ERR: atom      71   MET  1HB  not found in molecular structure
- %READC-ERR: atom      71   MET  2HB  not found in molecular structure
- %READC-ERR: atom      71   MET  1HG  not found in molecular structure
- %READC-ERR: atom      71   MET  2HG  not found in molecular structure
- %READC-ERR: atom      71   MET  1HE  not found in molecular structure
- %READC-ERR: atom      71   MET  2HE  not found in molecular structure
- %READC-ERR: atom      71   MET  3HE  not found in molecular structure
- %READC-ERR: atom      72   LYS  H    not found in molecular structure
- %READC-ERR: atom      72   LYS  HA   not found in molecular structure
- %READC-ERR: atom      72   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      72   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      72   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      72   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      72   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      72   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      72   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      72   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      73   PRO  HA   not found in molecular structure
- %READC-ERR: atom      73   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      73   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      73   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      73   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      73   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      73   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      74   ASP  H    not found in molecular structure
- %READC-ERR: atom      74   ASP  HA   not found in molecular structure
- %READC-ERR: atom      74   ASP  1HB  not found in molecular structure
- %READC-ERR: atom      74   ASP  2HB  not found in molecular structure
- %READC-ERR: atom      75   ILE  H    not found in molecular structure
- %READC-ERR: atom      75   ILE  HA   not found in molecular structure
- %READC-ERR: atom      75   ILE  HB   not found in molecular structure
- %READC-ERR: atom      75   ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      75   ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      75   ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      75   ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      75   ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      75   ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      75   ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      75   ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      76   VAL  H    not found in molecular structure
- %READC-ERR: atom      76   VAL  HA   not found in molecular structure
- %READC-ERR: atom      76   VAL  HB   not found in molecular structure
- %READC-ERR: atom      76   VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      76   VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      76   VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      76   VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      76   VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      76   VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      77   CYS  H    not found in molecular structure
- %READC-ERR: atom      77   CYS  HA   not found in molecular structure
- %READC-ERR: atom      77   CYS  1HB  not found in molecular structure
- %READC-ERR: atom      77   CYS  2HB  not found in molecular structure
- %READC-ERR: atom      78   ILE  H    not found in molecular structure
- %READC-ERR: atom      78   ILE  HA   not found in molecular structure
- %READC-ERR: atom      78   ILE  HB   not found in molecular structure
- %READC-ERR: atom      78   ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      78   ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      78   ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      78   ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      78   ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      78   ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      78   ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      78   ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      79   PRO  HA   not found in molecular structure
- %READC-ERR: atom      79   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      79   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      79   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      79   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      79   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      79   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      80   ASP  H    not found in molecular structure
- %READC-ERR: atom      80   ASP  HA   not found in molecular structure
- %READC-ERR: atom      80   ASP  1HB  not found in molecular structure
- %READC-ERR: atom      80   ASP  2HB  not found in molecular structure
- %READC-ERR: atom      81   ASP  H    not found in molecular structure
- %READC-ERR: atom      81   ASP  HA   not found in molecular structure
- %READC-ERR: atom      81   ASP  1HB  not found in molecular structure
- %READC-ERR: atom      81   ASP  2HB  not found in molecular structure
- %READC-ERR: atom      82   ALA  H    not found in molecular structure
- %READC-ERR: atom      82   ALA  HA   not found in molecular structure
- %READC-ERR: atom      82   ALA  1HB  not found in molecular structure
- %READC-ERR: atom      82   ALA  2HB  not found in molecular structure
- %READC-ERR: atom      82   ALA  3HB  not found in molecular structure
- %READC-ERR: atom      83   ASP  H    not found in molecular structure
- %READC-ERR: atom      83   ASP  HA   not found in molecular structure
- %READC-ERR: atom      83   ASP  1HB  not found in molecular structure
- %READC-ERR: atom      83   ASP  2HB  not found in molecular structure
- %READC-ERR: atom      84   MET  H    not found in molecular structure
- %READC-ERR: atom      84   MET  HA   not found in molecular structure
- %READC-ERR: atom      84   MET  1HB  not found in molecular structure
- %READC-ERR: atom      84   MET  2HB  not found in molecular structure
- %READC-ERR: atom      84   MET  1HG  not found in molecular structure
- %READC-ERR: atom      84   MET  2HG  not found in molecular structure
- %READC-ERR: atom      84   MET  1HE  not found in molecular structure
- %READC-ERR: atom      84   MET  2HE  not found in molecular structure
- %READC-ERR: atom      84   MET  3HE  not found in molecular structure
- %READC-ERR: atom      85   GLY  H    not found in molecular structure
- %READC-ERR: atom      85   GLY  1HA  not found in molecular structure
- %READC-ERR: atom      85   GLY  2HA  not found in molecular structure
- %READC-ERR: atom      86   THR  H    not found in molecular structure
- %READC-ERR: atom      86   THR  HA   not found in molecular structure
- %READC-ERR: atom      86   THR  HB   not found in molecular structure
- %READC-ERR: atom      86   THR  1HG2 not found in molecular structure
- %READC-ERR: atom      86   THR  2HG2 not found in molecular structure
- %READC-ERR: atom      86   THR  3HG2 not found in molecular structure
- %READC-ERR: atom      87   ALA  H    not found in molecular structure
- %READC-ERR: atom      87   ALA  HA   not found in molecular structure
- %READC-ERR: atom      87   ALA  1HB  not found in molecular structure
- %READC-ERR: atom      87   ALA  2HB  not found in molecular structure
- %READC-ERR: atom      87   ALA  3HB  not found in molecular structure
- %READC-ERR: atom      88   ASP  H    not found in molecular structure
- %READC-ERR: atom      88   ASP  HA   not found in molecular structure
- %READC-ERR: atom      88   ASP  1HB  not found in molecular structure
- %READC-ERR: atom      88   ASP  2HB  not found in molecular structure
- %READC-ERR: atom      89   SER  H    not found in molecular structure
- %READC-ERR: atom      89   SER  HA   not found in molecular structure
- %READC-ERR: atom      89   SER  1HB  not found in molecular structure
- %READC-ERR: atom      89   SER  2HB  not found in molecular structure
- %READC-ERR: atom      90   LEU  H    not found in molecular structure
- %READC-ERR: atom      90   LEU  HA   not found in molecular structure
- %READC-ERR: atom      90   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      90   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      90   LEU  HG   not found in molecular structure
- %READC-ERR: atom      90   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      90   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      90   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      90   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      90   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      90   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      91   ARG  H    not found in molecular structure
- %READC-ERR: atom      91   ARG  HA   not found in molecular structure
- %READC-ERR: atom      91   ARG  1HB  not found in molecular structure
- %READC-ERR: atom      91   ARG  2HB  not found in molecular structure
- %READC-ERR: atom      91   ARG  1HG  not found in molecular structure
- %READC-ERR: atom      91   ARG  2HG  not found in molecular structure
- %READC-ERR: atom      91   ARG  1HD  not found in molecular structure
- %READC-ERR: atom      91   ARG  2HD  not found in molecular structure
- %READC-ERR: atom      92   TYR  H    not found in molecular structure
- %READC-ERR: atom      92   TYR  HA   not found in molecular structure
- %READC-ERR: atom      92   TYR  1HB  not found in molecular structure
- %READC-ERR: atom      92   TYR  2HB  not found in molecular structure
- %READC-ERR: atom      92   TYR  HD1  not found in molecular structure
- %READC-ERR: atom      92   TYR  HD2  not found in molecular structure
- %READC-ERR: atom      92   TYR  HE1  not found in molecular structure
- %READC-ERR: atom      92   TYR  HE2  not found in molecular structure
- %READC-ERR: atom      93   ILE  H    not found in molecular structure
- %READC-ERR: atom      93   ILE  HA   not found in molecular structure
- %READC-ERR: atom      93   ILE  HB   not found in molecular structure
- %READC-ERR: atom      93   ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      93   ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      93   ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      93   ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      93   ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      93   ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      93   ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      93   ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      94   TYR  H    not found in molecular structure
- %READC-ERR: atom      94   TYR  HA   not found in molecular structure
- %READC-ERR: atom      94   TYR  1HB  not found in molecular structure
- %READC-ERR: atom      94   TYR  2HB  not found in molecular structure
- %READC-ERR: atom      94   TYR  HD1  not found in molecular structure
- %READC-ERR: atom      94   TYR  HD2  not found in molecular structure
- %READC-ERR: atom      94   TYR  HE1  not found in molecular structure
- %READC-ERR: atom      94   TYR  HE2  not found in molecular structure
- %READC-ERR: atom      95   PRO  HA   not found in molecular structure
- %READC-ERR: atom      95   PRO  1HB  not found in molecular structure
- %READC-ERR: atom      95   PRO  2HB  not found in molecular structure
- %READC-ERR: atom      95   PRO  1HG  not found in molecular structure
- %READC-ERR: atom      95   PRO  2HG  not found in molecular structure
- %READC-ERR: atom      95   PRO  1HD  not found in molecular structure
- %READC-ERR: atom      95   PRO  2HD  not found in molecular structure
- %READC-ERR: atom      96   LYS  H    not found in molecular structure
- %READC-ERR: atom      96   LYS  HA   not found in molecular structure
- %READC-ERR: atom      96   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      96   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      96   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      96   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      96   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      96   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      96   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      96   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      97   LEU  H    not found in molecular structure
- %READC-ERR: atom      97   LEU  HA   not found in molecular structure
- %READC-ERR: atom      97   LEU  1HB  not found in molecular structure
- %READC-ERR: atom      97   LEU  2HB  not found in molecular structure
- %READC-ERR: atom      97   LEU  HG   not found in molecular structure
- %READC-ERR: atom      97   LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      97   LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      97   LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      97   LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      97   LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      97   LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      98   LYS  H    not found in molecular structure
- %READC-ERR: atom      98   LYS  HA   not found in molecular structure
- %READC-ERR: atom      98   LYS  1HB  not found in molecular structure
- %READC-ERR: atom      98   LYS  2HB  not found in molecular structure
- %READC-ERR: atom      98   LYS  1HG  not found in molecular structure
- %READC-ERR: atom      98   LYS  2HG  not found in molecular structure
- %READC-ERR: atom      98   LYS  1HD  not found in molecular structure
- %READC-ERR: atom      98   LYS  2HD  not found in molecular structure
- %READC-ERR: atom      98   LYS  1HE  not found in molecular structure
- %READC-ERR: atom      98   LYS  2HE  not found in molecular structure
- %READC-ERR: atom      99   THR  H    not found in molecular structure
- %READC-ERR: atom      99   THR  HA   not found in molecular structure
- %READC-ERR: atom      99   THR  HB   not found in molecular structure
- %READC-ERR: atom      99   THR  1HG2 not found in molecular structure
- %READC-ERR: atom      99   THR  2HG2 not found in molecular structure
- %READC-ERR: atom      99   THR  3HG2 not found in molecular structure
- %READC-ERR: atom      100  ASP  H    not found in molecular structure
- %READC-ERR: atom      100  ASP  HA   not found in molecular structure
- %READC-ERR: atom      100  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      100  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      101  VAL  H    not found in molecular structure
- %READC-ERR: atom      101  VAL  HA   not found in molecular structure
- %READC-ERR: atom      101  VAL  HB   not found in molecular structure
- %READC-ERR: atom      101  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      101  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      101  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      101  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      101  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      101  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      102  LEU  H    not found in molecular structure
- %READC-ERR: atom      102  LEU  HA   not found in molecular structure
- %READC-ERR: atom      102  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      102  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      102  LEU  HG   not found in molecular structure
- %READC-ERR: atom      102  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      102  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      102  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      102  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      102  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      102  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      103  VAL  H    not found in molecular structure
- %READC-ERR: atom      103  VAL  HA   not found in molecular structure
- %READC-ERR: atom      103  VAL  HB   not found in molecular structure
- %READC-ERR: atom      103  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      103  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      103  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      103  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      103  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      103  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      104  LEU  H    not found in molecular structure
- %READC-ERR: atom      104  LEU  HA   not found in molecular structure
- %READC-ERR: atom      104  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      104  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      104  LEU  HG   not found in molecular structure
- %READC-ERR: atom      104  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      104  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      104  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      104  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      104  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      104  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      105  SER  H    not found in molecular structure
- %READC-ERR: atom      105  SER  HA   not found in molecular structure
- %READC-ERR: atom      105  SER  1HB  not found in molecular structure
- %READC-ERR: atom      105  SER  2HB  not found in molecular structure
- %READC-ERR: atom      106  CYS  H    not found in molecular structure
- %READC-ERR: atom      106  CYS  HA   not found in molecular structure
- %READC-ERR: atom      106  CYS  1HB  not found in molecular structure
- %READC-ERR: atom      106  CYS  2HB  not found in molecular structure
- %READC-ERR: atom      107  ASP  H    not found in molecular structure
- %READC-ERR: atom      107  ASP  HA   not found in molecular structure
- %READC-ERR: atom      107  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      107  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      108  LEU  H    not found in molecular structure
- %READC-ERR: atom      108  LEU  HA   not found in molecular structure
- %READC-ERR: atom      108  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      108  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      108  LEU  HG   not found in molecular structure
- %READC-ERR: atom      108  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      108  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      108  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      108  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      108  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      108  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      109  ILE  H    not found in molecular structure
- %READC-ERR: atom      109  ILE  HA   not found in molecular structure
- %READC-ERR: atom      109  ILE  HB   not found in molecular structure
- %READC-ERR: atom      109  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      109  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      109  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      109  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      109  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      109  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      109  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      109  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      110  THR  H    not found in molecular structure
- %READC-ERR: atom      110  THR  HA   not found in molecular structure
- %READC-ERR: atom      110  THR  HB   not found in molecular structure
- %READC-ERR: atom      110  THR  1HG2 not found in molecular structure
- %READC-ERR: atom      110  THR  2HG2 not found in molecular structure
- %READC-ERR: atom      110  THR  3HG2 not found in molecular structure
- %READC-ERR: atom      111  ASP  H    not found in molecular structure
- %READC-ERR: atom      111  ASP  HA   not found in molecular structure
- %READC-ERR: atom      111  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      111  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      112  VAL  H    not found in molecular structure
- %READC-ERR: atom      112  VAL  HA   not found in molecular structure
- %READC-ERR: atom      112  VAL  HB   not found in molecular structure
- %READC-ERR: atom      112  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      112  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      112  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      112  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      112  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      112  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      113  ALA  H    not found in molecular structure
- %READC-ERR: atom      113  ALA  HA   not found in molecular structure
- %READC-ERR: atom      113  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      113  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      113  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      114  LEU  H    not found in molecular structure
- %READC-ERR: atom      114  LEU  HA   not found in molecular structure
- %READC-ERR: atom      114  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      114  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      114  LEU  HG   not found in molecular structure
- %READC-ERR: atom      114  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      114  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      114  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      114  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      114  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      114  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      115  HIS  H    not found in molecular structure
- %READC-ERR: atom      115  HIS  HA   not found in molecular structure
- %READC-ERR: atom      115  HIS  1HB  not found in molecular structure
- %READC-ERR: atom      115  HIS  2HB  not found in molecular structure
- %READC-ERR: atom      115  HIS  HD2  not found in molecular structure
- %READC-ERR: atom      115  HIS  HE1  not found in molecular structure
- %READC-ERR: atom      116  GLU  H    not found in molecular structure
- %READC-ERR: atom      116  GLU  HA   not found in molecular structure
- %READC-ERR: atom      116  GLU  1HB  not found in molecular structure
- %READC-ERR: atom      116  GLU  2HB  not found in molecular structure
- %READC-ERR: atom      116  GLU  1HG  not found in molecular structure
- %READC-ERR: atom      116  GLU  2HG  not found in molecular structure
- %READC-ERR: atom      117  VAL  H    not found in molecular structure
- %READC-ERR: atom      117  VAL  HA   not found in molecular structure
- %READC-ERR: atom      117  VAL  HB   not found in molecular structure
- %READC-ERR: atom      117  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      117  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      117  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      117  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      117  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      117  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      118  VAL  H    not found in molecular structure
- %READC-ERR: atom      118  VAL  HA   not found in molecular structure
- %READC-ERR: atom      118  VAL  HB   not found in molecular structure
- %READC-ERR: atom      118  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      118  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      118  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      118  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      118  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      118  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      119  ASP  H    not found in molecular structure
- %READC-ERR: atom      119  ASP  HA   not found in molecular structure
- %READC-ERR: atom      119  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      119  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      120  LEU  H    not found in molecular structure
- %READC-ERR: atom      120  LEU  HA   not found in molecular structure
- %READC-ERR: atom      120  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      120  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      120  LEU  HG   not found in molecular structure
- %READC-ERR: atom      120  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      120  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      120  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      120  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      120  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      120  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      121  PHE  H    not found in molecular structure
- %READC-ERR: atom      121  PHE  HA   not found in molecular structure
- %READC-ERR: atom      121  PHE  1HB  not found in molecular structure
- %READC-ERR: atom      121  PHE  2HB  not found in molecular structure
- %READC-ERR: atom      121  PHE  HD1  not found in molecular structure
- %READC-ERR: atom      121  PHE  HD2  not found in molecular structure
- %READC-ERR: atom      121  PHE  HE1  not found in molecular structure
- %READC-ERR: atom      121  PHE  HE2  not found in molecular structure
- %READC-ERR: atom      121  PHE  HZ   not found in molecular structure
- %READC-ERR: atom      122  ARG  H    not found in molecular structure
- %READC-ERR: atom      122  ARG  HA   not found in molecular structure
- %READC-ERR: atom      122  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      122  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      122  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      122  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      122  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      122  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      123  ALA  H    not found in molecular structure
- %READC-ERR: atom      123  ALA  HA   not found in molecular structure
- %READC-ERR: atom      123  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      123  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      123  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      124  TYR  H    not found in molecular structure
- %READC-ERR: atom      124  TYR  HA   not found in molecular structure
- %READC-ERR: atom      124  TYR  1HB  not found in molecular structure
- %READC-ERR: atom      124  TYR  2HB  not found in molecular structure
- %READC-ERR: atom      124  TYR  HD1  not found in molecular structure
- %READC-ERR: atom      124  TYR  HD2  not found in molecular structure
- %READC-ERR: atom      124  TYR  HE1  not found in molecular structure
- %READC-ERR: atom      124  TYR  HE2  not found in molecular structure
- %READC-ERR: atom      125  ASP  H    not found in molecular structure
- %READC-ERR: atom      125  ASP  HA   not found in molecular structure
- %READC-ERR: atom      125  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      125  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      126  ALA  H    not found in molecular structure
- %READC-ERR: atom      126  ALA  HA   not found in molecular structure
- %READC-ERR: atom      126  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      126  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      126  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      127  SER  H    not found in molecular structure
- %READC-ERR: atom      127  SER  HA   not found in molecular structure
- %READC-ERR: atom      127  SER  1HB  not found in molecular structure
- %READC-ERR: atom      127  SER  2HB  not found in molecular structure
- %READC-ERR: atom      128  LEU  H    not found in molecular structure
- %READC-ERR: atom      128  LEU  HA   not found in molecular structure
- %READC-ERR: atom      128  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      128  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      128  LEU  HG   not found in molecular structure
- %READC-ERR: atom      128  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      128  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      128  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      128  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      128  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      128  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      129  ALA  H    not found in molecular structure
- %READC-ERR: atom      129  ALA  HA   not found in molecular structure
- %READC-ERR: atom      129  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      129  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      129  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      130  MET  H    not found in molecular structure
- %READC-ERR: atom      130  MET  HA   not found in molecular structure
- %READC-ERR: atom      130  MET  1HB  not found in molecular structure
- %READC-ERR: atom      130  MET  2HB  not found in molecular structure
- %READC-ERR: atom      130  MET  1HG  not found in molecular structure
- %READC-ERR: atom      130  MET  2HG  not found in molecular structure
- %READC-ERR: atom      130  MET  1HE  not found in molecular structure
- %READC-ERR: atom      130  MET  2HE  not found in molecular structure
- %READC-ERR: atom      130  MET  3HE  not found in molecular structure
- %READC-ERR: atom      131  LEU  H    not found in molecular structure
- %READC-ERR: atom      131  LEU  HA   not found in molecular structure
- %READC-ERR: atom      131  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      131  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      131  LEU  HG   not found in molecular structure
- %READC-ERR: atom      131  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      131  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      131  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      131  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      131  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      131  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      132  MET  H    not found in molecular structure
- %READC-ERR: atom      132  MET  HA   not found in molecular structure
- %READC-ERR: atom      132  MET  1HB  not found in molecular structure
- %READC-ERR: atom      132  MET  2HB  not found in molecular structure
- %READC-ERR: atom      132  MET  1HG  not found in molecular structure
- %READC-ERR: atom      132  MET  2HG  not found in molecular structure
- %READC-ERR: atom      132  MET  1HE  not found in molecular structure
- %READC-ERR: atom      132  MET  2HE  not found in molecular structure
- %READC-ERR: atom      132  MET  3HE  not found in molecular structure
- %READC-ERR: atom      133  ARG  H    not found in molecular structure
- %READC-ERR: atom      133  ARG  HA   not found in molecular structure
- %READC-ERR: atom      133  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      133  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      133  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      133  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      133  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      133  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      134  LYS  H    not found in molecular structure
- %READC-ERR: atom      134  LYS  HA   not found in molecular structure
- %READC-ERR: atom      134  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      134  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      134  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      134  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      134  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      134  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      134  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      134  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      155  ARG  HA   not found in molecular structure
- %READC-ERR: atom      155  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      155  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      155  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      155  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      155  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      155  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      156  ASP  H    not found in molecular structure
- %READC-ERR: atom      156  ASP  HA   not found in molecular structure
- %READC-ERR: atom      156  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      156  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      157  PHE  H    not found in molecular structure
- %READC-ERR: atom      157  PHE  HA   not found in molecular structure
- %READC-ERR: atom      157  PHE  1HB  not found in molecular structure
- %READC-ERR: atom      157  PHE  2HB  not found in molecular structure
- %READC-ERR: atom      157  PHE  HD1  not found in molecular structure
- %READC-ERR: atom      157  PHE  HD2  not found in molecular structure
- %READC-ERR: atom      157  PHE  HE1  not found in molecular structure
- %READC-ERR: atom      157  PHE  HE2  not found in molecular structure
- %READC-ERR: atom      157  PHE  HZ   not found in molecular structure
- %READC-ERR: atom      158  ILE  H    not found in molecular structure
- %READC-ERR: atom      158  ILE  HA   not found in molecular structure
- %READC-ERR: atom      158  ILE  HB   not found in molecular structure
- %READC-ERR: atom      158  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      158  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      158  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      158  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      158  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      158  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      158  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      158  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      159  GLY  H    not found in molecular structure
- %READC-ERR: atom      159  GLY  1HA  not found in molecular structure
- %READC-ERR: atom      159  GLY  2HA  not found in molecular structure
- %READC-ERR: atom      160  VAL  H    not found in molecular structure
- %READC-ERR: atom      160  VAL  HA   not found in molecular structure
- %READC-ERR: atom      160  VAL  HB   not found in molecular structure
- %READC-ERR: atom      160  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      160  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      160  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      160  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      160  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      160  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      161  ASP  H    not found in molecular structure
- %READC-ERR: atom      161  ASP  HA   not found in molecular structure
- %READC-ERR: atom      161  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      161  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      162  SER  H    not found in molecular structure
- %READC-ERR: atom      162  SER  HA   not found in molecular structure
- %READC-ERR: atom      162  SER  1HB  not found in molecular structure
- %READC-ERR: atom      162  SER  2HB  not found in molecular structure
- %READC-ERR: atom      163  THR  H    not found in molecular structure
- %READC-ERR: atom      163  THR  HA   not found in molecular structure
- %READC-ERR: atom      163  THR  HB   not found in molecular structure
- %READC-ERR: atom      163  THR  1HG2 not found in molecular structure
- %READC-ERR: atom      163  THR  2HG2 not found in molecular structure
- %READC-ERR: atom      163  THR  3HG2 not found in molecular structure
- %READC-ERR: atom      164  GLY  H    not found in molecular structure
- %READC-ERR: atom      164  GLY  1HA  not found in molecular structure
- %READC-ERR: atom      164  GLY  2HA  not found in molecular structure
- %READC-ERR: atom      165  LYS  H    not found in molecular structure
- %READC-ERR: atom      165  LYS  HA   not found in molecular structure
- %READC-ERR: atom      165  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      165  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      165  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      165  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      165  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      165  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      165  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      165  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      166  ARG  H    not found in molecular structure
- %READC-ERR: atom      166  ARG  HA   not found in molecular structure
- %READC-ERR: atom      166  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      166  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      166  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      166  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      166  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      166  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      167  LEU  H    not found in molecular structure
- %READC-ERR: atom      167  LEU  HA   not found in molecular structure
- %READC-ERR: atom      167  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      167  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      167  LEU  HG   not found in molecular structure
- %READC-ERR: atom      167  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      167  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      167  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      167  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      167  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      167  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      168  LEU  H    not found in molecular structure
- %READC-ERR: atom      168  LEU  HA   not found in molecular structure
- %READC-ERR: atom      168  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      168  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      168  LEU  HG   not found in molecular structure
- %READC-ERR: atom      168  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      168  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      168  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      168  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      168  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      168  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      169  PHE  H    not found in molecular structure
- %READC-ERR: atom      169  PHE  HA   not found in molecular structure
- %READC-ERR: atom      169  PHE  1HB  not found in molecular structure
- %READC-ERR: atom      169  PHE  2HB  not found in molecular structure
- %READC-ERR: atom      169  PHE  HD1  not found in molecular structure
- %READC-ERR: atom      169  PHE  HD2  not found in molecular structure
- %READC-ERR: atom      169  PHE  HE1  not found in molecular structure
- %READC-ERR: atom      169  PHE  HE2  not found in molecular structure
- %READC-ERR: atom      169  PHE  HZ   not found in molecular structure
- %READC-ERR: atom      170  MET  H    not found in molecular structure
- %READC-ERR: atom      170  MET  HA   not found in molecular structure
- %READC-ERR: atom      170  MET  1HB  not found in molecular structure
- %READC-ERR: atom      170  MET  2HB  not found in molecular structure
- %READC-ERR: atom      170  MET  1HG  not found in molecular structure
- %READC-ERR: atom      170  MET  2HG  not found in molecular structure
- %READC-ERR: atom      170  MET  1HE  not found in molecular structure
- %READC-ERR: atom      170  MET  2HE  not found in molecular structure
- %READC-ERR: atom      170  MET  3HE  not found in molecular structure
- %READC-ERR: atom      171  ALA  H    not found in molecular structure
- %READC-ERR: atom      171  ALA  HA   not found in molecular structure
- %READC-ERR: atom      171  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      171  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      171  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      172  ASN  H    not found in molecular structure
- %READC-ERR: atom      172  ASN  HA   not found in molecular structure
- %READC-ERR: atom      172  ASN  1HB  not found in molecular structure
- %READC-ERR: atom      172  ASN  2HB  not found in molecular structure
- %READC-ERR: atom      173  GLU  H    not found in molecular structure
- %READC-ERR: atom      173  GLU  HA   not found in molecular structure
- %READC-ERR: atom      173  GLU  1HB  not found in molecular structure
- %READC-ERR: atom      173  GLU  2HB  not found in molecular structure
- %READC-ERR: atom      173  GLU  1HG  not found in molecular structure
- %READC-ERR: atom      173  GLU  2HG  not found in molecular structure
- %READC-ERR: atom      174  ALA  H    not found in molecular structure
- %READC-ERR: atom      174  ALA  HA   not found in molecular structure
- %READC-ERR: atom      174  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      174  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      174  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      175  ASP  H    not found in molecular structure
- %READC-ERR: atom      175  ASP  HA   not found in molecular structure
- %READC-ERR: atom      175  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      175  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      176  LEU  H    not found in molecular structure
- %READC-ERR: atom      176  LEU  HA   not found in molecular structure
- %READC-ERR: atom      176  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      176  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      176  LEU  HG   not found in molecular structure
- %READC-ERR: atom      176  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      176  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      176  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      176  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      176  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      176  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      177  ASP  H    not found in molecular structure
- %READC-ERR: atom      177  ASP  HA   not found in molecular structure
- %READC-ERR: atom      177  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      177  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      178  GLU  H    not found in molecular structure
- %READC-ERR: atom      178  GLU  HA   not found in molecular structure
- %READC-ERR: atom      178  GLU  1HB  not found in molecular structure
- %READC-ERR: atom      178  GLU  2HB  not found in molecular structure
- %READC-ERR: atom      178  GLU  1HG  not found in molecular structure
- %READC-ERR: atom      178  GLU  2HG  not found in molecular structure
- %READC-ERR: atom      179  GLU  H    not found in molecular structure
- %READC-ERR: atom      179  GLU  HA   not found in molecular structure
- %READC-ERR: atom      179  GLU  1HB  not found in molecular structure
- %READC-ERR: atom      179  GLU  2HB  not found in molecular structure
- %READC-ERR: atom      179  GLU  1HG  not found in molecular structure
- %READC-ERR: atom      179  GLU  2HG  not found in molecular structure
- %READC-ERR: atom      180  LEU  H    not found in molecular structure
- %READC-ERR: atom      180  LEU  HA   not found in molecular structure
- %READC-ERR: atom      180  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      180  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      180  LEU  HG   not found in molecular structure
- %READC-ERR: atom      180  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      180  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      180  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      180  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      180  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      180  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      181  VAL  H    not found in molecular structure
- %READC-ERR: atom      181  VAL  HA   not found in molecular structure
- %READC-ERR: atom      181  VAL  HB   not found in molecular structure
- %READC-ERR: atom      181  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      181  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      181  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      181  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      181  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      181  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      182  ILE  H    not found in molecular structure
- %READC-ERR: atom      182  ILE  HA   not found in molecular structure
- %READC-ERR: atom      182  ILE  HB   not found in molecular structure
- %READC-ERR: atom      182  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      182  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      182  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      182  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      182  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      182  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      182  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      182  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      183  LYS  H    not found in molecular structure
- %READC-ERR: atom      183  LYS  HA   not found in molecular structure
- %READC-ERR: atom      183  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      183  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      183  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      183  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      183  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      183  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      183  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      183  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      184  GLY  H    not found in molecular structure
- %READC-ERR: atom      184  GLY  1HA  not found in molecular structure
- %READC-ERR: atom      184  GLY  2HA  not found in molecular structure
- %READC-ERR: atom      185  SER  H    not found in molecular structure
- %READC-ERR: atom      185  SER  HA   not found in molecular structure
- %READC-ERR: atom      185  SER  1HB  not found in molecular structure
- %READC-ERR: atom      185  SER  2HB  not found in molecular structure
- %READC-ERR: atom      186  ILE  H    not found in molecular structure
- %READC-ERR: atom      186  ILE  HA   not found in molecular structure
- %READC-ERR: atom      186  ILE  HB   not found in molecular structure
- %READC-ERR: atom      186  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      186  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      186  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      186  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      186  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      186  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      186  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      186  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      187  LEU  H    not found in molecular structure
- %READC-ERR: atom      187  LEU  HA   not found in molecular structure
- %READC-ERR: atom      187  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      187  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      187  LEU  HG   not found in molecular structure
- %READC-ERR: atom      187  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      187  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      187  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      187  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      187  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      187  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      188  GLN  H    not found in molecular structure
- %READC-ERR: atom      188  GLN  HA   not found in molecular structure
- %READC-ERR: atom      188  GLN  1HB  not found in molecular structure
- %READC-ERR: atom      188  GLN  2HB  not found in molecular structure
- %READC-ERR: atom      188  GLN  1HG  not found in molecular structure
- %READC-ERR: atom      188  GLN  2HG  not found in molecular structure
- %READC-ERR: atom      189  LYS  H    not found in molecular structure
- %READC-ERR: atom      189  LYS  HA   not found in molecular structure
- %READC-ERR: atom      189  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      189  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      189  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      189  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      189  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      189  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      189  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      189  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      190  HIS  H    not found in molecular structure
- %READC-ERR: atom      190  HIS  HA   not found in molecular structure
- %READC-ERR: atom      190  HIS  1HB  not found in molecular structure
- %READC-ERR: atom      190  HIS  2HB  not found in molecular structure
- %READC-ERR: atom      190  HIS  HD2  not found in molecular structure
- %READC-ERR: atom      190  HIS  HE1  not found in molecular structure
- %READC-ERR: atom      191  PRO  HA   not found in molecular structure
- %READC-ERR: atom      191  PRO  1HB  not found in molecular structure
- %READC-ERR: atom      191  PRO  2HB  not found in molecular structure
- %READC-ERR: atom      191  PRO  1HG  not found in molecular structure
- %READC-ERR: atom      191  PRO  2HG  not found in molecular structure
- %READC-ERR: atom      191  PRO  1HD  not found in molecular structure
- %READC-ERR: atom      191  PRO  2HD  not found in molecular structure
- %READC-ERR: atom      192  ARG  H    not found in molecular structure
- %READC-ERR: atom      192  ARG  HA   not found in molecular structure
- %READC-ERR: atom      192  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      192  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      192  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      192  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      192  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      192  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      193  ILE  H    not found in molecular structure
- %READC-ERR: atom      193  ILE  HA   not found in molecular structure
- %READC-ERR: atom      193  ILE  HB   not found in molecular structure
- %READC-ERR: atom      193  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      193  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      193  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      193  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      193  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      193  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      193  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      193  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      194  ARG  H    not found in molecular structure
- %READC-ERR: atom      194  ARG  HA   not found in molecular structure
- %READC-ERR: atom      194  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      194  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      194  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      194  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      194  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      194  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      195  PHE  H    not found in molecular structure
- %READC-ERR: atom      195  PHE  HA   not found in molecular structure
- %READC-ERR: atom      195  PHE  1HB  not found in molecular structure
- %READC-ERR: atom      195  PHE  2HB  not found in molecular structure
- %READC-ERR: atom      195  PHE  HD1  not found in molecular structure
- %READC-ERR: atom      195  PHE  HD2  not found in molecular structure
- %READC-ERR: atom      195  PHE  HE1  not found in molecular structure
- %READC-ERR: atom      195  PHE  HE2  not found in molecular structure
- %READC-ERR: atom      195  PHE  HZ   not found in molecular structure
- %READC-ERR: atom      196  HIS  H    not found in molecular structure
- %READC-ERR: atom      196  HIS  HA   not found in molecular structure
- %READC-ERR: atom      196  HIS  1HB  not found in molecular structure
- %READC-ERR: atom      196  HIS  2HB  not found in molecular structure
- %READC-ERR: atom      196  HIS  HD2  not found in molecular structure
- %READC-ERR: atom      196  HIS  HE1  not found in molecular structure
- %READC-ERR: atom      197  THR  H    not found in molecular structure
- %READC-ERR: atom      197  THR  HA   not found in molecular structure
- %READC-ERR: atom      197  THR  HB   not found in molecular structure
- %READC-ERR: atom      197  THR  1HG2 not found in molecular structure
- %READC-ERR: atom      197  THR  2HG2 not found in molecular structure
- %READC-ERR: atom      197  THR  3HG2 not found in molecular structure
- %READC-ERR: atom      198  GLY  H    not found in molecular structure
- %READC-ERR: atom      198  GLY  1HA  not found in molecular structure
- %READC-ERR: atom      198  GLY  2HA  not found in molecular structure
- %READC-ERR: atom      199  LEU  H    not found in molecular structure
- %READC-ERR: atom      199  LEU  HA   not found in molecular structure
- %READC-ERR: atom      199  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      199  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      199  LEU  HG   not found in molecular structure
- %READC-ERR: atom      199  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      199  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      199  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      199  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      199  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      199  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      200  VAL  H    not found in molecular structure
- %READC-ERR: atom      200  VAL  HA   not found in molecular structure
- %READC-ERR: atom      200  VAL  HB   not found in molecular structure
- %READC-ERR: atom      200  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      200  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      200  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      200  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      200  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      200  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      201  ASP  H    not found in molecular structure
- %READC-ERR: atom      201  ASP  HA   not found in molecular structure
- %READC-ERR: atom      201  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      201  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      202  ALA  H    not found in molecular structure
- %READC-ERR: atom      202  ALA  HA   not found in molecular structure
- %READC-ERR: atom      202  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      202  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      202  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      203  HIS  H    not found in molecular structure
- %READC-ERR: atom      203  HIS  HA   not found in molecular structure
- %READC-ERR: atom      203  HIS  1HB  not found in molecular structure
- %READC-ERR: atom      203  HIS  2HB  not found in molecular structure
- %READC-ERR: atom      203  HIS  HD2  not found in molecular structure
- %READC-ERR: atom      203  HIS  HE1  not found in molecular structure
- %READC-ERR: atom      204  LEU  H    not found in molecular structure
- %READC-ERR: atom      204  LEU  HA   not found in molecular structure
- %READC-ERR: atom      204  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      204  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      204  LEU  HG   not found in molecular structure
- %READC-ERR: atom      204  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      204  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      204  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      204  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      204  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      204  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      205  TYR  H    not found in molecular structure
- %READC-ERR: atom      205  TYR  HA   not found in molecular structure
- %READC-ERR: atom      205  TYR  1HB  not found in molecular structure
- %READC-ERR: atom      205  TYR  2HB  not found in molecular structure
- %READC-ERR: atom      205  TYR  HD1  not found in molecular structure
- %READC-ERR: atom      205  TYR  HD2  not found in molecular structure
- %READC-ERR: atom      205  TYR  HE1  not found in molecular structure
- %READC-ERR: atom      205  TYR  HE2  not found in molecular structure
- %READC-ERR: atom      206  CYS  H    not found in molecular structure
- %READC-ERR: atom      206  CYS  HA   not found in molecular structure
- %READC-ERR: atom      206  CYS  1HB  not found in molecular structure
- %READC-ERR: atom      206  CYS  2HB  not found in molecular structure
- %READC-ERR: atom      207  LEU  H    not found in molecular structure
- %READC-ERR: atom      207  LEU  HA   not found in molecular structure
- %READC-ERR: atom      207  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      207  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      207  LEU  HG   not found in molecular structure
- %READC-ERR: atom      207  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      207  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      207  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      207  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      207  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      207  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      208  LYS  H    not found in molecular structure
- %READC-ERR: atom      208  LYS  HA   not found in molecular structure
- %READC-ERR: atom      208  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      208  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      208  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      208  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      208  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      208  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      208  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      208  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      209  LYS  H    not found in molecular structure
- %READC-ERR: atom      209  LYS  HA   not found in molecular structure
- %READC-ERR: atom      209  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      209  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      209  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      209  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      209  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      209  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      209  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      209  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      210  TYR  H    not found in molecular structure
- %READC-ERR: atom      210  TYR  HA   not found in molecular structure
- %READC-ERR: atom      210  TYR  1HB  not found in molecular structure
- %READC-ERR: atom      210  TYR  2HB  not found in molecular structure
- %READC-ERR: atom      210  TYR  HD1  not found in molecular structure
- %READC-ERR: atom      210  TYR  HD2  not found in molecular structure
- %READC-ERR: atom      210  TYR  HE1  not found in molecular structure
- %READC-ERR: atom      210  TYR  HE2  not found in molecular structure
- %READC-ERR: atom      211  ILE  H    not found in molecular structure
- %READC-ERR: atom      211  ILE  HA   not found in molecular structure
- %READC-ERR: atom      211  ILE  HB   not found in molecular structure
- %READC-ERR: atom      211  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      211  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      211  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      211  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      211  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      211  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      211  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      211  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      212  VAL  H    not found in molecular structure
- %READC-ERR: atom      212  VAL  HA   not found in molecular structure
- %READC-ERR: atom      212  VAL  HB   not found in molecular structure
- %READC-ERR: atom      212  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      212  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      212  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      212  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      212  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      212  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      213  ASP  H    not found in molecular structure
- %READC-ERR: atom      213  ASP  HA   not found in molecular structure
- %READC-ERR: atom      213  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      213  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      214  PHE  H    not found in molecular structure
- %READC-ERR: atom      214  PHE  HA   not found in molecular structure
- %READC-ERR: atom      214  PHE  1HB  not found in molecular structure
- %READC-ERR: atom      214  PHE  2HB  not found in molecular structure
- %READC-ERR: atom      214  PHE  HD1  not found in molecular structure
- %READC-ERR: atom      214  PHE  HD2  not found in molecular structure
- %READC-ERR: atom      214  PHE  HE1  not found in molecular structure
- %READC-ERR: atom      214  PHE  HE2  not found in molecular structure
- %READC-ERR: atom      214  PHE  HZ   not found in molecular structure
- %READC-ERR: atom      215  LEU  H    not found in molecular structure
- %READC-ERR: atom      215  LEU  HA   not found in molecular structure
- %READC-ERR: atom      215  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      215  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      215  LEU  HG   not found in molecular structure
- %READC-ERR: atom      215  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      215  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      215  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      215  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      215  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      215  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      216  MET  H    not found in molecular structure
- %READC-ERR: atom      216  MET  HA   not found in molecular structure
- %READC-ERR: atom      216  MET  1HB  not found in molecular structure
- %READC-ERR: atom      216  MET  2HB  not found in molecular structure
- %READC-ERR: atom      216  MET  1HG  not found in molecular structure
- %READC-ERR: atom      216  MET  2HG  not found in molecular structure
- %READC-ERR: atom      216  MET  1HE  not found in molecular structure
- %READC-ERR: atom      216  MET  2HE  not found in molecular structure
- %READC-ERR: atom      216  MET  3HE  not found in molecular structure
- %READC-ERR: atom      217  GLU  H    not found in molecular structure
- %READC-ERR: atom      217  GLU  HA   not found in molecular structure
- %READC-ERR: atom      217  GLU  1HB  not found in molecular structure
- %READC-ERR: atom      217  GLU  2HB  not found in molecular structure
- %READC-ERR: atom      217  GLU  1HG  not found in molecular structure
- %READC-ERR: atom      217  GLU  2HG  not found in molecular structure
- %READC-ERR: atom      218  ASN  H    not found in molecular structure
- %READC-ERR: atom      218  ASN  HA   not found in molecular structure
- %READC-ERR: atom      218  ASN  1HB  not found in molecular structure
- %READC-ERR: atom      218  ASN  2HB  not found in molecular structure
- %READC-ERR: atom      219  GLY  H    not found in molecular structure
- %READC-ERR: atom      219  GLY  1HA  not found in molecular structure
- %READC-ERR: atom      219  GLY  2HA  not found in molecular structure
- %READC-ERR: atom      220  SER  H    not found in molecular structure
- %READC-ERR: atom      220  SER  HA   not found in molecular structure
- %READC-ERR: atom      220  SER  1HB  not found in molecular structure
- %READC-ERR: atom      220  SER  2HB  not found in molecular structure
- %READC-ERR: atom      221  ILE  H    not found in molecular structure
- %READC-ERR: atom      221  ILE  HA   not found in molecular structure
- %READC-ERR: atom      221  ILE  HB   not found in molecular structure
- %READC-ERR: atom      221  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      221  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      221  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      221  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      221  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      221  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      221  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      221  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      222  THR  H    not found in molecular structure
- %READC-ERR: atom      222  THR  HA   not found in molecular structure
- %READC-ERR: atom      222  THR  HB   not found in molecular structure
- %READC-ERR: atom      222  THR  1HG2 not found in molecular structure
- %READC-ERR: atom      222  THR  2HG2 not found in molecular structure
- %READC-ERR: atom      222  THR  3HG2 not found in molecular structure
- %READC-ERR: atom      223  SER  H    not found in molecular structure
- %READC-ERR: atom      223  SER  HA   not found in molecular structure
- %READC-ERR: atom      223  SER  1HB  not found in molecular structure
- %READC-ERR: atom      223  SER  2HB  not found in molecular structure
- %READC-ERR: atom      224  ILE  H    not found in molecular structure
- %READC-ERR: atom      224  ILE  HA   not found in molecular structure
- %READC-ERR: atom      224  ILE  HB   not found in molecular structure
- %READC-ERR: atom      224  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      224  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      224  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      224  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      224  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      224  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      224  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      224  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      225  ARG  H    not found in molecular structure
- %READC-ERR: atom      225  ARG  HA   not found in molecular structure
- %READC-ERR: atom      225  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      225  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      225  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      225  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      225  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      225  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      226  SER  H    not found in molecular structure
- %READC-ERR: atom      226  SER  HA   not found in molecular structure
- %READC-ERR: atom      226  SER  1HB  not found in molecular structure
- %READC-ERR: atom      226  SER  2HB  not found in molecular structure
- %READC-ERR: atom      227  GLU  H    not found in molecular structure
- %READC-ERR: atom      227  GLU  HA   not found in molecular structure
- %READC-ERR: atom      227  GLU  1HB  not found in molecular structure
- %READC-ERR: atom      227  GLU  2HB  not found in molecular structure
- %READC-ERR: atom      227  GLU  1HG  not found in molecular structure
- %READC-ERR: atom      227  GLU  2HG  not found in molecular structure
- %READC-ERR: atom      228  LEU  H    not found in molecular structure
- %READC-ERR: atom      228  LEU  HA   not found in molecular structure
- %READC-ERR: atom      228  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      228  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      228  LEU  HG   not found in molecular structure
- %READC-ERR: atom      228  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      228  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      228  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      228  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      228  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      228  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      229  ILE  H    not found in molecular structure
- %READC-ERR: atom      229  ILE  HA   not found in molecular structure
- %READC-ERR: atom      229  ILE  HB   not found in molecular structure
- %READC-ERR: atom      229  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      229  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      229  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      229  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      229  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      229  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      229  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      229  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      230  PRO  HA   not found in molecular structure
- %READC-ERR: atom      230  PRO  1HB  not found in molecular structure
- %READC-ERR: atom      230  PRO  2HB  not found in molecular structure
- %READC-ERR: atom      230  PRO  1HG  not found in molecular structure
- %READC-ERR: atom      230  PRO  2HG  not found in molecular structure
- %READC-ERR: atom      230  PRO  1HD  not found in molecular structure
- %READC-ERR: atom      230  PRO  2HD  not found in molecular structure
- %READC-ERR: atom      231  TYR  H    not found in molecular structure
- %READC-ERR: atom      231  TYR  HA   not found in molecular structure
- %READC-ERR: atom      231  TYR  1HB  not found in molecular structure
- %READC-ERR: atom      231  TYR  2HB  not found in molecular structure
- %READC-ERR: atom      231  TYR  HD1  not found in molecular structure
- %READC-ERR: atom      231  TYR  HD2  not found in molecular structure
- %READC-ERR: atom      231  TYR  HE1  not found in molecular structure
- %READC-ERR: atom      231  TYR  HE2  not found in molecular structure
- %READC-ERR: atom      232  LEU  H    not found in molecular structure
- %READC-ERR: atom      232  LEU  HA   not found in molecular structure
- %READC-ERR: atom      232  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      232  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      232  LEU  HG   not found in molecular structure
- %READC-ERR: atom      232  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      232  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      232  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      232  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      232  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      232  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      233  VAL  H    not found in molecular structure
- %READC-ERR: atom      233  VAL  HA   not found in molecular structure
- %READC-ERR: atom      233  VAL  HB   not found in molecular structure
- %READC-ERR: atom      233  VAL  1HG1 not found in molecular structure
- %READC-ERR: atom      233  VAL  2HG1 not found in molecular structure
- %READC-ERR: atom      233  VAL  3HG1 not found in molecular structure
- %READC-ERR: atom      233  VAL  1HG2 not found in molecular structure
- %READC-ERR: atom      233  VAL  2HG2 not found in molecular structure
- %READC-ERR: atom      233  VAL  3HG2 not found in molecular structure
- %READC-ERR: atom      234  ARG  H    not found in molecular structure
- %READC-ERR: atom      234  ARG  HA   not found in molecular structure
- %READC-ERR: atom      234  ARG  1HB  not found in molecular structure
- %READC-ERR: atom      234  ARG  2HB  not found in molecular structure
- %READC-ERR: atom      234  ARG  1HG  not found in molecular structure
- %READC-ERR: atom      234  ARG  2HG  not found in molecular structure
- %READC-ERR: atom      234  ARG  1HD  not found in molecular structure
- %READC-ERR: atom      234  ARG  2HD  not found in molecular structure
- %READC-ERR: atom      235  LYS  H    not found in molecular structure
- %READC-ERR: atom      235  LYS  HA   not found in molecular structure
- %READC-ERR: atom      235  LYS  1HB  not found in molecular structure
- %READC-ERR: atom      235  LYS  2HB  not found in molecular structure
- %READC-ERR: atom      235  LYS  1HG  not found in molecular structure
- %READC-ERR: atom      235  LYS  2HG  not found in molecular structure
- %READC-ERR: atom      235  LYS  1HD  not found in molecular structure
- %READC-ERR: atom      235  LYS  2HD  not found in molecular structure
- %READC-ERR: atom      235  LYS  1HE  not found in molecular structure
- %READC-ERR: atom      235  LYS  2HE  not found in molecular structure
- %READC-ERR: atom      241  SER  HA   not found in molecular structure
- %READC-ERR: atom      241  SER  1HB  not found in molecular structure
- %READC-ERR: atom      241  SER  2HB  not found in molecular structure
- %READC-ERR: atom      242  SER  H    not found in molecular structure
- %READC-ERR: atom      242  SER  HA   not found in molecular structure
- %READC-ERR: atom      242  SER  1HB  not found in molecular structure
- %READC-ERR: atom      242  SER  2HB  not found in molecular structure
- %READC-ERR: atom      243  GLN  H    not found in molecular structure
- %READC-ERR: atom      243  GLN  HA   not found in molecular structure
- %READC-ERR: atom      243  GLN  1HB  not found in molecular structure
- %READC-ERR: atom      243  GLN  2HB  not found in molecular structure
- %READC-ERR: atom      243  GLN  1HG  not found in molecular structure
- %READC-ERR: atom      243  GLN  2HG  not found in molecular structure
- %READC-ERR: atom      260  SER  HA   not found in molecular structure
- %READC-ERR: atom      260  SER  1HB  not found in molecular structure
- %READC-ERR: atom      260  SER  2HB  not found in molecular structure
- %READC-ERR: atom      261  LEU  H    not found in molecular structure
- %READC-ERR: atom      261  LEU  HA   not found in molecular structure
- %READC-ERR: atom      261  LEU  1HB  not found in molecular structure
- %READC-ERR: atom      261  LEU  2HB  not found in molecular structure
- %READC-ERR: atom      261  LEU  HG   not found in molecular structure
- %READC-ERR: atom      261  LEU  1HD1 not found in molecular structure
- %READC-ERR: atom      261  LEU  2HD1 not found in molecular structure
- %READC-ERR: atom      261  LEU  3HD1 not found in molecular structure
- %READC-ERR: atom      261  LEU  1HD2 not found in molecular structure
- %READC-ERR: atom      261  LEU  2HD2 not found in molecular structure
- %READC-ERR: atom      261  LEU  3HD2 not found in molecular structure
- %READC-ERR: atom      262  ASP  H    not found in molecular structure
- %READC-ERR: atom      262  ASP  HA   not found in molecular structure
- %READC-ERR: atom      262  ASP  1HB  not found in molecular structure
- %READC-ERR: atom      262  ASP  2HB  not found in molecular structure
- %READC-ERR: atom      263  ILE  H    not found in molecular structure
- %READC-ERR: atom      263  ILE  HA   not found in molecular structure
- %READC-ERR: atom      263  ILE  HB   not found in molecular structure
- %READC-ERR: atom      263  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      263  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      263  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      263  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      263  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      263  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      263  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      263  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      264  TYR  H    not found in molecular structure
- %READC-ERR: atom      264  TYR  HA   not found in molecular structure
- %READC-ERR: atom      264  TYR  1HB  not found in molecular structure
- %READC-ERR: atom      264  TYR  2HB  not found in molecular structure
- %READC-ERR: atom      264  TYR  HD1  not found in molecular structure
- %READC-ERR: atom      264  TYR  HD2  not found in molecular structure
- %READC-ERR: atom      264  TYR  HE1  not found in molecular structure
- %READC-ERR: atom      264  TYR  HE2  not found in molecular structure
- %READC-ERR: atom      265  SER  H    not found in molecular structure
- %READC-ERR: atom      265  SER  HA   not found in molecular structure
- %READC-ERR: atom      265  SER  1HB  not found in molecular structure
- %READC-ERR: atom      265  SER  2HB  not found in molecular structure
- %READC-ERR: atom      266  PHE  H    not found in molecular structure
- %READC-ERR: atom      266  PHE  HA   not found in molecular structure
- %READC-ERR: atom      266  PHE  1HB  not found in molecular structure
- %READC-ERR: atom      266  PHE  2HB  not found in molecular structure
- %READC-ERR: atom      266  PHE  HD1  not found in molecular structure
- %READC-ERR: atom      266  PHE  HD2  not found in molecular structure
- %READC-ERR: atom      266  PHE  HE1  not found in molecular structure
- %READC-ERR: atom      266  PHE  HE2  not found in molecular structure
- %READC-ERR: atom      266  PHE  HZ   not found in molecular structure
- %READC-ERR: atom      267  ILE  H    not found in molecular structure
- %READC-ERR: atom      267  ILE  HA   not found in molecular structure
- %READC-ERR: atom      267  ILE  HB   not found in molecular structure
- %READC-ERR: atom      267  ILE  1HG1 not found in molecular structure
- %READC-ERR: atom      267  ILE  2HG1 not found in molecular structure
- %READC-ERR: atom      267  ILE  1HG2 not found in molecular structure
- %READC-ERR: atom      267  ILE  2HG2 not found in molecular structure
- %READC-ERR: atom      267  ILE  3HG2 not found in molecular structure
- %READC-ERR: atom      267  ILE  1HD1 not found in molecular structure
- %READC-ERR: atom      267  ILE  2HD1 not found in molecular structure
- %READC-ERR: atom      267  ILE  3HD1 not found in molecular structure
- %READC-ERR: atom      276  ALA  HA   not found in molecular structure
- %READC-ERR: atom      276  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      276  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      276  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      277  PRO  HA   not found in molecular structure
- %READC-ERR: atom      278  TYR  H    not found in molecular structure
- %READC-ERR: atom      278  TYR  HA   not found in molecular structure
- %READC-ERR: atom      278  TYR  1HB  not found in molecular structure
- %READC-ERR: atom      278  TYR  2HB  not found in molecular structure
- %READC-ERR: atom      278  TYR  HD1  not found in molecular structure
- %READC-ERR: atom      278  TYR  HD2  not found in molecular structure
- %READC-ERR: atom      278  TYR  HE1  not found in molecular structure
- %READC-ERR: atom      278  TYR  HE2  not found in molecular structure
- %READC-ERR: atom      279  ASP  H    not found in molecular structure
- %READC-ERR: atom      279  ASP  HA   not found in molecular structure
- %READC-ERR: atom      280  ALA  H    not found in molecular structure
- %READC-ERR: atom      280  ALA  HA   not found in molecular structure
- %READC-ERR: atom      280  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      280  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      280  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      281  CYS  H    not found in molecular structure
- %READC-ERR: atom      281  CYS  HA   not found in molecular structure
- %READC-ERR: atom      282  TRP  H    not found in molecular structure
- %READC-ERR: atom      282  TRP  HA   not found in molecular structure
- %READC-ERR: atom      283  ASN  H    not found in molecular structure
- %READC-ERR: atom      283  ASN  HA   not found in molecular structure
- %READC-ERR: atom      284  ALA  H    not found in molecular structure
- %READC-ERR: atom      284  ALA  HA   not found in molecular structure
- %READC-ERR: atom      284  ALA  1HB  not found in molecular structure
- %READC-ERR: atom      284  ALA  2HB  not found in molecular structure
- %READC-ERR: atom      284  ALA  3HB  not found in molecular structure
- %READC-ERR: atom      285  CYS  H    not found in molecular structure
- %READC-ERR: atom      285  CYS  HA   not found in molecular structure
- %READC-ERR: atom      286  ARG  H    not found in molecular structure
- %READC-ERR: atom      286  ARG  HA   not found in molecular structure
- %READC-ERR: atom      287  GLY  H    not found in molecular structure
- %READC-ERR: atom      287  GLY  1HA  not found in molecular structure
- %READC-ERR: atom      287  GLY  2HA  not found in molecular structure
- %READC-ERR: atom      288  ASP  H    not found in molecular structure
- %READC-ERR: atom      288  ASP  HA   not found in molecular structure
- %READC-ERR: atom      289  ARG  H    not found in molecular structure
- %READC-ERR: atom      289  ARG  HA   not found in molecular structure
- %READC-ERR: atom      290  TRP  H    not found in molecular structure
- %READC-ERR: atom      290  TRP  HA   not found in molecular structure
- %READC-ERR: atom      291  GLU  H    not found in molecular structure
- %READC-ERR: atom      291  GLU  HA   not found in molecular structure
- %READC-ERR: atom      292  ASP  H    not found in molecular structure
- %READC-ERR: atom      292  ASP  HA   not found in molecular structure
- %READC-WRN: still    353 missing coordinates (in selected subset)
+ %READC-WRN: still     71 missing coordinates (in selected subset)
  CNSsolve> 
  CNSsolve> show sum(1) ( not(hydrogen) and not(known) ) 
- SELRPN:     50 atoms have been selected out of   2859
- SHOW: sum over selected elements =      50.000000
+ SELRPN:      0 atoms have been selected out of    686
+ SHOW: zero atoms selected
  CNSsolve> if ( $select = 0 ) then 
- NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as true
  CNSsolve>   display  %INFO: There are no coordinates missing for non-hydrogen atoms 
+ %INFO: There are no coordinates missing for non-hydrogen atoms
  CNSsolve> end if 
  CNSsolve> 
  CNSsolve> if ( $log_level = verbose ) then 
@@ -7405,26 +5753,6 @@
  CNSsolve>   set message=normal echo=on end 
  CNSsolve> else 
  CNSsolve>   set message=off echo=off end 
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- %PATCH-ERR: PATCH=DPPP
- %PATCH-ERR: REFErence=-      first atom=(     12   GLY  N   )
- %PATCH-ERR:                   last atom=(     12   GLY  O   )
- %PATCH-ERR: REFErence=+      first atom=(     26   PRO  CA  )
- %PATCH-ERR:                   last atom=(     26   PRO  C   )
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    +N    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    +N    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    +N    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    +N    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    +N    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    +N    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    -O    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    -O    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    -O    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    -O    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    -O    not found in molecular structure.
- %PATCH-ERR: to be deleted dihedral -CB   -CA   -C    -O    not found in molecular structure.
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
  %PARRDR-info: duplication of bond C    OC  
  %PARRDR-info: duplication of bond CD_  C_  
  %PARRDR-info: duplication of bond CM_  CT_ 
@@ -7453,114 +5781,98 @@
  %PARRDR-info: duplication of nonbonded entry HA  
  %PARRDR-info: duplication of nonbonded entry OC  
  %PARRDR-info: duplication of nonbonded entry C   
- POWELL: number of degrees of freedom=  1680
+ POWELL: number of degrees of freedom=   408
  NBONDS: generating intra-molecular exclusion list with mode=-2
- MAKINB: mode  -2 found    566 exclusions and      0 interactions(1-4)
- NBONDS: found    47198 intra-atom interactions
- NBONDS: found    46607 intra-atom interactions
- NBONDS: found    46296 intra-atom interactions
- NBONDS: found    44957 intra-atom interactions
- NBONDS: found    44489 intra-atom interactions
- --------------- cycle=    10 ------ stepsize=   -0.0001 -----------------------
- | Etotal =471963.474 grad(E)=495.727    E(BOND)=173813.143 E(ANGL)=125296.667 |
- | E(VDW )=172853.664                                                          |
+ MAKINB: mode  -2 found    136 exclusions and      0 interactions(1-4)
+ NBONDS: found    11996 intra-atom interactions
+ NBONDS: found    11887 intra-atom interactions
+ NBONDS: found    11537 intra-atom interactions
+ NBONDS: found    11189 intra-atom interactions
+ NBONDS: found    11236 intra-atom interactions
+ --------------- cycle=    10 ------ stepsize=    0.0006 -----------------------
+ | Etotal =13408.113  grad(E)=187.575    E(BOND)=1839.761   E(ANGL)=8472.744   |
+ | E(VDW )=3095.608                                                            |
  -------------------------------------------------------------------------------
- NBONDS: found    44584 intra-atom interactions
- NBONDS: found    44489 intra-atom interactions
- NBONDS: found    44513 intra-atom interactions
- NBONDS: found    44530 intra-atom interactions
- --------------- cycle=    20 ------ stepsize=    0.0000 -----------------------
- | Etotal =137896.949 grad(E)=224.293    E(BOND)=62527.795  E(ANGL)=19931.319  |
- | E(VDW )=55437.834                                                           |
+ NBONDS: found    11263 intra-atom interactions
+ NBONDS: found    11260 intra-atom interactions
+ --------------- cycle=    20 ------ stepsize=    0.0009 -----------------------
+ | Etotal =2437.346   grad(E)=47.922     E(BOND)=335.028    E(ANGL)=1306.510   |
+ | E(VDW )=795.808                                                             |
  -------------------------------------------------------------------------------
- NBONDS: found    44550 intra-atom interactions
- NBONDS: found    44567 intra-atom interactions
- NBONDS: found    44586 intra-atom interactions
- --------------- cycle=    30 ------ stepsize=    0.0001 -----------------------
- | Etotal =94012.039  grad(E)=164.555    E(BOND)=53269.389  E(ANGL)=5493.419   |
- | E(VDW )=35249.231                                                           |
+ --------------- cycle=    30 ------ stepsize=    0.0008 -----------------------
+ | Etotal =1156.604   grad(E)=41.952     E(BOND)=236.700    E(ANGL)=190.773    |
+ | E(VDW )=729.132                                                             |
  -------------------------------------------------------------------------------
- NBONDS: found    44523 intra-atom interactions
- NBONDS: found    44440 intra-atom interactions
- NBONDS: found    44452 intra-atom interactions
- --------------- cycle=    40 ------ stepsize=    0.0001 -----------------------
- | Etotal =78794.422  grad(E)=148.114    E(BOND)=49616.923  E(ANGL)=3302.234   |
- | E(VDW )=25875.265                                                           |
+ --------------- cycle=    40 ------ stepsize=    0.0011 -----------------------
+ | Etotal =1031.878   grad(E)=33.878     E(BOND)=212.455    E(ANGL)=97.275     |
+ | E(VDW )=722.149                                                             |
  -------------------------------------------------------------------------------
- NBONDS: found    44459 intra-atom interactions
- NBONDS: found    44475 intra-atom interactions
- --------------- cycle=    50 ------ stepsize=    0.0001 -----------------------
- | Etotal =75158.783  grad(E)=142.073    E(BOND)=46712.826  E(ANGL)=3174.735   |
- | E(VDW )=25271.221                                                           |
+ --------------- cycle=    50 ------ stepsize=    0.0009 -----------------------
+ | Etotal =1026.443   grad(E)=33.679     E(BOND)=206.751    E(ANGL)=95.679     |
+ | E(VDW )=724.013                                                             |
  -------------------------------------------------------------------------------
  POWELL: STEP number limit. Normal termination
  POWELL: Current coordinates set to last minimum
  DCART: temperature coupling (TCOUpling) enabled
  -------------------------- Cartesian dynamics start ---------------------------
- | E(kin)+E(total)=113479.558      E(kin)=508.153       temperature=304.422    |
- | Etotal =112971.406 grad(E)=258.880    E(BOND)=46712.826  E(ANGL)=3174.735   |
- | E(IMPR)=63083.844                                                           |
+ | E(kin)+E(total)=20491.987       E(kin)=115.239       temperature=284.269    |
+ | Etotal =20376.748  grad(E)=218.776    E(BOND)=206.751    E(ANGL)=95.679     |
+ | E(IMPR)=20074.317                                                           |
  -------------------------------------------------------------------------------
  ----------------- final step=       50 at      0.02500 ps ---------------------
- | E(kin)+E(total)=64430.499       E(kin)=12252.257     temperature=7340.019   |
- | Etotal =52178.242  grad(E)=137.173    E(BOND)=22975.906  E(ANGL)=8707.408   |
- | E(IMPR)=20494.929                                                           |
+ | E(kin)+E(total)=12696.254       E(kin)=2517.710      temperature=6210.633   |
+ | Etotal =10178.544  grad(E)=98.588     E(BOND)=242.499    E(ANGL)=1543.029   |
+ | E(IMPR)=8393.016                                                            |
  -------------------------------------------------------------------------------
  CENMAS: Information about center of free masses
-         position [A]          :    138.39314    157.20050    137.61390
-         velocity [A/ps]       :      0.21009     -0.20004     -0.86904
-         ang. mom. [amu A/ps]  : -63646.04457-146789.77764 -64302.05449
-         kin. ener. [Kcal/mol] :     11.23456
- POWELL: number of degrees of freedom=  1680
- NBONDS: found    44686 intra-atom interactions
- NBONDS: found    44683 intra-atom interactions
- NBONDS: found    44631 intra-atom interactions
- NBONDS: found    44575 intra-atom interactions
+         position [A]          :    114.39310    154.87586    147.39553
+         velocity [A/ps]       :      0.63186      4.71243     -2.29306
+         ang. mom. [amu A/ps]  :   5388.30295 -39580.61824   -104.36831
+         kin. ener. [Kcal/mol] :     90.57249
+ POWELL: number of degrees of freedom=   408
+ NBONDS: found    11251 intra-atom interactions
  --------------- cycle=    10 ------ stepsize=    0.0001 -----------------------
- | Etotal =112565.067 grad(E)=173.672    E(BOND)=46063.483  E(ANGL)=10262.508  |
- | E(IMPR)=15247.512  E(VDW )=40991.564                                        |
+ | Etotal =9082.184   grad(E)=35.768     E(BOND)=342.753    E(ANGL)=1793.626   |
+ | E(IMPR)=6116.481   E(VDW )=829.324                                          |
  -------------------------------------------------------------------------------
- NBONDS: found    44525 intra-atom interactions
- NBONDS: found    44477 intra-atom interactions
- NBONDS: found    44417 intra-atom interactions
- --------------- cycle=    20 ------ stepsize=    0.0001 -----------------------
- | Etotal =97181.560  grad(E)=170.618    E(BOND)=51867.409  E(ANGL)=8270.171   |
- | E(IMPR)=14407.979  E(VDW )=22636.000                                        |
+ NBONDS: found    11263 intra-atom interactions
+ --------------- cycle=    20 ------ stepsize=    0.0009 -----------------------
+ | Etotal =8986.120   grad(E)=47.288     E(BOND)=467.144    E(ANGL)=2015.032   |
+ | E(IMPR)=5653.080   E(VDW )=850.864                                          |
  -------------------------------------------------------------------------------
- NBONDS: found    44434 intra-atom interactions
- --------------- cycle=    30 ------ stepsize=    0.0001 -----------------------
- | Etotal =91608.719  grad(E)=165.109    E(BOND)=47999.941  E(ANGL)=6707.519   |
- | E(IMPR)=13276.914  E(VDW )=23624.345                                        |
+ --------------- cycle=    30 ------ stepsize=    0.0002 -----------------------
+ | Etotal =8209.404   grad(E)=56.437     E(BOND)=549.099    E(ANGL)=2306.099   |
+ | E(IMPR)=4492.788   E(VDW )=861.419                                          |
  -------------------------------------------------------------------------------
- NBONDS: found    44450 intra-atom interactions
- --------------- cycle=    40 ------ stepsize=    0.0002 -----------------------
- | Etotal =88752.233  grad(E)=147.344    E(BOND)=46151.788  E(ANGL)=6077.650   |
- | E(IMPR)=12141.586  E(VDW )=24381.209                                        |
+ NBONDS: found    11245 intra-atom interactions
+ NBONDS: found    11234 intra-atom interactions
+ --------------- cycle=    40 ------ stepsize=    0.0007 -----------------------
+ | Etotal =5484.033   grad(E)=48.794     E(BOND)=298.235    E(ANGL)=1234.955   |
+ | E(IMPR)=3091.059   E(VDW )=859.784                                          |
  -------------------------------------------------------------------------------
- --------------- cycle=    50 ------ stepsize=    0.0001 -----------------------
- | Etotal =87758.812  grad(E)=145.515    E(BOND)=46114.442  E(ANGL)=5984.540   |
- | E(IMPR)=12156.124  E(VDW )=23503.706                                        |
+ NBONDS: found    11237 intra-atom interactions
+ --------------- cycle=    50 ------ stepsize=    0.0006 -----------------------
+ | Etotal =5031.901   grad(E)=34.512     E(BOND)=272.501    E(ANGL)=866.961    |
+ | E(IMPR)=3132.525   E(VDW )=759.914                                          |
  -------------------------------------------------------------------------------
  POWELL: STEP number limit. Normal termination
  POWELL: Current coordinates set to last minimum
  DCART: temperature coupling (TCOUpling) enabled
  -------------------------- Cartesian dynamics start ---------------------------
- | E(kin)+E(total)=88266.286       E(kin)=507.474       temperature=304.015    |
- | Etotal =87758.812  grad(E)=145.515    E(BOND)=46114.442  E(ANGL)=5984.540   |
- | E(IMPR)=12156.124  E(VDW )=23503.706                                        |
+ | E(kin)+E(total)=5160.603        E(kin)=128.702       temperature=317.480    |
+ | Etotal =5031.901   grad(E)=34.512     E(BOND)=272.501    E(ANGL)=866.961    |
+ | E(IMPR)=3132.525   E(VDW )=759.914                                          |
  -------------------------------------------------------------------------------
- NBONDS: found    44503 intra-atom interactions
- NBONDS: found    44490 intra-atom interactions
  ----------------- final step=       50 at      0.02500 ps ---------------------
- | E(kin)+E(total)=87797.979       E(kin)=922.813       temperature=552.834    |
- | Etotal =86875.167  grad(E)=145.006    E(BOND)=46697.817  E(ANGL)=5977.197   |
- | E(IMPR)=11850.651  E(VDW )=22349.501                                        |
+ | E(kin)+E(total)=5250.676        E(kin)=122.605       temperature=302.440    |
+ | Etotal =5128.071   grad(E)=39.954     E(BOND)=298.569    E(ANGL)=941.745    |
+ | E(IMPR)=3108.802   E(VDW )=778.955                                          |
  -------------------------------------------------------------------------------
  CENMAS: Information about center of free masses
-         position [A]          :    138.36560    157.21836    137.62429
-         velocity [A/ps]       :     -0.23692      0.63783     -0.15789
-         ang. mom. [amu A/ps]  : -12475.02856 -10919.15001-102124.18174
-         kin. ener. [Kcal/mol] :      6.53002
+         position [A]          :    114.38735    154.87763    147.40627
+         velocity [A/ps]       :      0.22888      0.31923      0.12945
+         ang. mom. [amu A/ps]  :  -1222.52337  -2829.55268   2188.76397
+         kin. ener. [Kcal/mol] :      0.55600
  %PARRDR-info: duplication of bond C    OC  
  %PARRDR-info: duplication of bond CD_  C_  
  %PARRDR-info: duplication of bond CM_  CT_ 
@@ -7589,58 +5901,43 @@
  %PARRDR-info: duplication of nonbonded entry HA  
  %PARRDR-info: duplication of nonbonded entry OC  
  %PARRDR-info: duplication of nonbonded entry C   
- POWELL: number of degrees of freedom=  1680
+ POWELL: number of degrees of freedom=   408
  NBONDS: generating intra-molecular exclusion list with mode=-3
- MAKINB: mode  -3 found   1558 exclusions and      0 interactions(1-4)
- NBONDS: found    43510 intra-atom interactions
- NBONDS: found    43533 intra-atom interactions
- NBONDS: found    43603 intra-atom interactions
- --------------- cycle=    25 ------ stepsize=   -0.0000 -----------------------
- | Etotal =37579.417  grad(E)=90.630     E(BOND)=20116.653  E(ANGL)=5972.558   |
- | E(IMPR)=10386.913  E(VDW )=1103.294                                         |
+ MAKINB: mode  -3 found    374 exclusions and      0 interactions(1-4)
+ NBONDS: found    11010 intra-atom interactions
+ NBONDS: found    11062 intra-atom interactions
+ NBONDS: found    11072 intra-atom interactions
+ NBONDS: found    11048 intra-atom interactions
+ --------------- cycle=    25 ------ stepsize=    0.0001 -----------------------
+ | Etotal =3089.257   grad(E)=68.577     E(BOND)=604.527    E(ANGL)=1886.755   |
+ | E(IMPR)=597.927    E(VDW )=0.047                                            |
  -------------------------------------------------------------------------------
- NBONDS: found    43759 intra-atom interactions
- NBONDS: found    43847 intra-atom interactions
- NBONDS: found    43857 intra-atom interactions
- --------------- cycle=    50 ------ stepsize=    0.0002 -----------------------
- | Etotal =32688.088  grad(E)=89.517     E(BOND)=19455.636  E(ANGL)=5951.195   |
- | E(IMPR)=6086.743   E(VDW )=1194.514                                         |
+ NBONDS: found    11037 intra-atom interactions
+ --------------- cycle=    50 ------ stepsize=    0.0004 -----------------------
+ | Etotal =17.773     grad(E)=4.559      E(BOND)=0.001      E(ANGL)=17.759     |
+ | E(IMPR)=0.013      E(VDW )=0.000                                            |
  -------------------------------------------------------------------------------
- NBONDS: found    43867 intra-atom interactions
- NBONDS: found    43857 intra-atom interactions
- --------------- cycle=    75 ------ stepsize=    0.0001 -----------------------
- | Etotal =29469.923  grad(E)=89.505     E(BOND)=19253.494  E(ANGL)=5104.546   |
- | E(IMPR)=3967.437   E(VDW )=1144.447                                         |
- -------------------------------------------------------------------------------
- NBONDS: found    43859 intra-atom interactions
- NBONDS: found    43872 intra-atom interactions
- --------------- cycle=   100 ------ stepsize=    0.0001 -----------------------
- | Etotal =24308.164  grad(E)=87.439     E(BOND)=18883.084  E(ANGL)=4132.568   |
- | E(IMPR)=167.012    E(VDW )=1125.501                                         |
- -------------------------------------------------------------------------------
- POWELL: STEP number limit. Normal termination
+ POWELL: Gradient converged. Normal termination
  POWELL: Current coordinates set to last minimum
  DCART: temperature coupling (TCOUpling) enabled
  -------------------------- Cartesian dynamics start ---------------------------
- | E(kin)+E(total)=24837.987       E(kin)=529.823       temperature=317.404    |
- | Etotal =24308.164  grad(E)=87.439     E(BOND)=18883.084  E(ANGL)=4132.568   |
- | E(IMPR)=167.012    E(VDW )=1125.501                                         |
+ | E(kin)+E(total)=141.009         E(kin)=123.237       temperature=303.999    |
+ | Etotal =17.772     grad(E)=4.559      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(IMPR)=0.012      E(VDW )=0.000                                            |
  -------------------------------------------------------------------------------
- NBONDS: found    43936 intra-atom interactions
- NBONDS: found    43873 intra-atom interactions
- NBONDS: found    43868 intra-atom interactions
- NBONDS: found    43871 intra-atom interactions
- NBONDS: found    43944 intra-atom interactions
+ NBONDS: found    11006 intra-atom interactions
+ NBONDS: found    11034 intra-atom interactions
+ NBONDS: found    11037 intra-atom interactions
  ----------------- final step=      500 at      0.25000 ps ---------------------
- | E(kin)+E(total)=23119.195       E(kin)=581.230       temperature=348.200    |
- | Etotal =22537.965  grad(E)=87.763     E(BOND)=18856.117  E(ANGL)=2550.486   |
- | E(IMPR)=40.392     E(VDW )=1090.970                                         |
+ | E(kin)+E(total)=229.923         E(kin)=129.128       temperature=318.531    |
+ | Etotal =100.795    grad(E)=20.414     E(BOND)=12.677     E(ANGL)=59.255     |
+ | E(IMPR)=28.481     E(VDW )=0.382                                            |
  -------------------------------------------------------------------------------
  CENMAS: Information about center of free masses
-         position [A]          :    138.38640    157.19461    137.55788
-         velocity [A/ps]       :     -0.10124     -0.19251     -0.28618
-         ang. mom. [amu A/ps]  :  17294.76640 -17829.62079  55611.30531
-         kin. ener. [Kcal/mol] :      1.72938
+         position [A]          :    114.37113    154.91542    147.45314
+         velocity [A/ps]       :      0.25919     -0.05974      0.09054
+         ang. mom. [amu A/ps]  :  16705.20885  16358.75547  -2647.76396
+         kin. ener. [Kcal/mol] :      0.25661
  EFLAGS: the following energy flags are set
  EFLAGS: BOND ANGL DIHE IMPR VDW 
  %PARRDR-info: duplication of bond C    OC  
@@ -7671,180 +5968,95 @@
  %PARRDR-info: duplication of nonbonded entry HA  
  %PARRDR-info: duplication of nonbonded entry OC  
  %PARRDR-info: duplication of nonbonded entry C   
- POWELL: number of degrees of freedom=  1680
+ POWELL: number of degrees of freedom=   408
  NBONDS: generating intra-molecular exclusion list with mode=-3
- MAKINB: mode  -3 found   1558 exclusions and      0 interactions(1-4)
- NBONDS: found    43940 intra-atom interactions
- --------------- cycle=    50 ------ stepsize=    0.0001 -----------------------
- | Etotal =25736.095  grad(E)=86.153     E(BOND)=19084.122  E(ANGL)=2532.152   |
- | E(DIHE)=78.544     E(IMPR)=98.806     E(VDW )=3942.470                      |
+ MAKINB: mode  -3 found    374 exclusions and      0 interactions(1-4)
+ NBONDS: found    11031 intra-atom interactions
+ --------------- cycle=    50 ------ stepsize=    0.0006 -----------------------
+ | Etotal =20.057     grad(E)=4.577      E(BOND)=0.006      E(ANGL)=17.790     |
+ | E(DIHE)=2.232      E(IMPR)=0.030      E(VDW )=0.000                         |
  -------------------------------------------------------------------------------
- NBONDS: found    43844 intra-atom interactions
- --------------- cycle=   100 ------ stepsize=    0.0001 -----------------------
- | Etotal =25573.896  grad(E)=86.068     E(BOND)=19026.467  E(ANGL)=2535.162   |
- | E(DIHE)=69.118     E(IMPR)=111.231    E(VDW )=3831.918                      |
+ NBONDS: found    11035 intra-atom interactions
+ --------------- cycle=   100 ------ stepsize=   -0.0004 -----------------------
+ | Etotal =18.146     grad(E)=4.562      E(BOND)=0.002      E(ANGL)=17.762     |
+ | E(DIHE)=0.364      E(IMPR)=0.017      E(VDW )=0.000                         |
  -------------------------------------------------------------------------------
- NBONDS: found    43861 intra-atom interactions
- NBONDS: found    43860 intra-atom interactions
- --------------- cycle=   150 ------ stepsize=    0.0004 -----------------------
- | Etotal =25489.658  grad(E)=86.194     E(BOND)=19019.403  E(ANGL)=2611.040   |
- | E(DIHE)=59.623     E(IMPR)=109.575    E(VDW )=3690.016                      |
+ --------------- cycle=   150 ------ stepsize=    0.0002 -----------------------
+ | Etotal =17.789     grad(E)=4.559      E(BOND)=0.002      E(ANGL)=17.759     |
+ | E(DIHE)=0.017      E(IMPR)=0.012      E(VDW )=0.000                         |
  -------------------------------------------------------------------------------
- NBONDS: found    43905 intra-atom interactions
- --------------- cycle=   200 ------ stepsize=    0.0002 -----------------------
- | Etotal =25395.184  grad(E)=86.127     E(BOND)=19037.158  E(ANGL)=2572.587   |
- | E(DIHE)=54.751     E(IMPR)=112.523    E(VDW )=3618.165                      |
+ --------------- cycle=   200 ------ stepsize=    0.0001 -----------------------
+ | Etotal =17.772     grad(E)=4.559      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000                         |
  -------------------------------------------------------------------------------
- --------------- cycle=   250 ------ stepsize=    0.0001 -----------------------
- | Etotal =25297.840  grad(E)=86.057     E(BOND)=19014.083  E(ANGL)=2589.453   |
- | E(DIHE)=60.157     E(IMPR)=108.329    E(VDW )=3525.818                      |
+ --------------- cycle=   250 ------ stepsize=    0.0005 -----------------------
+ | Etotal =17.772     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000                         |
  -------------------------------------------------------------------------------
- NBONDS: found    43980 intra-atom interactions
- --------------- cycle=   300 ------ stepsize=    0.0001 -----------------------
- | Etotal =25203.895  grad(E)=85.921     E(BOND)=19022.552  E(ANGL)=2531.727   |
- | E(DIHE)=59.368     E(IMPR)=112.261    E(VDW )=3477.987                      |
- -------------------------------------------------------------------------------
- NBONDS: found    44051 intra-atom interactions
- --------------- cycle=   350 ------ stepsize=    0.0000 -----------------------
- | Etotal =25168.454  grad(E)=85.837     E(BOND)=19028.492  E(ANGL)=2522.941   |
- | E(DIHE)=55.614     E(IMPR)=106.182    E(VDW )=3455.224                      |
- -------------------------------------------------------------------------------
- --------------- cycle=   400 ------ stepsize=    0.0001 -----------------------
- | Etotal =25149.520  grad(E)=85.836     E(BOND)=19018.484  E(ANGL)=2513.857   |
- | E(DIHE)=53.058     E(IMPR)=106.795    E(VDW )=3457.326                      |
- -------------------------------------------------------------------------------
- NBONDS: found    44044 intra-atom interactions
- --------------- cycle=   450 ------ stepsize=    0.0000 -----------------------
- | Etotal =25138.374  grad(E)=85.862     E(BOND)=19015.695  E(ANGL)=2530.755   |
- | E(DIHE)=48.189     E(IMPR)=106.825    E(VDW )=3436.910                      |
- -------------------------------------------------------------------------------
- --------------- cycle=   500 ------ stepsize=    0.0000 -----------------------
- | Etotal =25127.312  grad(E)=85.886     E(BOND)=19013.925  E(ANGL)=2538.019   |
- | E(DIHE)=44.000     E(IMPR)=110.632    E(VDW )=3420.736                      |
- -------------------------------------------------------------------------------
- POWELL: STEP number limit. Normal termination
+ POWELL: Gradient converged. Normal termination
  POWELL: Current coordinates set to last minimum
  DCART: temperature coupling (TCOUpling) enabled
  -------------------------- Cartesian dynamics start ---------------------------
- | E(kin)+E(total)=25634.887       E(kin)=507.576       temperature=304.076    |
- | Etotal =25127.311  grad(E)=85.886     E(BOND)=19013.934  E(ANGL)=2538.018   |
- | E(DIHE)=44.000     E(IMPR)=110.635    E(VDW )=3420.725   E(ELEC)=0.000      |
+ | E(kin)+E(total)=138.948         E(kin)=121.176       temperature=298.914    |
+ | Etotal =17.772     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000      E(ELEC)=0.000      |
  -------------------------------------------------------------------------------
- NBONDS: found    44050 intra-atom interactions
- NBONDS: found    43980 intra-atom interactions
- NBONDS: found    43984 intra-atom interactions
- NBONDS: found    43965 intra-atom interactions
- NBONDS: found    44003 intra-atom interactions
- NBONDS: found    44002 intra-atom interactions
- NBONDS: found    43969 intra-atom interactions
- NBONDS: found    43938 intra-atom interactions
- NBONDS: found    43981 intra-atom interactions
- NBONDS: found    43973 intra-atom interactions
- NBONDS: found    43959 intra-atom interactions
- NBONDS: found    43989 intra-atom interactions
- NBONDS: found    44009 intra-atom interactions
- NBONDS: found    44026 intra-atom interactions
- NBONDS: found    44076 intra-atom interactions
+ NBONDS: found    11027 intra-atom interactions
+ NBONDS: found    11012 intra-atom interactions
+ NBONDS: found    10984 intra-atom interactions
+ NBONDS: found    10971 intra-atom interactions
+ NBONDS: found    10950 intra-atom interactions
+ NBONDS: found    10945 intra-atom interactions
+ NBONDS: found    10929 intra-atom interactions
+ NBONDS: found    10927 intra-atom interactions
+ NBONDS: found    10962 intra-atom interactions
+ NBONDS: found    10981 intra-atom interactions
+ NBONDS: found    11020 intra-atom interactions
+ NBONDS: found    11041 intra-atom interactions
+ NBONDS: found    11060 intra-atom interactions
+ NBONDS: found    11063 intra-atom interactions
+ NBONDS: found    11045 intra-atom interactions
  ----------------- final step=      500 at      0.25000 ps ---------------------
- | E(kin)+E(total)=26024.717       E(kin)=476.345       temperature=285.366    |
- | Etotal =25548.372  grad(E)=88.469     E(BOND)=19118.843  E(ANGL)=2728.142   |
- | E(DIHE)=62.866     E(IMPR)=242.073    E(VDW )=3396.449   E(ELEC)=0.000      |
+ | E(kin)+E(total)=233.206         E(kin)=111.177       temperature=274.248    |
+ | Etotal =122.030    grad(E)=21.446     E(BOND)=15.115     E(ANGL)=64.396     |
+ | E(DIHE)=1.340      E(IMPR)=41.113     E(VDW )=0.066      E(ELEC)=0.000      |
  -------------------------------------------------------------------------------
  CENMAS: Information about center of free masses
-         position [A]          :    134.53185    155.75349    140.55162
-         velocity [A/ps]       :     -0.38865      0.31027      0.05254
-         ang. mom. [amu A/ps]  :   6501.71956  -3357.91324   1279.72744
-         kin. ener. [Kcal/mol] :      0.36118
- POWELL: number of degrees of freedom=  1680
- --------------- cycle=    50 ------ stepsize=   -0.0000 -----------------------
- | Etotal =25138.846  grad(E)=85.861     E(BOND)=19010.593  E(ANGL)=2547.371   |
- | E(DIHE)=60.603     E(IMPR)=110.873    E(VDW )=3409.406   E(ELEC)=0.000      |
+         position [A]          :    114.42108    154.90296    147.45147
+         velocity [A/ps]       :      2.45158      0.91563      1.75217
+         ang. mom. [amu A/ps]  :  -1414.97131  -1300.80016  -1343.04966
+         kin. ener. [Kcal/mol] :      1.62493
+ POWELL: number of degrees of freedom=   408
+ --------------- cycle=    50 ------ stepsize=    0.0007 -----------------------
+ | Etotal =17.913     grad(E)=4.569      E(BOND)=0.001      E(ANGL)=17.760     |
+ | E(DIHE)=0.112      E(IMPR)=0.040      E(VDW )=0.000      E(ELEC)=0.000      |
  -------------------------------------------------------------------------------
- --------------- cycle=   100 ------ stepsize=    0.0001 -----------------------
- | Etotal =25127.594  grad(E)=85.848     E(BOND)=19014.865  E(ANGL)=2531.972   |
- | E(DIHE)=56.415     E(IMPR)=110.372    E(VDW )=3413.970   E(ELEC)=0.000      |
+ --------------- cycle=   100 ------ stepsize=    0.0009 -----------------------
+ | Etotal =17.773     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.759     |
+ | E(DIHE)=0.001      E(IMPR)=0.012      E(VDW )=0.000      E(ELEC)=0.000      |
  -------------------------------------------------------------------------------
- --------------- cycle=   150 ------ stepsize=    0.0011 -----------------------
- | Etotal =25123.589  grad(E)=85.877     E(BOND)=19007.711  E(ANGL)=2534.598   |
- | E(DIHE)=52.874     E(IMPR)=111.882    E(VDW )=3416.525   E(ELEC)=0.000      |
+ --------------- cycle=   150 ------ stepsize=    0.0008 -----------------------
+ | Etotal =17.772     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000      E(ELEC)=0.000      |
  -------------------------------------------------------------------------------
- --------------- cycle=   200 ------ stepsize=    0.0000 -----------------------
- | Etotal =25116.697  grad(E)=85.831     E(BOND)=19012.955  E(ANGL)=2524.080   |
- | E(DIHE)=52.259     E(IMPR)=109.865    E(VDW )=3417.538   E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- POWELL: Line search terminated
+ POWELL: Gradient converged. Normal termination
  POWELL: Current coordinates set to last minimum
  (atom-i        |atom-j        )    dist.   equil.   delta    energy   const. 
 
- (     277  CB  |     277  CG  )    1.413    1.490   -0.077    5.877 1000.000
- (     277  CG  |     277  CD  )    1.480    1.504   -0.024    0.571 1000.000
- (     279  CB  |     279  CG  )    1.545    1.516    0.029    0.841 1000.000
- (     281  CB  |     281  SG  )    4.301    1.822    2.479 6146.708 1000.000
- (     282  CB  |     282  CG  )    1.621    1.498    0.123   15.190 1000.000
- (     282  CG  |     282  CD1 )    1.402    1.365    0.037    1.345 1000.000
- (     282  CG  |     282  CD2 )    1.471    1.433    0.038    1.420 1000.000
- (     282  CD2 |     282  CE2 )    1.469    1.409    0.060    3.563 1000.000
- (     282  CD2 |     282  CE3 )    1.486    1.398    0.088    7.762 1000.000
- (     282  CE2 |     282  CZ2 )    1.465    1.393    0.072    5.198 1000.000
- (     282  CE3 |     282  CZ3 )    1.445    1.382    0.063    3.978 1000.000
- (     282  CZ2 |     282  CH2 )    1.430    1.368    0.062    3.903 1000.000
- (     282  CZ3 |     282  CH2 )    1.461    1.400    0.061    3.759 1000.000
- (     283  CB  |     283  CG  )    1.573    1.516    0.057    3.256 1000.000
- (     285  CB  |     285  SG  )    4.354    1.822    2.532 6412.223 1000.000
- (     286  CB  |     286  CG  )    1.562    1.520    0.042    1.784 1000.000
- (     286  CD  |     286  NE  )    1.497    1.460    0.037    1.385 1000.000
- (     286  NE  |     286  CZ  )    1.382    1.329    0.053    2.851 1000.000
- (     286  CZ  |     286  NH1 )    1.349    1.326    0.023    0.512 1000.000
- (     288  CB  |     288  CG  )    1.548    1.516    0.032    1.004 1000.000
- (     289  CB  |     289  CG  )    1.602    1.520    0.082    6.772 1000.000
- (     289  CD  |     289  NE  )    1.504    1.460    0.044    1.975 1000.000
- (     289  NE  |     289  CZ  )    1.379    1.329    0.050    2.476 1000.000
- (     289  CZ  |     289  NH1 )    1.347    1.326    0.021    0.458 1000.000
- (     290  CB  |     290  CG  )    1.601    1.498    0.103   10.623 1000.000
- (     290  CG  |     290  CD1 )    1.395    1.365    0.030    0.873 1000.000
- (     290  CG  |     290  CD2 )    1.472    1.433    0.039    1.546 1000.000
- (     290  CD2 |     290  CE2 )    1.472    1.409    0.063    4.014 1000.000
- (     290  CD2 |     290  CE3 )    1.486    1.398    0.088    7.683 1000.000
- (     290  CE2 |     290  CZ2 )    1.465    1.393    0.072    5.205 1000.000
- (     290  CE3 |     290  CZ3 )    1.447    1.382    0.065    4.181 1000.000
- (     290  CZ2 |     290  CH2 )    1.430    1.368    0.062    3.896 1000.000
- (     290  CZ3 |     290  CH2 )    1.462    1.400    0.062    3.865 1000.000
- (     291  CB  |     291  CG  )    1.582    1.520    0.062    3.824 1000.000
- (     281  SG  |     285  SG  )    4.546    2.030    2.516 6330.952 1000.000
- Number of violations greater    0.020:    35
- RMS deviation=   0.183
+ Number of violations greater    0.020:     0
+ RMS deviation=   0.000
  (atom-i        |atom-j        |atom-k        )  angle    equil.     delta    energy  const. 
 
- (     38   HN  |     38   N   |     38   CA  )  113.651  119.237   -5.586    4.753  500.000
- (     37   C   |     38   N   |     38   HN  )  113.667  119.249   -5.582    4.745  500.000
- (     61   HN  |     61   N   |     61   CA  )  125.721  119.237    6.485    6.405  500.000
- (     56   C   |     61   N   |     61   HN  )  125.733  119.249    6.484    6.403  500.000
- (     277  CA  |     277  N   |     277  CD  )  102.667  112.123   -9.456   13.619  500.000
- (     277  CB  |     277  CG  |     277  CD  )   94.629  106.100  -11.471   20.040  500.000
- (     281  CA  |     281  CB  |     281  SG  )   51.367  114.355  -62.988  604.281  500.000
- (     282  CA  |     282  CB  |     282  CG  )  128.893  113.579   15.314   35.718  500.000
- (     283  CA  |     283  CB  |     283  CG  )  127.628  112.595   15.033   34.421  500.000
- (     285  CA  |     285  CB  |     285  SG  )   80.194  114.355  -34.161  177.737  500.000
- (     286  CA  |     286  CB  |     286  CG  )  129.368  114.059   15.309   35.696  500.000
- (     286  CB  |     286  CG  |     286  CD  )  116.533  111.312    5.221    4.151  500.000
- (     288  CA  |     288  CB  |     288  CG  )  120.757  112.595    8.162   10.146  500.000
- (     289  CA  |     289  CB  |     289  CG  )  128.968  114.059   14.909   33.855  500.000
- (     289  CB  |     289  CG  |     289  CD  )  116.822  111.312    5.510    4.624  500.000
- (     289  CD  |     289  NE  |     289  CZ  )  129.702  124.123    5.579    4.741  500.000
- (     290  CA  |     290  CB  |     290  CG  )  126.912  113.579   13.333   27.075  500.000
- (     291  CA  |     291  CB  |     291  CG  )  127.174  114.059   13.115   26.197  500.000
- (     281  CB  |     281  SG  |     285  SG  )  171.264  103.800   67.464  693.218  500.000
- (     281  SG  |     285  SG  |     285  CB  )  169.719  103.800   65.920  661.839  500.000
- Number of violations greater    5.000:    20
- RMS deviation=   4.087
+ Number of violations greater    5.000:     0
+ RMS deviation=   0.700
  Total number of dihedral angle restraints=     0
   overall scale =    1.0000
  Number of dihedral angle restraints=    0
  Number of violations greater than    5.000:     0
  RMS deviation=   0.000
  --------------- cycle=     1 --------------------------------------------------
- | Etotal =25116.697  grad(E)=85.831     E(BOND)=19012.956  E(ANGL)=2524.079   |
- | E(DIHE)=52.259     E(IMPR)=109.865    E(VDW )=3417.538   E(ELEC)=0.000      |
+ | Etotal =17.772     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000      E(ELEC)=0.000      |
  | E(CDIH)=0.000      E(NOE )=0.000                                            |
  -------------------------------------------------------------------------------
 AUTOMATIC DEFINITION OF FLEXIBLE SEGMENTS BASED ON INTERMOLECULAR PROXIMITY FOR MOLECULE 1
@@ -7854,65 +6066,13 @@ THE FOLLOWING RESIDUES HAVE BEEN DEFINED AS FLEXIBLE for molecule 2
 NO FULLY FLEXIBLE SEGMENTS for molecule 1
 NO FULLY FLEXIBLE SEGMENTS for molecule 2
 FLEXIBILITY STATISTIC FOR MOLECULE 1 : Nres=0 Nrigid=0 Nflex=0
-FLEXIBILITY STATISTIC FOR MOLECULE 2 : Nres=299 Nrigid=299 Nflex=0
- POWELL: number of degrees of freedom=  1530
- NBONDS: found    44077 intra-atom interactions
- NBONDS: found    44035 intra-atom interactions
- --------------- cycle=     5 ------ stepsize=    0.0006 -----------------------
- | Etotal =25116.637  grad(E)=85.832     E(BOND)=19012.952  E(ANGL)=2524.089   |
- | E(DIHE)=52.195     E(IMPR)=109.858    E(VDW )=3417.543   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    10 ------ stepsize=    0.0010 -----------------------
- | Etotal =25116.113  grad(E)=85.833     E(BOND)=19012.958  E(ANGL)=2524.136   |
- | E(DIHE)=51.374     E(IMPR)=110.063    E(VDW )=3417.583   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    15 ------ stepsize=    0.0003 -----------------------
- | Etotal =25114.775  grad(E)=85.832     E(BOND)=19013.088  E(ANGL)=2524.250   |
- | E(DIHE)=49.682     E(IMPR)=110.060    E(VDW )=3417.695   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    20 ------ stepsize=    0.0008 -----------------------
- | Etotal =25113.989  grad(E)=85.832     E(BOND)=19012.962  E(ANGL)=2524.085   |
- | E(DIHE)=49.336     E(IMPR)=109.873    E(VDW )=3417.731   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    25 ------ stepsize=   -0.0003 -----------------------
- | Etotal =25113.933  grad(E)=85.831     E(BOND)=19012.954  E(ANGL)=2524.071   |
- | E(DIHE)=49.319     E(IMPR)=109.863    E(VDW )=3417.726   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    30 ------ stepsize=    0.0009 -----------------------
- | Etotal =25113.833  grad(E)=85.832     E(BOND)=19012.956  E(ANGL)=2524.095   |
- | E(DIHE)=49.247     E(IMPR)=109.880    E(VDW )=3417.656   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    35 ------ stepsize=    0.0007 -----------------------
- | Etotal =25113.589  grad(E)=85.832     E(BOND)=19012.986  E(ANGL)=2524.016   |
- | E(DIHE)=49.115     E(IMPR)=110.014    E(VDW )=3417.458   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    40 ------ stepsize=    0.0010 -----------------------
- | Etotal =25113.375  grad(E)=85.831     E(BOND)=19012.957  E(ANGL)=2523.929   |
- | E(DIHE)=49.093     E(IMPR)=110.062    E(VDW )=3417.335   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    45 ------ stepsize=   -0.0002 -----------------------
- | Etotal =25113.318  grad(E)=85.831     E(BOND)=19012.945  E(ANGL)=2523.973   |
- | E(DIHE)=49.081     E(IMPR)=110.009    E(VDW )=3417.310   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- --------------- cycle=    50 ------ stepsize=    0.0010 -----------------------
- | Etotal =25113.153  grad(E)=85.832     E(BOND)=19012.943  E(ANGL)=2524.080   |
- | E(DIHE)=49.036     E(IMPR)=109.866    E(VDW )=3417.228   E(ELEC)=0.000      |
- | E(CDIH)=0.000      E(NOE )=0.000                                            |
- -------------------------------------------------------------------------------
- POWELL: STEP number limit. Normal termination
+FLEXIBILITY STATISTIC FOR MOLECULE 2 : Nres=73 Nrigid=73 Nflex=0
+ POWELL: number of degrees of freedom=   408
+ POWELL: Gradient converged. Normal termination
  POWELL: Current coordinates set to last minimum
  --------------- cycle=     2 --------------------------------------------------
- | Etotal =25113.153  grad(E)=85.832     E(BOND)=19012.943  E(ANGL)=2524.080   |
- | E(DIHE)=49.036     E(IMPR)=109.866    E(VDW )=3417.228   E(ELEC)=0.000      |
+ | Etotal =17.772     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000      E(ELEC)=0.000      |
  | E(CDIH)=0.000      E(NOE )=0.000                                            |
  -------------------------------------------------------------------------------
  Total number of dihedral angle restraints=     0
@@ -7922,129 +6082,22 @@ FLEXIBILITY STATISTIC FOR MOLECULE 2 : Nres=299 Nrigid=299 Nflex=0
  RMS deviation=   0.000
  (atom-i        |atom-j        )    dist.   equil.   delta    energy   const. 
 
- (     277  CB  |     277  CG  )    1.413    1.490   -0.077    5.877 1000.000
- (     277  CG  |     277  CD  )    1.480    1.504   -0.024    0.571 1000.000
- (     279  CB  |     279  CG  )    1.545    1.516    0.029    0.841 1000.000
- (     281  CB  |     281  SG  )    4.301    1.822    2.479 6146.708 1000.000
- (     282  CB  |     282  CG  )    1.621    1.498    0.123   15.190 1000.000
- (     282  CG  |     282  CD1 )    1.402    1.365    0.037    1.345 1000.000
- (     282  CG  |     282  CD2 )    1.471    1.433    0.038    1.420 1000.000
- (     282  CD2 |     282  CE2 )    1.469    1.409    0.060    3.563 1000.000
- (     282  CD2 |     282  CE3 )    1.486    1.398    0.088    7.762 1000.000
- (     282  CE2 |     282  CZ2 )    1.465    1.393    0.072    5.198 1000.000
- (     282  CE3 |     282  CZ3 )    1.445    1.382    0.063    3.978 1000.000
- (     282  CZ2 |     282  CH2 )    1.430    1.368    0.062    3.903 1000.000
- (     282  CZ3 |     282  CH2 )    1.461    1.400    0.061    3.759 1000.000
- (     283  CB  |     283  CG  )    1.573    1.516    0.057    3.256 1000.000
- (     285  CB  |     285  SG  )    4.354    1.822    2.532 6412.223 1000.000
- (     286  CB  |     286  CG  )    1.562    1.520    0.042    1.784 1000.000
- (     286  CD  |     286  NE  )    1.497    1.460    0.037    1.385 1000.000
- (     286  NE  |     286  CZ  )    1.382    1.329    0.053    2.851 1000.000
- (     286  CZ  |     286  NH1 )    1.349    1.326    0.023    0.512 1000.000
- (     288  CB  |     288  CG  )    1.548    1.516    0.032    1.004 1000.000
- (     289  CB  |     289  CG  )    1.602    1.520    0.082    6.772 1000.000
- (     289  CD  |     289  NE  )    1.504    1.460    0.044    1.975 1000.000
- (     289  NE  |     289  CZ  )    1.379    1.329    0.050    2.476 1000.000
- (     289  CZ  |     289  NH1 )    1.347    1.326    0.021    0.458 1000.000
- (     290  CB  |     290  CG  )    1.601    1.498    0.103   10.623 1000.000
- (     290  CG  |     290  CD1 )    1.395    1.365    0.030    0.873 1000.000
- (     290  CG  |     290  CD2 )    1.472    1.433    0.039    1.546 1000.000
- (     290  CD2 |     290  CE2 )    1.472    1.409    0.063    4.014 1000.000
- (     290  CD2 |     290  CE3 )    1.486    1.398    0.088    7.683 1000.000
- (     290  CE2 |     290  CZ2 )    1.465    1.393    0.072    5.205 1000.000
- (     290  CE3 |     290  CZ3 )    1.447    1.382    0.065    4.181 1000.000
- (     290  CZ2 |     290  CH2 )    1.430    1.368    0.062    3.896 1000.000
- (     290  CZ3 |     290  CH2 )    1.462    1.400    0.062    3.865 1000.000
- (     291  CB  |     291  CG  )    1.582    1.520    0.062    3.824 1000.000
- (     281  SG  |     285  SG  )    4.546    2.030    2.516 6330.952 1000.000
- Number of violations greater    0.020:    35
- RMS deviation=   0.183
+ Number of violations greater    0.020:     0
+ RMS deviation=   0.000
  (atom-i        |atom-j        |atom-k        )  angle    equil.     delta    energy  const. 
 
- (     38   HN  |     38   N   |     38   CA  )  113.654  119.237   -5.582    4.747  500.000
- (     37   C   |     38   N   |     38   HN  )  113.664  119.249   -5.585    4.751  500.000
- (     61   HN  |     61   N   |     61   CA  )  125.721  119.237    6.484    6.403  500.000
- (     56   C   |     61   N   |     61   HN  )  125.733  119.249    6.484    6.404  500.000
- (     277  CA  |     277  N   |     277  CD  )  102.667  112.123   -9.456   13.619  500.000
- (     277  CB  |     277  CG  |     277  CD  )   94.629  106.100  -11.471   20.040  500.000
- (     281  CA  |     281  CB  |     281  SG  )   51.367  114.355  -62.988  604.281  500.000
- (     282  CA  |     282  CB  |     282  CG  )  128.893  113.579   15.314   35.718  500.000
- (     283  CA  |     283  CB  |     283  CG  )  127.628  112.595   15.033   34.421  500.000
- (     285  CA  |     285  CB  |     285  SG  )   80.194  114.355  -34.161  177.737  500.000
- (     286  CA  |     286  CB  |     286  CG  )  129.368  114.059   15.309   35.696  500.000
- (     286  CB  |     286  CG  |     286  CD  )  116.533  111.312    5.221    4.151  500.000
- (     288  CA  |     288  CB  |     288  CG  )  120.757  112.595    8.162   10.146  500.000
- (     289  CA  |     289  CB  |     289  CG  )  128.968  114.059   14.909   33.855  500.000
- (     289  CB  |     289  CG  |     289  CD  )  116.822  111.312    5.510    4.624  500.000
- (     289  CD  |     289  NE  |     289  CZ  )  129.702  124.123    5.579    4.741  500.000
- (     290  CA  |     290  CB  |     290  CG  )  126.912  113.579   13.333   27.075  500.000
- (     291  CA  |     291  CB  |     291  CG  )  127.174  114.059   13.115   26.197  500.000
- (     281  CB  |     281  SG  |     285  SG  )  171.264  103.800   67.464  693.218  500.000
- (     281  SG  |     285  SG  |     285  CB  )  169.719  103.800   65.920  661.839  500.000
- Number of violations greater    5.000:    20
- RMS deviation=   4.087
+ Number of violations greater    5.000:     0
+ RMS deviation=   0.700
  --------------- cycle=     3 --------------------------------------------------
- | Etotal =25113.153  grad(E)=85.832     E(BOND)=19012.943  E(ANGL)=2524.080   |
- | E(DIHE)=49.036     E(IMPR)=109.866    E(VDW )=3417.228   E(ELEC)=0.000      |
+ | Etotal =17.772     grad(E)=4.558      E(BOND)=0.001      E(ANGL)=17.758     |
+ | E(DIHE)=0.000      E(IMPR)=0.012      E(VDW )=0.000      E(ELEC)=0.000      |
  -------------------------------------------------------------------------------
- POWELL: number of degrees of freedom=  8571
- NBONDS: found    44057 intra-atom interactions
- NBONDS: found    44059 intra-atom interactions
- NBONDS: found    44068 intra-atom interactions
- --------------- cycle=    10 ------ stepsize=    0.0003 -----------------------
- | Etotal =6416.987   grad(E)=115.077    E(BOND)=609.540    E(ANGL)=775.346    |
- | E(DIHE)=48.478     E(IMPR)=2498.672   E(VDW )=2484.951   E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=    20 ------ stepsize=    0.0002 -----------------------
- | Etotal =2090.520   grad(E)=20.368     E(BOND)=203.031    E(ANGL)=265.771    |
- | E(DIHE)=44.362     E(IMPR)=50.433     E(VDW )=1526.922   E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- NBONDS: found    44032 intra-atom interactions
- --------------- cycle=    30 ------ stepsize=    0.0002 -----------------------
- | Etotal =1315.764   grad(E)=17.099     E(BOND)=153.279    E(ANGL)=331.858    |
- | E(DIHE)=44.341     E(IMPR)=59.183     E(VDW )=727.103    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=    40 ------ stepsize=    0.0002 -----------------------
- | Etotal =869.865    grad(E)=12.675     E(BOND)=73.770     E(ANGL)=93.503     |
- | E(DIHE)=44.965     E(IMPR)=27.555     E(VDW )=630.073    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=    50 ------ stepsize=    0.0001 -----------------------
- | Etotal =740.228    grad(E)=3.297      E(BOND)=62.981     E(ANGL)=52.863     |
- | E(DIHE)=43.667     E(IMPR)=4.764      E(VDW )=575.953    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- NBONDS: found    43965 intra-atom interactions
- --------------- cycle=    60 ------ stepsize=    0.0002 -----------------------
- | Etotal =660.081    grad(E)=4.445      E(BOND)=70.048     E(ANGL)=45.505     |
- | E(DIHE)=43.210     E(IMPR)=3.863      E(VDW )=497.455    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=    70 ------ stepsize=    0.0001 -----------------------
- | Etotal =628.872    grad(E)=2.040      E(BOND)=71.779     E(ANGL)=40.543     |
- | E(DIHE)=42.974     E(IMPR)=1.467      E(VDW )=472.109    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=    80 ------ stepsize=    0.0001 -----------------------
- | Etotal =598.787    grad(E)=1.830      E(BOND)=69.875     E(ANGL)=35.830     |
- | E(DIHE)=41.184     E(IMPR)=1.892      E(VDW )=450.005    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=    90 ------ stepsize=    0.0001 -----------------------
- | Etotal =586.832    grad(E)=1.057      E(BOND)=67.833     E(ANGL)=32.077     |
- | E(DIHE)=39.522     E(IMPR)=0.707      E(VDW )=446.693    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- --------------- cycle=   100 ------ stepsize=    0.0001 -----------------------
- | Etotal =581.566    grad(E)=1.116      E(BOND)=73.181     E(ANGL)=30.659     |
- | E(DIHE)=38.029     E(IMPR)=0.761      E(VDW )=438.937    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- POWELL: STEP number limit. Normal termination
- POWELL: Current coordinates set to last minimum
- --------------- cycle=     4 --------------------------------------------------
- | Etotal =581.566    grad(E)=1.116      E(BOND)=73.181     E(ANGL)=30.659     |
- | E(DIHE)=38.029     E(IMPR)=0.761      E(VDW )=438.937    E(ELEC)=0.000      |
- -------------------------------------------------------------------------------
- HEAP: maximum use      =     7001200 current use      =       96000 bytes
- HEAP: maximum overhead =        2272 current overhead =         752 bytes
+ HEAP: maximum use      =     6040808 current use      =       96000 bytes
+ HEAP: maximum overhead =        2000 current overhead =         752 bytes
           ============================================================
-           Maximum dynamic memory allocation:     7001200 bytes
-           Maximum dynamic memory overhead:          2272 bytes
-           Program started at: 09:00:22 on 14-Apr-2021
-           Program stopped at: 09:00:29 on 14-Apr-2021
-           CPU time used:       6.1391 seconds
+           Maximum dynamic memory allocation:     6040808 bytes
+           Maximum dynamic memory overhead:          2000 bytes
+           Program started at: 01:41:20 on 11-Jul-2021
+           Program stopped at: 01:41:21 on 11-Jul-2021
+           CPU time used:       1.1508 seconds
           ============================================================

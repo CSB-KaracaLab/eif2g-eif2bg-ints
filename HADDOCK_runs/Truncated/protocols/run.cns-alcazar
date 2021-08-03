@@ -1771,7 +1771,7 @@ calcdesolv=false;
 
 {===>} queue_1="ssub short";
 {===>} cns_exe_1="/home/software/science/cns/cns_solve_1.31-UU/intel-x86_64bit-linux/bin/cns";
-{===>} cpunumber_1=50;
+{===>} cpunumber_1=200;
 
 {===>} queue_2=""; 
 {===>} cns_exe_2=""; 

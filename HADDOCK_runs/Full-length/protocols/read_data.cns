@@ -16,7 +16,7 @@ module(Iteration; Data; count;)
 !NOEs, hbonds
 noe
   reset
-  nrestraints = 4000000     ! allocate space for NOEs  
+  nrestraints = 2000000     ! allocate space for NOEs  
   ceiling 1000
 end
 

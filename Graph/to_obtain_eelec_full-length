@@ -1,0 +1,48 @@
+awk '$1=="#Residue" || $2=="PREVIT:complex_19w.pdb"' ene-residue_full_length.disp | grep Residue | awk '{print $3, $4}' > full-length_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_19w.pdb"' ene-residue_full_length.disp | grep PREVIT | awk '{print $5}' > full-length_energies
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="A"' > full-length_EIF2G-energies_complex_19w
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="B"' > full-length_EIF2BG-energies_complex_19w
+
+rm full-length_energies full-length_residues
+
+
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_6w.pdb"' ene-residue_full_length.disp | grep Residue | awk '{print $3, $4}' > full-length_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_6w.pdb"' ene-residue_full_length.disp | grep PREVIT | awk '{print $5}' > full-length_energies
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="A"' > full-length_EIF2G-energies_complex_6w
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="B"' > full-length_EIF2BG-energies_complex_6w
+
+rm full-length_energies full-length_residues
+
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_11w.pdb"' ene-residue_full_length.disp | grep Residue | awk '{print $3, $4}' > full-length_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_11w.pdb"' ene-residue_full_length.disp | grep PREVIT | awk '{print $5}' > full-length_energies
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="A"' > full-length_EIF2G-energies_complex_11w
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="B"' > full-length_EIF2BG-energies_complex_11w
+
+rm full-length_energies full-length_residues
+
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_12w.pdb"' ene-residue_full_length.disp | grep Residue | awk '{print $3, $4}' > full-length_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_12w.pdb"' ene-residue_full_length.disp | grep PREVIT | awk '{print $5}' > full-length_energies
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="A"' > full-length_EIF2G-energies_complex_12w
+
+paste full-length_residues full-length_energies | sort -nk1 | awk '$2=="B"' > full-length_EIF2BG-energies_complex_12w
+
+rm full-length_energies full-length_residues
+
+
+
+
+

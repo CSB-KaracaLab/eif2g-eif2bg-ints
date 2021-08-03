@@ -40,6 +40,13 @@ if ($found > 0) then
   echo "Make sure to filter those for solvent accessibility"  >>FAILED
 endif
 
+#set found=`tail -n 500 $1 | grep "THE SYSTEM IS BLOWING UP" | wc -l | awk '{print $1}'`
+#
+#if ($found > 0) then
+#  tail -n 500 $1 |grep "THE SYSTEM IS BLOWING UP" >>FAILED
+#  echo "THis might indicate a bad geometry of your input structures" >>FAILED
+#endif
+ 
 set found=`tail -n 500 $1 | grep "SELRPN-ERR: unbalanced parentheses" | wc -l | awk '{print $1}'`
 
 if ($found > 0) then

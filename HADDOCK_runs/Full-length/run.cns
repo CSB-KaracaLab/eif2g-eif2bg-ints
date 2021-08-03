@@ -63,7 +63,7 @@ Information-driven Protein-DNA Docking using HADDOCK: it is a matter of flexibil
 {===>} fileroot="complex"; 
 {* RUN directory *}
 {*  the absolute path of your current run, e.g. /home/haddock/server/run1*}
-{===>} run_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000079/run1";
+{===>} run_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002306/run1";
 {* PDB file of molecule (protein) A *}
 {===>} prot_coor_A="protein1.pdb"; 
 {* PSF file of molecule (protein) A *}
@@ -139,18 +139,18 @@ xplortodiana=false;
 {===>} delenph=true; 
 {* HADDOCK directory *}
 {*  the absolute path of the HADDOCK program files *}
-{===>} haddock_dir="/home/enmr/software/haddock2.2"; 
+{===>} haddock_dir="/home/enmr/software/haddock2.2-grid"; 
 {* Logfile directory *}
 {* specify a directory for the large CNS log files *}
-{===>} temptrash_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000079/run1"; 
+{===>} temptrash_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002306/run1"; 
 {==================== histidine patches =====================}
 {* Patch to change doubly protonated HIS to singly protonated histidine (HD1) *}
 {* just give the residue number of the histidines for the HISD patch, set them to zero if you don't want them *}
 numhisd=10;
 {+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +}
-{===>} A_hisd_resid_1=0;
-{===>} A_hisd_resid_2=0;
-{===>} A_hisd_resid_3=0;
+{===>} A_hisd_resid_1=196;
+{===>} A_hisd_resid_2=203;
+{===>} A_hisd_resid_3=190;
 {===>} A_hisd_resid_4=0;
 {===>} A_hisd_resid_5=0;
 {===>} A_hisd_resid_6=0;
@@ -158,9 +158,9 @@ numhisd=10;
 {===>} A_hisd_resid_8=0;
 {===>} A_hisd_resid_9=0;
 {===>} A_hisd_resid_10=0;
-{===>} B_hisd_resid_1=196;
-{===>} B_hisd_resid_2=203;
-{===>} B_hisd_resid_3=190;
+{===>} B_hisd_resid_1=0;
+{===>} B_hisd_resid_2=0;
+{===>} B_hisd_resid_3=0;
 {===>} B_hisd_resid_4=0;
 {===>} B_hisd_resid_5=0;
 {===>} B_hisd_resid_6=0;
@@ -212,19 +212,19 @@ numhisd=10;
 {* just give the residue number of the histidines for the HISE patch, set them to zero if you don't want them *}
 numhise=10;
 {+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +}
-{===>} A_hise_resid_1=65;
-{===>} A_hise_resid_2=197;
-{===>} A_hise_resid_3=78;
-{===>} A_hise_resid_4=463;
-{===>} A_hise_resid_5=338;
-{===>} A_hise_resid_6=142;
-{===>} A_hise_resid_7=151;
-{===>} A_hise_resid_8=186;
-{===>} A_hise_resid_9=62;
-{===>} A_hise_resid_10=0;
-{===>} B_hise_resid_1=115;
-{===>} B_hise_resid_2=341;
-{===>} B_hise_resid_3=350;
+{===>} A_hise_resid_1=1184;
+{===>} A_hise_resid_2=1065;
+{===>} A_hise_resid_3=1450;
+{===>} A_hise_resid_4=1325;
+{===>} A_hise_resid_5=1138;
+{===>} A_hise_resid_6=115;
+{===>} A_hise_resid_7=1173;
+{===>} A_hise_resid_8=1129;
+{===>} A_hise_resid_9=1049;
+{===>} A_hise_resid_10=1052;
+{===>} B_hise_resid_1=341;
+{===>} B_hise_resid_2=350;
+{===>} B_hise_resid_3=0;
 {===>} B_hise_resid_4=0;
 {===>} B_hise_resid_5=0;
 {===>} B_hise_resid_6=0;
@@ -1541,7 +1541,7 @@ calcdesolv=false;
 {* leave unused fields blank, make sure that the queues are actually running *}
 {+ table: rows=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
  cols=3 "queue command" "cns executable" "number of jobs" +}
-{===>} queue_1="ssub medium"; 
+{===>} queue_1="/home/diracegi/grid/diracsubmit-long-haddock2.4-cns"; 
 {===>} cns_exe_1="/home/software/science/cns/cns_solve_1.31-UU/intel-x86_64bit-linux/bin/cns"; 
 {===>} cpunumber_1=50; 
 {===>} queue_2=""; 

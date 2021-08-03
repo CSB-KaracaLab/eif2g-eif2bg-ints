@@ -1,2 +1,2 @@
 #Cluster rmsd-Emin sd
-file.nam_clust1    0.418    0.097 
+file.nam_clust1    0.430    0.099 

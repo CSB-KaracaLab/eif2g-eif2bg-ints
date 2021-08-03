@@ -14,9 +14,9 @@
                        L.M.Rice, G.F.Schroeder, T.Simonson, G.L.Warren.
            Copyright (c) 1997-2010 Yale University
           ============================================================
-           Running on machine: node002 (x86_64/Linux,64-bit)
+           Running on machine: node018 (x86_64/Linux,64-bit)
            Program started by: enmr
-           Program started at: 09:00:44 on 14-Apr-2021
+           Program started at: 01:41:42 on 11-Jul-2021
           ============================================================
 
  FFT3C: Using FFTPACK4.1
@@ -178,7 +178,7 @@
  DEFINE>{===>} fileroot="complex"; 
  DEFINE>{* RUN directory *} 
  DEFINE>{*  the absolute path of your current run, e.g. /home/haddock/server/run1*} 
- DEFINE>{===>} run_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1"; 
+ DEFINE>{===>} run_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1"; 
  DEFINE>{* PDB file of molecule (protein) A *} 
  DEFINE>{===>} prot_coor_A="protein1.pdb"; 
  DEFINE>{* PSF file of molecule (protein) A *} 
@@ -254,18 +254,18 @@
  DEFINE>{===>} delenph=true; 
  DEFINE>{* HADDOCK directory *} 
  DEFINE>{*  the absolute path of the HADDOCK program files *} 
- DEFINE>{===>} haddock_dir="/home/enmr/software/haddock2.2"; 
+ DEFINE>{===>} haddock_dir="/home/enmr/software/haddock2.2-grid"; 
  DEFINE>{* Logfile directory *} 
  DEFINE>{* specify a directory for the large CNS log files *} 
- DEFINE>{===>} temptrash_dir="/home/enmr/services/HADDOCK2.2/server/run/userrun000080/run1"; 
+ DEFINE>{===>} temptrash_dir="/home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1"; 
  DEFINE>{==================== histidine patches =====================} 
  DEFINE>{* Patch to change doubly protonated HIS to singly protonated histidine (HD1) *} 
  DEFINE>{* just give the residue number of the histidines for the HISD patch, set them to zero if you don't want them *} 
  DEFINE>numhisd=10; 
  DEFINE>{+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +} 
- DEFINE>{===>} A_hisd_resid_1=0; 
- DEFINE>{===>} A_hisd_resid_2=0; 
- DEFINE>{===>} A_hisd_resid_3=0; 
+ DEFINE>{===>} A_hisd_resid_1=196; 
+ DEFINE>{===>} A_hisd_resid_2=203; 
+ DEFINE>{===>} A_hisd_resid_3=190; 
  DEFINE>{===>} A_hisd_resid_4=0; 
  DEFINE>{===>} A_hisd_resid_5=0; 
  DEFINE>{===>} A_hisd_resid_6=0; 
@@ -273,11 +273,11 @@
  DEFINE>{===>} A_hisd_resid_8=0; 
  DEFINE>{===>} A_hisd_resid_9=0; 
  DEFINE>{===>} A_hisd_resid_10=0; 
- DEFINE>{===>} B_hisd_resid_1=196; 
- DEFINE>{===>} B_hisd_resid_2=203; 
- DEFINE>{===>} B_hisd_resid_3=190; 
- DEFINE>{===>} B_hisd_resid_4=408; 
- DEFINE>{===>} B_hisd_resid_5=350; 
+ DEFINE>{===>} B_hisd_resid_1=408; 
+ DEFINE>{===>} B_hisd_resid_2=350; 
+ DEFINE>{===>} B_hisd_resid_3=0; 
+ DEFINE>{===>} B_hisd_resid_4=0; 
+ DEFINE>{===>} B_hisd_resid_5=0; 
  DEFINE>{===>} B_hisd_resid_6=0; 
  DEFINE>{===>} B_hisd_resid_7=0; 
  DEFINE>{===>} B_hisd_resid_8=0; 
@@ -327,18 +327,18 @@
  DEFINE>{* just give the residue number of the histidines for the HISE patch, set them to zero if you don't want them *} 
  DEFINE>numhise=10; 
  DEFINE>{+ table: rows=6 "molecule (Protein) A" "molecule (Protein) B"  "molecule (Protein) C"  "molecule (Protein) D"  "molecule (Protein) E"  "molecule (Protein) F" cols=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" +} 
- DEFINE>{===>} A_hise_resid_1=65; 
- DEFINE>{===>} A_hise_resid_2=197; 
- DEFINE>{===>} A_hise_resid_3=78; 
- DEFINE>{===>} A_hise_resid_4=463; 
- DEFINE>{===>} A_hise_resid_5=338; 
- DEFINE>{===>} A_hise_resid_6=142; 
- DEFINE>{===>} A_hise_resid_7=151; 
- DEFINE>{===>} A_hise_resid_8=186; 
- DEFINE>{===>} A_hise_resid_9=62; 
- DEFINE>{===>} A_hise_resid_10=0; 
- DEFINE>{===>} B_hise_resid_1=115; 
- DEFINE>{===>} B_hise_resid_2=341; 
+ DEFINE>{===>} A_hise_resid_1=1184; 
+ DEFINE>{===>} A_hise_resid_2=1065; 
+ DEFINE>{===>} A_hise_resid_3=1450; 
+ DEFINE>{===>} A_hise_resid_4=1325; 
+ DEFINE>{===>} A_hise_resid_5=1138; 
+ DEFINE>{===>} A_hise_resid_6=115; 
+ DEFINE>{===>} A_hise_resid_7=1173; 
+ DEFINE>{===>} A_hise_resid_8=1129; 
+ DEFINE>{===>} A_hise_resid_9=1049; 
+ DEFINE>{===>} A_hise_resid_10=1052; 
+ DEFINE>{===>} B_hise_resid_1=341; 
+ DEFINE>{===>} B_hise_resid_2=0; 
  DEFINE>{===>} B_hise_resid_3=0; 
  DEFINE>{===>} B_hise_resid_4=0; 
  DEFINE>{===>} B_hise_resid_5=0; 
@@ -1656,7 +1656,7 @@
  DEFINE>{* leave unused fields blank, make sure that the queues are actually running *} 
  DEFINE>{+ table: rows=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" 
  DEFINE> cols=3 "queue command" "cns executable" "number of jobs" +} 
- DEFINE>{===>} queue_1="ssub medium"; 
+ DEFINE>{===>} queue_1="/home/diracegi/grid/diracsubmit-haddock2.4-cns"; 
  DEFINE>{===>} cns_exe_1="/home/software/science/cns/cns_solve_1.31-UU/intel-x86_64bit-linux/bin/cns"; 
  DEFINE>{===>} cpunumber_1=50; 
  DEFINE>{===>} queue_2=""; 
@@ -2674,9 +2674,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_1 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_1 set to    196.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_1 set to    196.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_1 set to    408.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_1 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2691,9 +2691,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_2 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_2 set to    203.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_2 set to    203.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_2 set to    350.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2708,9 +2708,9 @@
  CNSsolve>while ($ncc <= &numhisd) loop hisd 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_3 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_3 set to    190.000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_3 set to    190.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2727,7 +2727,7 @@
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_4 set to    408.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2744,7 +2744,7 @@
  CNSsolve>  evaluate (&toppar.hisd_resid_1_$ncc=&A_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_1_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_2_$ncc=&B_hisd_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_5 set to    350.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISD_RESID_2_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_3_$ncc=&C_hisd_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISD_RESID_3_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hisd_resid_4_$ncc=&D_hisd_resid_$ncc) 
@@ -2856,9 +2856,9 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_1 set to    65.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_1 set to    1184.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_1 set to    115.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_1 set to    341.000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_3_1 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_4_$ncc=&D_hise_resid_$ncc) 
@@ -2873,9 +2873,9 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_2 set to    197.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_2 set to    1065.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_2 set to    341.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_3_2 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_4_$ncc=&D_hise_resid_$ncc) 
@@ -2890,7 +2890,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_3 set to    78.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_3 set to    1450.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_3 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2907,7 +2907,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_4 set to    463.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_4 set to    1325.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_4 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2924,7 +2924,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_5 set to    338.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_5 set to    1138.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_5 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2941,7 +2941,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_6 set to    142.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_6 set to    115.000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_6 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2958,7 +2958,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_7 set to    151.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_7 set to    1173.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_7 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2975,7 +2975,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_8 set to    186.000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_8 set to    1129.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_8 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -2992,7 +2992,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_9 set to    62.0000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_9 set to    1049.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_9 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -3009,7 +3009,7 @@
  CNSsolve>while ($ncc <= &numhise) loop hise 
  NEXTCD: condition evaluated as true
  CNSsolve>  evaluate (&toppar.hise_resid_1_$ncc=&A_hise_resid_$ncc) 
- EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_10 set to    0.00000     (real)
+ EVALUATE: symbol $_1_TOPPAR.HISE_RESID_1_10 set to    1052.00     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_2_$ncc=&B_hise_resid_$ncc) 
  EVALUATE: symbol $_1_TOPPAR.HISE_RESID_2_10 set to    0.00000     (real)
  CNSsolve>  evaluate (&toppar.hise_resid_3_$ncc=&C_hise_resid_$ncc) 
@@ -4425,14 +4425,20 @@
  ASSFIL: file protein1.psf opened.
  STRUcture>data_cns_mtf 
  REMARKS FILENAME="protein1.psf"
+ REMARKS peptide link removed (applied DPPP): from      12   to      26
+ REMARKS peptide link removed (applied DPEP): from      134  to      155
+ REMARKS peptide link removed (applied DPEP): from      235  to      241
+ REMARKS peptide link removed (applied DPEP): from      243  to      260
+ REMARKS peptide link removed (applied DPEP): from      267  to      276
+ REMARKS disulphide added: from      281  to      285
  REMARKS coordinates built for more than 100 hundred atoms
- REMARKS DATE:14-Apr-2021  09:00:31       created by user: enmr
+ REMARKS DATE:11-Jul-2021  01:41:38       created by user: enmr
  REMARKS VERSION:1.3U
  Status of internal molecular topology database:
- -> NATOM=       3938(MAXA=      500000)  NBOND=       3991(MAXB=      500000)
- -> NTHETA=      5737(MAXT=     1000000)  NGRP=         422(MAXGRP=    500000)
- -> NPHI=        9933(MAXP=     1000000)  NIMPHI=      1867(MAXIMP=    500000)
- -> NNB=          126(MAXNB=     500000) 
+ -> NATOM=       6109(MAXA=      500000)  NBOND=       6195(MAXB=      500000)
+ -> NTHETA=      8885(MAXT=     1000000)  NGRP=         650(MAXGRP=    500000)
+ -> NPHI=       15361(MAXP=     1000000)  NIMPHI=      2934(MAXIMP=    500000)
+ -> NNB=          252(MAXNB=     500000) 
  STRUcture> 
  STRUcture>  end 
  CNSsolve>end loop cloop1 
@@ -4449,15 +4455,8 @@
  ASSFIL: file protein2.psf opened.
  STRUcture>data_cns_mtf 
  REMARKS FILENAME="protein2.psf"
- REMARKS peptide link removed (applied DPEP): from      412  to      1
- REMARKS peptide link removed (applied DPPP): from      12   to      26
- REMARKS peptide link removed (applied DPEP): from      134  to      155
- REMARKS peptide link removed (applied DPEP): from      235  to      241
- REMARKS peptide link removed (applied DPEP): from      243  to      260
- REMARKS peptide link removed (applied DPEP): from      267  to      276
- REMARKS disulphide added: from      281  to      285
  REMARKS coordinates built for more than 100 hundred atoms
- REMARKS DATE:14-Apr-2021  09:00:28       created by user: enmr
+ REMARKS DATE:11-Jul-2021  01:41:21       created by user: enmr
  REMARKS VERSION:1.3U
  Status of internal molecular topology database:
  -> NATOM=       6795(MAXA=      500000)  NBOND=       6886(MAXB=      500000)
@@ -4493,12 +4492,18 @@
  CNSsolve> coor @@$filename 
  ASSFIL: file protein1_1.pdb opened.
  COOR>REMARK FILENAME="protein1_1.pdb" 
+ COOR>REMARK peptide link removed (applied DPPP): from      12   to      26 
+ COOR>REMARK peptide link removed (applied DPEP): from      134  to      155 
+ COOR>REMARK peptide link removed (applied DPEP): from      235  to      241 
+ COOR>REMARK peptide link removed (applied DPEP): from      243  to      260 
+ COOR>REMARK peptide link removed (applied DPEP): from      267  to      276 
+ COOR>REMARK disulphide added: from      281  to      285 
  COOR>REMARK coordinates built for more than 100 hundred atoms 
- COOR>REMARK DATE:14-Apr-2021  09:00:31       created by user: enmr 
+ COOR>REMARK DATE:11-Jul-2021  01:41:37       created by user: enmr 
  COOR>REMARK VERSION:1.3U 
- COOR>ATOM      1  N   GLN    52     141.517 135.870  81.161  1.00 15.00      A 
- COOR>ATOM      2  HN  GLN    52     141.886 136.469  80.478  0.00 15.00      A 
- %READC-WRN: still   2857 missing coordinates (in selected subset)
+ COOR>ATOM      1  N   MET     1     154.446 178.242 130.904  1.00 15.00      A 
+ COOR>ATOM      2  HN  MET     1     155.117 178.430 130.215  0.00 15.00      A 
+ %READC-WRN: still    686 missing coordinates (in selected subset)
  CNSsolve> 
  CNSsolve> if ($data.ncomponents>1) then 
  NEXTCD: condition evaluated as true
@@ -4527,18 +4532,11 @@
  CNSsolve>    coor @@$filename 
  ASSFIL: file protein2_1.pdb opened.
  COOR>REMARK FILENAME="protein2_1.pdb" 
- COOR>REMARK peptide link removed (applied DPEP): from      412  to      1 
- COOR>REMARK peptide link removed (applied DPPP): from      12   to      26 
- COOR>REMARK peptide link removed (applied DPEP): from      134  to      155 
- COOR>REMARK peptide link removed (applied DPEP): from      235  to      241 
- COOR>REMARK peptide link removed (applied DPEP): from      243  to      260 
- COOR>REMARK peptide link removed (applied DPEP): from      267  to      276 
- COOR>REMARK disulphide added: from      281  to      285 
  COOR>REMARK coordinates built for more than 100 hundred atoms 
- COOR>REMARK DATE:14-Apr-2021  09:00:28       created by user: enmr 
+ COOR>REMARK DATE:11-Jul-2021  01:41:21       created by user: enmr 
  COOR>REMARK VERSION:1.3U 
  COOR>ATOM      1  N   VAL   340     120.589 164.935 153.398  1.00 15.00      B 
- COOR>ATOM      2  HN  VAL   340     120.315 164.242 154.035  0.00 15.00      B 
+ COOR>ATOM      2  HN  VAL   340     119.799 165.312 153.839  0.00 15.00      B 
  CNSsolve>    if ($data.ncomponents>2) then 
  NEXTCD: condition evaluated as false
  CNSsolve>      evaluate ($nfc = 0) 
@@ -6832,7 +6830,7 @@
           ============================================================
            Maximum dynamic memory allocation:     5852976 bytes
            Maximum dynamic memory overhead:          1040 bytes
-           Program started at: 09:00:44 on 14-Apr-2021
-           Program stopped at: 09:00:45 on 14-Apr-2021
-           CPU time used:       0.6539 seconds
+           Program started at: 01:41:42 on 11-Jul-2021
+           Program stopped at: 01:41:43 on 11-Jul-2021
+           CPU time used:       0.6009 seconds
           ============================================================

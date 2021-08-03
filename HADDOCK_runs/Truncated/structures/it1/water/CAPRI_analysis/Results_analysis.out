@@ -1,9 +1,9 @@
-Reference: complex_17w.pdb
-Working directory: /home/enmr/services/HADDOCK2.2/server/results/5075578311/ei2gamma_bgamma_iso2/structures/it1/water/CAPRI_analysis
+Reference: complex_18w.pdb
+Working directory: /home/enmr/services/HADDOCK2.2/server/results/7999758290/truncated/structures/it1/water/CAPRI_analysis
 List of PDB files: file.nam
 Analysis directory: CAPRI_analysis
-Scripts directory: /home/enmr/services/HADDOCK2.2/server/results/5075578311/ei2gamma_bgamma_iso2/structures/it1/water/CAPRI_analysis/../analysis/
-Reference contact file (created later on): complex_17w.contacts
+Scripts directory: /home/enmr/services/HADDOCK2.2/server/results/7999758290/truncated/structures/it1/water/CAPRI_analysis/../analysis/
+Reference contact file (created later on): complex_18w.contacts
 Contacts list: file.nam_contacts
 Starts analysis script...
 Contacts files creation...

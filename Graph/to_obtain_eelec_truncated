@@ -1,0 +1,44 @@
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_1w.pdb"' ene-residue_truncated.disp | grep Residue | awk '{print $3, $4}' > truncated_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_1w.pdb"' ene-residue_truncated.disp | grep PREVIT | awk '{print $5}' > truncated_energies
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="A"' > truncated_EIF2G-energies_complex_1w
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="B"' > truncated_EIF2BG-energies_complex_1w
+
+rm truncated_energies truncated_residues
+
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_3w.pdb"' ene-residue_truncated.disp | grep Residue | awk '{print $3, $4}' > truncated_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_3w.pdb"' ene-residue_truncated.disp | grep PREVIT | awk '{print $5}' > truncated_energies
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="A"' > truncated_EIF2G-energies_complex_3w
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="B"' > truncated_EIF2BG-energies_complex_3w
+
+rm truncated_energies truncated_residues
+
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_18w.pdb"' ene-residue_truncated.disp | grep Residue | awk '{print $3, $4}' > truncated_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_18w.pdb"' ene-residue_truncated.disp | grep PREVIT | awk '{print $5}' > truncated_energies
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="A"' > truncated_EIF2G-energies_complex_18w
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="B"' > truncated_EIF2BG-energies_complex_18w
+
+rm truncated_energies truncated_residues
+
+
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_14w.pdb"' ene-residue_truncated.disp | grep Residue | awk '{print $3, $4}' > truncated_residues
+
+awk '$1=="#Residue" || $2=="PREVIT:complex_14w.pdb"' ene-residue_truncated.disp | grep PREVIT | awk '{print $5}' > truncated_energies
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="A"' > truncated_EIF2G-energies_complex_14w
+
+paste truncated_residues truncated_energies | sort -nk1 | awk '$2=="B"' > truncated_EIF2BG-energies_complex_14w
+
+rm truncated_energies truncated_residues
