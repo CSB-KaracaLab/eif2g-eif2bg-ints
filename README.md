@@ -2,6 +2,8 @@
 
 This work is an extension of "A C-term truncated EIF2Bγ protein encoded by an intronically polyadenylated isoform introduces unfavorable EIF2Bγ-EIF2γ interactions" study by Ayca Circir, Gozde Koksal Bicakci, Busra Savas, Didem Naz Doken, Onur Henden, Tolga Can, Ezgi Karaca, Ayse Elif Erson-Bensan.
 
+<img src="logo-1.png" alt="logo" />
+<img src="logo-2.png" alt="logo" />
 ## Motivation
 
 
