@@ -1,9 +1,0 @@
-#!/bin/csh
-setenv CURRIT 0
-setenv NEWIT
-setenv PREVIT
-setenv RUN ./
-setenv TEMPTRASH $RUN
-protocols/cns1 < /home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1/protocols/generate_complex.inp >! /home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1/begin/generate_complex.out
-./tools/check-error-messages.csh /home/enmr/services-enmr/HADDOCK2.2/server/run/userrun002307/run1/begin/generate_complex.out
-        
