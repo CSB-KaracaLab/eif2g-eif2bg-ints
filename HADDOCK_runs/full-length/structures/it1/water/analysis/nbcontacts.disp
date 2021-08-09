@@ -1,0 +1,162 @@
+PREVIT:complex_19w.pdb
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6178 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.8530 A apart
+ atoms "A   -282 -TRP -CD2 " and "B   -425 -LEU -CD2 "            3.8766 A apart
+ atoms "A   -282 -TRP -CE3 " and "B   -425 -LEU -CD2 "            3.8811 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD1 "            3.6148 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.5857 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.8328 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.7367 A apart
+PREVIT:complex_6w.pdb
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6819 A apart
+ atoms "A   -282 -TRP -CD1 " and "B   -425 -LEU -CD2 "            3.7430 A apart
+ atoms "A   -282 -TRP -CE2 " and "B   -425 -LEU -CD2 "            3.8584 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.6733 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.4767 A apart
+ atoms "A   -1400-LYS -CD  " and "B   -445 -GLY -CA  "            3.8342 A apart
+ atoms "A   -1400-LYS -CE  " and "B   -445 -GLY -CA  "            3.7259 A apart
+PREVIT:complex_11w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.7861 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6867 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.7824 A apart
+ atoms "A   -31  -GLY -C   " and "B   -391 -LEU -CD2 "            3.8578 A apart
+ atoms "A   -284 -ALA -CA  " and "B   -391 -LEU -CD1 "            3.8360 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD1 "            3.6141 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -408 -VAL -CG2 "            3.6278 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.8590 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.6081 A apart
+ atoms "A   -1400-LYS -CD  " and "B   -445 -GLY -CA  "            3.8019 A apart
+PREVIT:complex_12w.pdb
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD1 "            3.6783 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.6554 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD1 "            3.6670 A apart
+ atoms "A   -282 -TRP -CH2 " and "B   -425 -LEU -CD1 "            3.7075 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD1 "            3.6491 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.5606 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.8212 A apart
+PREVIT:complex_5w.pdb
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6513 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.8611 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.6644 A apart
+ atoms "A   -288 -ASP -CG  " and "B   -372 -ARG -CZ  "            3.8758 A apart
+ atoms "A   -290 -TRP -CD1 " and "B   -355 -ASP -CG  "            3.8751 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.6675 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.8151 A apart
+PREVIT:complex_13w.pdb
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD1 "            3.8408 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.5805 A apart
+ atoms "A   -282 -TRP -CE3 " and "B   -425 -LEU -CD2 "            3.7564 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.5091 A apart
+ atoms "A   -290 -TRP -CD1 " and "B   -355 -ASP -CG  "            3.7456 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.8127 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.7072 A apart
+ atoms "A   -290 -TRP -CZ3 " and "B   -357 -LEU -CD2 "            3.8914 A apart
+PREVIT:complex_17w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.8247 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6672 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.5983 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.8660 A apart
+ atoms "A   -291 -GLU -CB  " and "B   -357 -LEU -CD1 "            3.8305 A apart
+ atoms "A   -291 -GLU -CB  " and "B   -357 -LEU -CD2 "            3.8546 A apart
+PREVIT:complex_18w.pdb
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.7545 A apart
+ atoms "A   -282 -TRP -CD1 " and "B   -425 -LEU -CD1 "            3.8043 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD1 "            3.7336 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.8082 A apart
+PREVIT:complex_16w.pdb
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.3299 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.5308 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.7751 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.6183 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.7181 A apart
+PREVIT:complex_3w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.8788 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6678 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.5830 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD1 "            3.8805 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.6704 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.8840 A apart
+PREVIT:complex_2w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.7158 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6461 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.5800 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD1 "            3.8312 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.8990 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.8195 A apart
+PREVIT:complex_8w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.8608 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.7505 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.5735 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD1 "            3.7143 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.4649 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.5695 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CG  "            3.8091 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.8205 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD2 "            3.8260 A apart
+PREVIT:complex_7w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.7009 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.5347 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.8940 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD1 "            3.6701 A apart
+ atoms "A   -282 -TRP -CH2 " and "B   -425 -LEU -CD1 "            3.7988 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -408 -VAL -CG2 "            3.7999 A apart
+ atoms "A   -290 -TRP -CD1 " and "B   -355 -ASP -CG  "            3.8085 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.7795 A apart
+PREVIT:complex_10w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.7898 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6582 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.7696 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD1 "            3.6521 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.4808 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.8107 A apart
+PREVIT:complex_20w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.6925 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6032 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD1 "            3.8538 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.6383 A apart
+ atoms "A   -282 -TRP -CZ2 " and "B   -425 -LEU -CD1 "            3.7401 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.8676 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.8622 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.6473 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.7104 A apart
+PREVIT:complex_15w.pdb
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.8332 A apart
+ atoms "A   -32  -ASN -CA  " and "B   -393 -MET -CE  "            3.3541 A apart
+ atoms "A   -32  -ASN -C   " and "B   -393 -MET -CE  "            3.8330 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.7855 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.7501 A apart
+PREVIT:complex_14w.pdb
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.7457 A apart
+ atoms "A   -284 -ALA -CA  " and "B   -391 -LEU -CD1 "            3.6191 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD1 "            3.5621 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -408 -VAL -CG2 "            3.8783 A apart
+ atoms "A   -289 -ARG -CZ  " and "B   -357 -LEU -CD1 "            3.7637 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.7381 A apart
+PREVIT:complex_1w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.7719 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.5449 A apart
+ atoms "A   -31  -GLY -CA  " and "B   -391 -LEU -CD2 "            3.8153 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.5013 A apart
+ atoms "A   -288 -ASP -CG  " and "B   -372 -ARG -CZ  "            3.8590 A apart
+ atoms "A   -290 -TRP -CD1 " and "B   -355 -ASP -CG  "            3.6740 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.8449 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.7628 A apart
+ atoms "A   -291 -GLU -CG  " and "B   -357 -LEU -CD1 "            3.4984 A apart
+PREVIT:complex_9w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.7007 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.6919 A apart
+ atoms "A   -282 -TRP -CE2 " and "B   -425 -LEU -CD1 "            3.8907 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD1 "            3.7745 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.6387 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -354 -VAL -CG1 "            3.8404 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.7409 A apart
+ atoms "A   -1400-LYS -CE  " and "B   -445 -GLY -CA  "            3.7226 A apart
+PREVIT:complex_4w.pdb
+ atoms "A   -30  -VAL -CB  " and "B   -393 -MET -CE  "            3.8248 A apart
+ atoms "A   -30  -VAL -CG1 " and "B   -393 -MET -CE  "            3.8555 A apart
+ atoms "A   -282 -TRP -CD2 " and "B   -425 -LEU -CD2 "            3.8774 A apart
+ atoms "A   -282 -TRP -CE3 " and "B   -425 -LEU -CD2 "            3.7657 A apart
+ atoms "A   -282 -TRP -CZ3 " and "B   -425 -LEU -CD2 "            3.8427 A apart
+ atoms "A   -284 -ALA -CB  " and "B   -391 -LEU -CD2 "            3.4941 A apart
+ atoms "A   -290 -TRP -CE2 " and "B   -355 -ASP -CA  "            3.8199 A apart
+ atoms "A   -290 -TRP -CZ2 " and "B   -355 -ASP -CA  "            3.6143 A apart
