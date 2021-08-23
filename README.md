@@ -15,7 +15,6 @@ For that purpose, we modelled the C terminals of both isoforms with various mode
 - **Initial_structures:** contains all the relevant input files for HADDOCK runs.
 - **HADDOCK_runs:** contains the HADDOCK output files of truncated and full-length isoforms.
 - **PQR_files:** contains the input (PDB) and output (PQR) files obtained by PDB2PQR server.
-- **Conservation-results:** contains the output page of ConSurf in pdf format.
 - **Graph:** contains the electrostatics energy per residue files obtained by HADDOCK, scripts to obtained the electrostatics energies of the best four complexes, excel file including desired values, graph, jupyter notebook script to obtain the graph along with data file. 
 
 
