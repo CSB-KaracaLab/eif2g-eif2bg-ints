@@ -4,6 +4,8 @@ This work presents the structural part of the "A C-term truncated EIF2Bγ protei
 
 <img src="logo.jpg" alt="logo" />
 
+[![DOI:10.1002/prot.26284](http://img.shields.io/badge/DOI-10.1002/prot.26284.svg)](https://doi.org/10.1002/prot.26284)
+
 ## Motivation
 The main subject of this study is EIF2Bγ which is a member of EIF2B complex regulating the exchange of GDP (produced by GTP hydrolysis during Met-tRNAi and EIF2 association) to GTP. In 2019, a new arrangement of EIF2:EIF2B is resolved (Kashiwagi K. et al., 2019). In 6K71 PDB structure, EIF2γ interacts with EIF2Bε forming an active complex which is capable to perform nucleotide exchange activity. But in 6K72 structure, EIF2γ interacts with EIF2Bγ in a way that nucleotide exchange activity is precluded. In inactive mode of EIF2:EIF2B complex, EIF2γ interacts with both N and C terminals of EIF2Bγ. Here, we investigated the effect of an intronically polyadenylated EIF2γ transcript causing C-terminal truncated isoform and full-length (canonical) isoform. 
 For that purpose, we modelled the C terminals of both isoforms with various modeling servers. After selection of the best models according to our goals, we performed standard refinement protocol to enhance EIF2γ:EIF2Bγ interface with HADDOCK2.2. We also calculated the electrostatics potential maps of each complex with PDB2PQR server. 
