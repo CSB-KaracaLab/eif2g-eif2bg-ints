@@ -7,13 +7,14 @@ This work presents the structural part of the "A C-term truncated EIF2Bγ protei
 <img src="logo.jpg" alt="logo" />
 
 ## Motivation
-The main subject of this study is EIF2Bγ which is a member of EIF2B complex regulating the exchange of GDP (produced by GTP hydrolysis during Met-tRNAi and EIF2 association) to GTP. In 2019, a new arrangement of EIF2:EIF2B is resolved (Kashiwagi K. et al., 2019). In 6K71 PDB structure, EIF2γ interacts with EIF2Bε forming an active complex which is capable to perform nucleotide exchange activity. But in 6K72 structure, EIF2γ interacts with EIF2Bγ in a way that nucleotide exchange activity is precluded. In inactive mode of EIF2:EIF2B complex, EIF2γ interacts with both N and C terminals of EIF2Bγ. Here, we investigated the effect of an intronically polyadenylated EIF2Bγ transcript causing C-terminal truncated isoform and full-length (canonical) isoform. 
-For that purpose, we modelled the C terminals of both isoforms with various modeling servers. After selection of the best models according to our goals, we performed standard refinement protocol to enhance EIF2γ:EIF2Bγ interface with HADDOCK2.2. We also calculated the electrostatics potential maps of each complex with PDB2PQR server. 
+EIF2 (GTPase) facilitates AUG start codon recognition. During translation initiation, EIF2 interacts with EIF2B, the guanine nucleotide exchange factor (GEF) (Fig 1). Under stress-induced conditions EIF2α (the α of EIF2) becomes phosphorylated, leading to its interaction with the γ subunit of EIF2B (EIF2Bγ, PDB: 6K72)1. In this state, EIF2B is inhibited, triggering an internal stress response (ISR) (Fig 1). Deregulated ISR is linked to neurodegenerative disorders and cancer. 
+
+Our experimental collaborators characterized a minor EIF2Bγ isoform in breast cancer cells2. In this isoform, 51 amino acids at the C-terminal domain of EIF2Bγ are replaced with a “YVSPCTHLRQR” sequence (the truncated isoform, Fig. 2). In this work, we aim to reveal the impact of this C-terminally truncated EIF2Bγ isoform on the EIF2:EIF2B interaction. 
 
 
 ## Our folders describe:
 
-- **Models:** contains the PDB files of I-patch domain of both isoforms modelled with I-TASSER, iDrug, TrRosetta, Ab-initio Rosetta and QUARK servers. 
+- **Models:** contains the PDB files of C-terminal domain of both isoforms modelled with I-TASSER, iDrug, TrRosetta, Ab-initio Rosetta and QUARK servers. 
 - **Initial_structures:** contains all the relevant input files for HADDOCK runs.
 - **HADDOCK_runs:** contains the HADDOCK output files of truncated and full-length isoforms.
 - **PQR_files:** contains the input (PDB) and output (PQR) files obtained by PDB2PQR server.
